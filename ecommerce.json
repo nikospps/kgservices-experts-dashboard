@@ -1,0 +1,324 @@
+[{
+    "flag":"message1",
+    "type": "driver", 
+    "driverID": "mdtanp22026869np",
+    "drivername": "nikos", 
+    "driversurname": "pip", 
+    "dateTimeUTC": "2021-07-15T11:19:58"
+},
+{
+    "flag":"message1",
+    "type": "driver", 
+    "driverID": "mdtanp26046909ta",
+    "drivername": "theo", 
+    "driversurname": "alex", 
+    "dateTimeUTC": "2021-10-15T18:18:58"
+},
+
+{
+    "flag":"message1",
+    "type": "driver", 
+    "driverID": "mdtanp02026919md",
+    "drivername": "manos", 
+    "driversurname": "daskalis", 
+    "dateTimeUTC": "2021-10-16T16:17:53"
+},
+{
+    "flag":"message1",
+    "type": "driver", 
+    "driverID": "mdtanp29106909gk",
+    "drivername": "george", 
+    "driversurname": "kout", 
+    "dateTimeUTC": "2021-10-21T15:18:58"
+},
+{
+    "flag":"message1",
+    "type": "driver", 
+    "driverID": "mdtanp30107009gk",
+    "drivername": "george", 
+    "driversurname": "kout", 
+    "dateTimeUTC": "2021-10-21T17:28:38"
+},
+{
+    "flag":"message2",
+    "type": "driversignature", 
+    "driverID": "mdtanp22026869np",
+    "drivername": "nikos", 
+    "driversurname": "pip", 
+    "signaturePNG": "068/09_0681.png",
+    "origin": "Faroe Islands",
+    "dateTimeUTC": "2021-07-15T11:19:58"
+},
+{
+    "flag":"message2",
+    "type": "driversignature", 
+    "driverID": "mdtanp26046909ta",
+    "drivername": "theo", 
+    "driversurname": "alex", 
+    "signaturePNG": "070/09_0682.png",
+    "origin": "Ireland",
+    "dateTimeUTC": "2021-10-15T18:18:58"
+},
+{
+    "flag":"message2",
+    "type": "driversignature", 
+    "driverID": "mdtanp02026919md",
+    "drivername": "manos", 
+    "driversurname": "daskalis", 
+    "signaturePNG": "080/09_0682.png",
+    "origin": "Portugal",
+    "dateTimeUTC": "2021-10-16T16:17:53"
+},
+{
+    "flag":"message2",
+    "type": "driversignature", 
+    "driverID": "mdtanp29106909gk",
+    "drivername": "george", 
+    "driversurname": "kout", 
+    "signaturePNG": "090/09_0682.png",
+    "origin": "Austria",
+    "dateTimeUTC": "2021-10-21T15:18:58"
+},
+{
+    "flag":"message2",
+    "type": "driversignature", 
+    "driverID": "mdtanp30107009gk",
+    "drivername": "george", 
+    "driversurname": "kout", 
+    "signaturePNG": "090/09_0682.png",
+    "origin": "Austria",
+    "dateTimeUTC": "2021-10-21T17:28:38"
+},
+{
+    "flag":"message3",
+    "type": "driversignature", 
+    "detail":"srv-11.nik-pep.biz",
+    "name":"GR27OYXPP75904402691562",
+    "source":"192.168.154.60",
+    "dateTimeUTC": "2021-07-15T11:19:58"
+},
+{
+    "flag":"message3",
+    "type": "driversignature", 
+    "detail":"srv-11.theo-alex.biz",
+    "name":"GR27OYXPP75904402692562",
+    "source":"192.168.157.12",
+    "dateTimeUTC": "2021-10-15T18:18:58"
+},
+{
+    "flag":"message3",
+    "type": "driversignature", 
+    "detail":"srv-11.manos-daskalis.biz",
+    "name":"GR27OYYPP75904102692562",
+    "source":"192.168.112.141",
+    "dateTimeUTC": "2021-10-16T16:17:53"
+},
+{
+    "flag":"message3",
+    "type": "driversignature", 
+    "detail":"srv-11.george-kout.biz",
+    "name":"GR27OVYPP75904102692570",
+    "source":"192.168.112.141",
+    "dateTimeUTC": "2021-10-21T15:18:58"
+},
+{
+    "flag":"message3",
+    "type": "driversignature", 
+    "detail":"srv-11.george-kout.biz",
+    "name":"GR27OVYPP75904102692570",
+    "source":"192.168.121.11",
+    "dateTimeUTC": "2021-10-21T15:18:58"
+},
+{
+    "flag":"message3",
+    "type": "driversignature", 
+    "detail":"srv-11.george-kout.biz",
+    "name":"GR27OZYPP75904102692565",
+    "source":"192.168.112.141",
+    "dateTimeUTC": "2021-10-21T17:28:38"
+},
+{
+    "flag":"message4",
+    "hardwarevents": {
+        "panicButton": false,
+        "impactEvent": false
+    },
+    "possible_tamperings": {
+        "openingEvent": false,
+        "tampering_event": false,
+        "impactEvent": false
+    },
+    "truckdetails":{
+        "region": "Zografou", 
+        "truckID": "123456",
+        "route": [["37.97489739225634","23.768012547698742"],["37.969687491377925","23.773334050215166"]] 
+    }
+},
+{
+    "flag":"message4",
+    "hardwarevents": {
+        "panicButton": false,
+        "impactEvent": true
+    },
+    "possible_tamperings": {
+        "openingEvent": false,
+        "tampering_event": false,
+        "impactEvent": true
+    },
+    "truckdetails":{
+        "region": "Zografou", 
+        "truckID": "123456",
+        "route": [["37.976284381436585","23.76131775395998"],["37.97611523784036","23.776252293391583"]] 
+    }
+},
+{
+    "flag":"message4",
+    "hardwarevents": {
+        "panicButton": true,
+        "impactEvent": false
+    },
+    "possible_tamperings": {
+        "openingEvent": true,
+        "tampering_event": false,
+        "impactEvent": false
+    },
+    "truckdetails":{
+        "region": "Goudi", 
+        "truckID": "7890",
+        "route": [["37.98499748469848","23.767239016433685"],["37.98261280677161","23.770564955450325"]] 
+    }
+},
+{
+    "flag":"message4",
+    "hardwarevents": {
+        "panicButton": false,
+        "impactEvent": false
+    },
+    "possible_tamperings": {
+        "openingEvent": false,
+        "tampering_event": true,
+        "impactEvent": false
+    },
+    "truckdetails":{
+        "region": "NTUA", 
+        "truckID": "7890",
+        "route": [["37.96595702584882","23.786061537467912"],["37.97735801140065","23.77910925203958"]] 
+    }
+},
+{
+    "flag":"message5",
+    "type": "vehicle", 
+    "DriverID": "mdtanp22026869np",
+    "IMEI": "1234567890123",
+    "latitude": "37.97489739225634",
+    "longitude": "23.768012547698742",
+    "dateTimeUTC": "2021-07-15T11:19:58"
+},
+{
+    "flag":"message5",
+    "type": "vehicle", 
+    "DriverID": "mdtanp26046909ta",
+    "IMEI": "4567890123456",
+    "latitude": "37.97611523784036",
+    "longitude": "23.776252293391583",
+    "dateTimeUTC": "2021-10-15T18:18:58"
+},
+{
+    "flag":"message5",
+    "type": "vehicle", 
+    "DriverID": "mdtanp02026919md",
+    "IMEI": "7890123456789",
+    "latitude": "37.98499748469848",
+    "longitude": "23.767239016433685",
+    "dateTimeUTC": "2021-10-16T16:17:53"
+},
+{
+    "flag":"message5",
+    "type": "vehicle", 
+    "DriverID": "mdtanp29106909gk",
+    "IMEI": "0123456789012",
+    "latitude": "37.96595702584882",
+    "longitude": "23.786061537467912",
+    "dateTimeUTC": "2021-10-21T15:18:58"
+},
+{
+    "flag":"message5",
+    "type": "vehicle", 
+    "DriverID": "mdtanp30107009gk",
+    "IMEI": "0123456789012",
+    "latitude": "37.97735801140065",
+    "longitude": "23.77910925203958",
+    "dateTimeUTC": "2021-10-21T17:28:38"
+},
+{
+    "flag":"message6",
+    "type": "vehicle", 
+    "DriverID": "mdtanp22026869np",
+    "IMEI": "1234567890123",
+    "latitude": "37.97489739225634",
+    "longitude": "23.768012547698742",
+    "dateTimeUTC": "2021-07-15T11:19:58", 
+    "events": {
+        "openingEvent": false,
+        "tampering_event": false,
+        "impactEvent": false
+    }
+},
+{
+    "flag":"message6",
+    "type": "vehicle", 
+    "DriverID": "mdtanp26046909ta",
+    "IMEI": "4567890123456",
+    "latitude": "37.97611523784036",
+    "longitude": "23.776252293391583",
+    "dateTimeUTC": "2021-10-15T18:18:58",
+    "events": {
+        "openingEvent": false,
+        "tampering_event": false,
+        "impactEvent": false
+    }
+},
+{
+    "flag":"message6",
+    "type": "vehicle", 
+    "DriverID": "mdtanp02026919md",
+    "IMEI": "7890123456789",
+    "latitude": "37.98499748469848",
+    "longitude": "23.767239016433685",
+    "dateTimeUTC": "2021-10-16T16:17:53",
+    "events": {
+        "openingEvent": true,
+        "tampering_event": false,
+        "impactEvent": false
+    }
+},
+{
+    "flag":"message6",
+    "type": "vehicle", 
+    "DriverID": "mdtanp29106909gk",
+    "IMEI": "0123456789012",
+    "latitude": "37.96595702584882",
+    "longitude": "23.786061537467912",
+    "dateTimeUTC": "2021-10-21T15:18:58",
+    "events": {
+        "openingEvent": false,
+        "tampering_event": false,
+        "impactEvent": true
+    }
+},
+{
+    "flag":"message6",
+    "type": "vehicle", 
+    "DriverID": "mdtanp30107009gk",
+    "IMEI": "0123456789012",
+    "latitude": "37.97735801140065",
+    "longitude": "23.77910925203958",
+    "dateTimeUTC": "2021-10-21T17:28:38",
+    "events": {
+        "openingEvent": false,
+        "tampering_event": true,
+        "impactEvent": false
+    }
+}
+]
+

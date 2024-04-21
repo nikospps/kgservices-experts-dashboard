@@ -1,0 +1,3 @@
+sudo bash /opt/kafka/bin/kafka-console-producer.sh --broker-list 87.98.133.57:65196 --topic iccs_topic ##producer
+
+sudo bash /opt/kafka/bin/kafka-console-consumer.sh --bootstrap-server 87.98.133.57:65196 --topic iccs_topic ##consumer

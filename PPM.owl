@@ -1,0 +1,1071 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix j.0:   <http://www.magneto-h2020.eu#> .
+
+j.0:Person-1  a                   j.0:Person ;
+        rdfs:label                "Gillian Babcock" ;
+        j.0:hasDateOfBirth        "1984-08-18T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> , "1984-08-18T00:00:00+02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        j.0:hasPersonFirstName    "Gillian" ;
+        j.0:hasPersonSurname      "Babcock" ;
+        j.0:hasResidenceLocation  j.0:Place-1 ;
+        j.0:hasResource           j.0:Resource-1 ;
+        j.0:hasTitle              "Mr." ;
+        j.0:isVictim              j.0:Event-1 .
+
+j.0:Place-1  a           j.0:Place ;
+        rdfs:label       "Residential House in Hellensteinstr. 9" ;
+        j.0:hasGeoInfo   j.0:Address-1 ;
+        j.0:hasResource  j.0:Resource-1 .
+
+j.0:Event-1  a                   j.0:Event ;
+        rdfs:label               "wearing jeans and a black T-shirt" ;
+        j.0:hasEventDescription  "wearing jeans and a black T-shirt" ;
+        j.0:hasEventStartTime    j.0:DateTime-3 ;
+        j.0:hasResource          j.0:Resource-5 ;
+        j.0:involvesObject       j.0:Clothing-0 , j.0:Clothing-1 ;
+        j.0:isRelatedTo          j.0:Is-3 .
+
+j.0:Address-1  a                   j.0:Address ;
+        rdfs:label                 "Hellensteinstr. 9, MÃ¼nchen" ;
+        j.0:hasAddressCity         "MÃ¼nchen" ;
+        j.0:hasAddressCountry      "Germany" ;
+        j.0:hasAddressHouseNumber  "9" ;
+        j.0:hasAddressStreet       "Hellensteinstr." ;
+        j.0:hasAddressZIPCode      "81245" ;
+        j.0:hasResource            j.0:Resource-1 .
+
+j.0:Homicide-1  a             j.0:Homicide ;
+        rdfs:label            "Homicide of Gillian Babcock" ;
+        j.0:hasEventDate      j.0:Date-0 ;
+        j.0:hasEventLocation  j.0:Place-1 .
+
+j.0:Date-0  a             j.0:Date ;
+        rdfs:label        "2018-07-07" ;
+        j.0:hasDateValue  "2018-07-07"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+j.0:Person-5  a                   j.0:Person ;
+        rdfs:label                "Kurt Eduard  Ebner" ;
+        j.0:hasDateOfBirth        "1976-11-16T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        j.0:hasPersonFirstName    "Kurt" ;
+        j.0:hasPersonMiddleName   "Eduard" ;
+        j.0:hasPersonSurname      "Ebner" ;
+        j.0:hasResidenceLocation  j.0:Place-1 ;
+        j.0:hasResource           j.0:Resource-1 ;
+        j.0:isWitness             j.0:Homicide-1 , j.0:Resource-5 .
+
+j.0:Resource-1  a          j.0:Resource ;
+        rdfs:label         "01_registration_office_Evaluator_Hellensteinstr_9_demo2.xlsx" ;
+        j.0:hasHdfsURI     "Datatype[http://www.w3.org/2001/XMLSchema#anyURI -> class java.net.URI]"^^<http://hdfs.magneto.dcom.upv.es:3000/getfile?name=01_registration_office_Evaluator_Hellensteinstr_9_demo2.xlsx&path=hdfs/14cd349d-a842-47a8-9a4e-44dc8aa381d5/documents> ;
+        j.0:hasResourceId  "01_registration_office_Evaluator_Hellensteinstr_9_demo2.xlsx" .
+
+j.0:Person-6  a                   j.0:Person ;
+        rdfs:label                "Ewald Ebner" ;
+        j.0:hasDateOfBirth        "2006-05-21T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        j.0:hasPersonFirstName    "Ewald" ;
+        j.0:hasPersonSurname      "Ebner" ;
+        j.0:hasResidenceLocation  j.0:Place-1 ;
+        j.0:hasResource           j.0:Resource-1 .
+
+j.0:Person-2  a                   j.0:Person ;
+        rdfs:label                "Lucian-Alexandru Shanna Babcock" ;
+        j.0:hasDateOfBirth        "2005-04-23T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        j.0:hasPersonFirstName    "Lucian-Alexandru" ;
+        j.0:hasPersonMiddleName   "Shanna" ;
+        j.0:hasPersonSurname      "Babcock" ;
+        j.0:hasResidenceLocation  j.0:Place-1 ;
+        j.0:hasResource           j.0:Resource-1 .
+
+j.0:Person-3  a                   j.0:Person ;
+        rdfs:label                "Mathilde Clodi" ;
+        j.0:hasDateOfBirth        "1993-06-25T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        j.0:hasPersonFirstName    "Mathilde" ;
+        j.0:hasPersonSurname      "Clodi" ;
+        j.0:hasResidenceLocation  j.0:Place-1 ;
+        j.0:hasResource           j.0:Resource-1 ;
+        j.0:isWitness             j.0:Homicide-1 , j.0:Resource-2 .
+
+j.0:Person-4  a                   j.0:Person ;
+        rdfs:label                "Christiane Pia Ebner" ;
+        j.0:hasDateOfBirth        "2004-06-05T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        j.0:hasPersonFirstName    "Christiane" ;
+        j.0:hasPersonMiddleName   "Pia" ;
+        j.0:hasPersonSurname      "Ebner" ;
+        j.0:hasResidenceLocation  j.0:Place-1 ;
+        j.0:hasResource           j.0:Resource-1 .
+
+j.0:Resource-2  a            j.0:Resource ;
+        rdfs:label           "BY8571-000010-19/9--02_text-mining_witness_Mathilde_Clodi.docx" ;
+        j.0:hasAuthor        j.0:Person-7 ;
+        j.0:hasCreationDate  "2018-07-07T22:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        j.0:hasHdfsURI       "http://hdfs.magneto.dcom.upv.es:3000/getfile?name=02_text-mining_witness_Mathilde_Clodi.docx&path=hdfs/14cd349d-a842-47a8-9a4e-44dc8aa381d5/documents"^^<http://www.w3.org/2001/XMLSchema#anyURI> ;
+        j.0:hasResourceId    "BY8571-000010-19/9--02_text-mining_witness_Mathilde_Clodi.docx" .
+
+j.0:Person-7  a                 j.0:Person ;
+        rdfs:label              "Christoph Urban" ;
+        j.0:hasPersonFirstName  "Christoph" ;
+        j.0:hasPersonSurname    "Urban" .
+
+j.0:Is-0  a                        j.0:Is , j.0:Event ;
+        rdfs:label                 "Today Mathilde Clodi was at home cooking dinner with Mathilde Clodi 's friend Martin Hattwig Martin Hattwig" ;
+        j.0:hasEventDescription    "Today Mathilde Clodi was at home cooking dinner with Mathilde Clodi 's friend Martin Hattwig Martin Hattwig" ;
+        j.0:hasEventStartTime      j.0:DateTime-0 ;
+        j.0:hasResource            j.0:Resource-2 ;
+        j.0:involvesActingPerson   j.0:Person-3 ;
+        j.0:involvesObject         j.0:Object-0 , j.0:Object-1 ;
+        j.0:involvesPassivePerson  j.0:Person-8 , j.0:Person-9 .
+
+j.0:Object-0  a       j.0:Object ;
+        rdfs:label    "Today" ;
+        j.0:hasLabel  "Today" .
+
+j.0:Person-8  a         j.0:Person ;
+        rdfs:label      "Friend" ;
+        j.0:isFriendOf  j.0:Person-3 , j.0:Person-9 .
+
+j.0:Person-9  a                 j.0:Person ;
+        rdfs:label              "Martin Hattwig" ;
+        j.0:hasPersonFirstName  "Martin" ;
+        j.0:hasPersonSurname    "Hattwig" .
+
+j.0:Object-1  a       j.0:Object ;
+        rdfs:label    "Home Cooking" ;
+        j.0:hasLabel  "Home Cooking" .
+
+j.0:DateTime-0  a             j.0:DateTime ;
+        rdfs:label            "2018-07-07T10:00:00" ;
+        j.0:hasDateTimeValue  "2018-07-07T10:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+j.0:AuralPerception-0
+        a                        j.0:Event , j.0:AuralPerception ;
+        rdfs:label               "Around 7 p.m. they heard three loud gunshots somewhere in the house" ;
+        j.0:hasEventDescription  "Around 7 p.m. they heard three loud gunshots somewhere in the house" ;
+        j.0:hasEventLocation     j.0:Place-2 ;
+        j.0:hasEventStartTime    j.0:DateTime-1 ;
+        j.0:hasResource          j.0:Resource-2 ;
+        j.0:involvesObject       j.0:Object-2 , j.0:Shot-0 , j.0:Object-3 .
+
+j.0:Object-2  a       j.0:Object ;
+        rdfs:label    "Loud" ;
+        j.0:hasLabel  "Loud" .
+
+j.0:Shot-0  a         j.0:Shot ;
+        rdfs:label    "Gunshots" ;
+        j.0:hasLabel  "Gunshots" .
+
+j.0:Object-3  a       j.0:Object ;
+        rdfs:label    "3" ;
+        j.0:hasLabel  "3" .
+
+j.0:Place-2  a      j.0:Place ;
+        rdfs:label  "House" .
+
+j.0:DateTime-1  a             j.0:DateTime ;
+        rdfs:label            "2018-07-07T19:00:00" ;
+        j.0:hasDateTimeValue  "2018-07-07T19:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+j.0:Movement-0  a                 j.0:Event , j.0:Movement ;
+        rdfs:label                "Mathilde Clodi opened the door" ;
+        j.0:hasEventDescription   "Mathilde Clodi opened the door" ;
+        j.0:hasEventStartTime     j.0:DateTime-0 ;
+        j.0:hasResource           j.0:Resource-2 ;
+        j.0:involvesActingPerson  j.0:Person-3 ;
+        j.0:involvesObject        j.0:Building-0 .
+
+j.0:Building-0  a     j.0:Building ;
+        rdfs:label    "Door" ;
+        j.0:hasLabel  "Door" .
+
+j.0:VisualPerception-0
+        a                         j.0:Event , j.0:VisualPerception ;
+        rdfs:label                "Mathilde Clodi saw a man leaving the apartment of Mr. Gillian Babcock" , "Martin Hartwig 's friend Matthilde Clodie watching the suspect leaving the apartment" ;
+        j.0:hasEventDescription   "Mathilde Clodi saw a man leaving the apartment of Mr. Gillian Babcock" , "Martin Hartwig 's friend Matthilde Clodie watching the suspect leaving the apartment" ;
+        j.0:hasEventStartTime     j.0:DateTime-0 ;
+        j.0:hasResource           j.0:Resource-2 , j.0:Resource-3 ;
+        j.0:involvesActingPerson  j.0:Person-3 , j.0:Person-11 , j.0:Person-12 .
+
+j.0:Resource-3  a            j.0:Resource ;
+        rdfs:label           "BY8571-000010-19/9--03_text-mining_witness_Martin_Hartwig2.docx" ;
+        j.0:hasAuthor        j.0:Person-7 ;
+        j.0:hasCreationDate  "2018-07-07T20:50:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        j.0:hasHdfsURI       "http://hdfs.magneto.dcom.upv.es:3000/getfile?name=03_text-mining_witness_Martin_Hartwig2.docx&path=hdfs/14cd349d-a842-47a8-9a4e-44dc8aa381d5/documents"^^<http://www.w3.org/2001/XMLSchema#anyURI> ;
+        j.0:hasResourceId    "BY8571-000010-19/9--03_text-mining_witness_Martin_Hartwig2.docx" .
+
+j.0:Person-10  a                j.0:Person ;
+        rdfs:label              "Martin Hartwig" ;
+        j.0:hasPersonFirstName  "Martin" ;
+        j.0:hasPersonSurname    "Hartwig" ;
+        j.0:isWitness           j.0:Homicide-1 , j.0:Resource-3 .
+
+j.0:Movement-1  a                  j.0:Event , j.0:Movement ;
+        rdfs:label                 "leaving the apartment of Mr. Gillian Babcock" ;
+        j.0:hasEventDescription    "leaving the apartment of Mr. Gillian Babcock" ;
+        j.0:hasEventStartTime      j.0:DateTime-0 ;
+        j.0:hasResource            j.0:Resource-2 ;
+        j.0:involvesObject         j.0:Apartment-0 ;
+        j.0:involvesPassivePerson  j.0:Person-1 .
+
+j.0:Apartment-0  a    j.0:Apartment ;
+        rdfs:label    "Apartment" ;
+        j.0:hasLabel  "Apartment" .
+
+j.0:Is-1  a                       j.0:Is , j.0:Event ;
+        rdfs:label                "The man was about thirty years old bald and" ;
+        j.0:hasEventDescription   "The man was about thirty years old bald and" ;
+        j.0:hasEventTimeInterval  j.0:TimeInterval-0 ;
+        j.0:hasResource           j.0:Resource-2 ;
+        j.0:involvesActingPerson  j.0:Person-13 ;
+        j.0:involvesObject        j.0:Object-4 .
+
+j.0:Person-11  a        j.0:Person ;
+        rdfs:label      "Friend" ;
+        j.0:isFriendOf  j.0:Person-10 , j.0:Person-12 .
+
+j.0:Object-4  a       j.0:Object ;
+        rdfs:label    "Years" ;
+        j.0:hasLabel  "Years" .
+
+j.0:VisualPerception-1
+        a                         j.0:Event , j.0:VisualPerception ;
+        rdfs:label                "Kurt Ebner watch the latest episode of Game of Thrones on Free TV" ;
+        j.0:causalRelation        j.0:PropertyTransfer-1 ;
+        j.0:hasEventDescription   "Kurt Ebner watch the latest episode of Game of Thrones on Free TV" ;
+        j.0:hasEventStartTime     j.0:DateTime-3 ;
+        j.0:hasResource           j.0:Resource-5 ;
+        j.0:involvesActingPerson  j.0:Person-5 ;
+        j.0:involvesObject        j.0:Object-9 , j.0:Object-10 , j.0:Object-11 , j.0:Object-12 .
+
+j.0:TimeInterval-0  a                   j.0:TimeInterval ;
+        rdfs:label                      "P30Y" ;
+        j.0:hasTimeIntervalLengthUnit   "Y" ;
+        j.0:hasTimeIntervalLengthValue  "30.0"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+j.0:Object-5  a       j.0:Object ;
+        rdfs:label    "thirty" ;
+        j.0:hasLabel  "thirty" .
+
+j.0:Event-0  a                   j.0:Event ;
+        rdfs:label               "Kurt Ebner drinking a few beers" ;
+        j.0:hasEventDescription  "Kurt Ebner drinking a few beers" ;
+        j.0:hasEventStartTime    j.0:DateTime-3 ;
+        j.0:hasResource          j.0:Resource-5 ;
+        j.0:involvesObject       j.0:Object-13 .
+
+j.0:Clothing-0  a     j.0:Clothing ;
+        rdfs:label    "Jeans" ;
+        j.0:hasLabel  "Jeans" .
+
+j.0:Clothing-1  a     j.0:Clothing ;
+        rdfs:label    "T-shirt" ;
+        j.0:hasColor  j.0:Color-2 , j.0:Color-3 ;
+        j.0:hasLabel  "T-shirt" .
+
+j.0:Object-6  a       j.0:Object ;
+        rdfs:label    "Today" ;
+        j.0:hasLabel  "Today" .
+
+j.0:Object-7  a       j.0:Object ;
+        rdfs:label    "Early" ;
+        j.0:hasLabel  "Early" .
+
+j.0:Is-2  a                        j.0:Is , j.0:Event ;
+        rdfs:label                 "Kurt Ebner guess he was about thirty years old" ;
+        j.0:hasEventDescription    "Kurt Ebner guess he was about thirty years old" ;
+        j.0:hasEventStartTime      j.0:DateTime-3 ;
+        j.0:hasEventTimeInterval   j.0:TimeInterval-1 ;
+        j.0:hasResource            j.0:Resource-5 ;
+        j.0:involvesObject         j.0:Object-17 , j.0:Object-18 , j.0:Object-19 ;
+        j.0:involvesPassivePerson  j.0:Person-5 .
+
+j.0:Person-12  a                j.0:Person ;
+        rdfs:label              "Matthilde Clodie" ;
+        j.0:hasPersonFirstName  "Matthilde" ;
+        j.0:hasPersonSurname    "Clodie" .
+
+j.0:Object-8  a       j.0:Object ;
+        rdfs:label    "Work" ;
+        j.0:hasLabel  "Work" .
+
+j.0:Object-9  a       j.0:Object ;
+        rdfs:label    "TV" ;
+        j.0:hasLabel  "TV" .
+
+j.0:VisualPerception-2
+        a                          j.0:Event , j.0:VisualPerception ;
+        rdfs:label                 "Kurt Ebner looked Kurt Ebner 's window" ;
+        j.0:hasEventDescription    "Kurt Ebner looked Kurt Ebner 's window" ;
+        j.0:hasEventStartTime      j.0:DateTime-3 ;
+        j.0:hasResource            j.0:Resource-5 ;
+        j.0:involvesActingPerson   j.0:Person-5 ;
+        j.0:involvesObject         j.0:Object-15 ;
+        j.0:involvesPassivePerson  j.0:Person-5 .
+
+j.0:Object-10  a      j.0:Object ;
+        rdfs:label    "Game" ;
+        j.0:hasLabel  "Game" .
+
+j.0:Object-11  a      j.0:Object ;
+        rdfs:label    "Episode" ;
+        j.0:hasLabel  "Episode" .
+
+j.0:Place-3  a           j.0:Place ;
+        j.0:hasGeoInfo   j.0:Address-2 ;
+        j.0:hasResource  j.0:Resource-4 .
+
+j.0:Place-4  a           j.0:Place ;
+        j.0:hasGeoInfo   j.0:Address-3 ;
+        j.0:hasResource  j.0:Resource-4 .
+
+j.0:Is-3  a                      j.0:Is , j.0:Event ;
+        rdfs:label               "he was wearing jeans and a black T-shirt" ;
+        j.0:during               j.0:Is-2 ;
+        j.0:hasEventDescription  "he was wearing jeans and a black T-shirt" ;
+        j.0:hasEventStartTime    j.0:DateTime-3 ;
+        j.0:hasResource          j.0:Resource-5 ;
+        j.0:involvesObject       j.0:Clothing-0 , j.0:Clothing-1 , j.0:Object-20 .
+
+j.0:Object-12  a      j.0:Object ;
+        rdfs:label    "Game Of Thrones" ;
+        j.0:hasLabel  "Game Of Thrones" .
+
+j.0:Object-13  a      j.0:Object ;
+        rdfs:label    "Beers" , "Few Beers" ;
+        j.0:hasLabel  "Beers" , "Few Beers" .
+
+j.0:Is-4  a                      j.0:Is , j.0:Event ;
+        rdfs:label               "the car was under a street lamp along the road" ;
+        j.0:causalRelation       j.0:Movement-6 ;
+        j.0:hasEventDescription  "the car was under a street lamp along the road" ;
+        j.0:hasEventLocation     j.0:Place-6 ;
+        j.0:hasEventStartTime    j.0:DateTime-3 ;
+        j.0:hasResource          j.0:Resource-5 ;
+        j.0:involvesObject       j.0:Object-23 , j.0:Car-0 .
+
+j.0:Object-14  a      j.0:Object ;
+        rdfs:label    "3" ;
+        j.0:hasLabel  "3" .
+
+j.0:TelephoneCall-0  a            j.0:Event , j.0:TelephoneCall ;
+        rdfs:label                "Martin Hartwig called the police" ;
+        j.0:hasEventDescription   "Martin Hartwig called the police" ;
+        j.0:hasEventStartTime     j.0:DateTime-2 ;
+        j.0:hasResource           j.0:Resource-3 ;
+        j.0:haveSameObject        j.0:Movement-2 ;
+        j.0:involvesActingPerson  j.0:Person-10 .
+
+j.0:Person-13  a    j.0:Person ;
+        rdfs:label  "Man" .
+
+j.0:Organisation-0  a  j.0:Organisation ;
+        rdfs:label  "Police" ;
+        j.0:isOrganisationInvolvedInEvent
+                j.0:TelephoneCall-0 .
+
+j.0:Person-14  a        j.0:Person ;
+        rdfs:label      "Girlfriend" ;
+        j.0:isFriendOf  j.0:Person-10 .
+
+j.0:Person-15  a                  j.0:Person ;
+        rdfs:label                "Radal Tundan" ;
+        j.0:hasDateOfBirth        "1967-08-12T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        j.0:hasOwnershipOf        j.0:PassengerCar-1 ;
+        j.0:hasPersonFirstName    "Radal" ;
+        j.0:hasPersonSurname      "Tundan" ;
+        j.0:hasResidenceLocation  j.0:Place-3 ;
+        j.0:hasResource           j.0:Resource-4 ;
+        j.0:isSuspect             j.0:Homicide-1 .
+
+j.0:DateTime-2  a             j.0:DateTime ;
+        rdfs:label            "2018-07-07T08:50:00" ;
+        j.0:hasDateTimeValue  "2018-07-07T08:50:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+j.0:Movement-2  a                j.0:Event , j.0:Movement ;
+        rdfs:label               "leaving the apartment" ;
+        j.0:hasEventDescription  "leaving the apartment" ;
+        j.0:hasEventStartTime    j.0:DateTime-2 ;
+        j.0:hasResource          j.0:Resource-3 ;
+        j.0:involvesObject       j.0:Apartment-0 ;
+        j.0:isRelatedTo          j.0:VisualPerception-0 .
+
+j.0:PropertyTransfer-0
+        a                          j.0:Event , j.0:PropertyTransfer ;
+        rdfs:label                 "Martin Hartwig gave the phone to Martin Hartwig 's girlfriend" ;
+        j.0:hasEventDescription    "Martin Hartwig gave the phone to Martin Hartwig 's girlfriend" ;
+        j.0:hasEventStartTime      j.0:DateTime-2 ;
+        j.0:hasResource            j.0:Resource-3 ;
+        j.0:involvesActingPerson   j.0:Person-10 ;
+        j.0:involvesObject         j.0:Telephone-0 ;
+        j.0:involvesPassivePerson  j.0:Person-14 ;
+        j.0:isRelatedTo            j.0:TelephoneCall-0 .
+
+j.0:Person-16  a                  j.0:Person ;
+        rdfs:label                "Johannes Mueller-Sailer" ;
+        j.0:hasDateOfBirth        "1990-08-15T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        j.0:hasOwnershipOf        j.0:PassengerCar-2 ;
+        j.0:hasPersonFirstName    "Johannes" ;
+        j.0:hasPersonSurname      "Mueller-Sailer" ;
+        j.0:hasResidenceLocation  j.0:Place-4 ;
+        j.0:hasResource           j.0:Resource-4 , j.0:Resource-6 ;
+        j.0:isSuspect             j.0:Homicide-1 ;
+        j.0:isSuspectMurder       j.0:Homicide-1 .
+
+j.0:Telephone-0  a    j.0:Telephone ;
+        rdfs:label    "Phone" ;
+        j.0:hasLabel  "Phone" .
+
+j.0:Finding-0  a                   j.0:Event , j.0:Finding ;
+        rdfs:label                 "all Martin Hartwig know apart from the fact" ;
+        j.0:hasEventDescription    "all Martin Hartwig know apart from the fact" ;
+        j.0:hasEventStartTime      j.0:DateTime-2 ;
+        j.0:hasResource            j.0:Resource-3 ;
+        j.0:involvesPassivePerson  j.0:Person-10 .
+
+j.0:AuralPerception-1
+        a                         j.0:Event , j.0:AuralPerception ;
+        rdfs:label                "Martin Hartwig heard three shots" ;
+        j.0:hasEventDescription   "Martin Hartwig heard three shots" ;
+        j.0:hasEventStartTime     j.0:DateTime-2 ;
+        j.0:hasResource           j.0:Resource-3 ;
+        j.0:involvesActingPerson  j.0:Person-10 ;
+        j.0:involvesObject        j.0:Object-3 , j.0:Shot-1 ;
+        j.0:isRelatedTo           j.0:Finding-0 .
+
+j.0:Shot-1  a         j.0:Shot ;
+        rdfs:label    "Shots" ;
+        j.0:hasLabel  "Shots" .
+
+j.0:Object-15  a      j.0:Object ;
+        rdfs:label    "Window" ;
+        j.0:hasLabel  "Window" .
+
+j.0:PassengerCar-1  a         j.0:PassengerCar ;
+        rdfs:label            "BMW X6" ;
+        j.0:hasColor          j.0:Color-1 ;
+        j.0:hasLicenseNumber  "M-PH3211" ;
+        j.0:hasManufacturer   "BMW" ;
+        j.0:hasModel          "X6" ;
+        j.0:hasResource       j.0:Resource-4 .
+
+j.0:Resource-4  a          j.0:Resource ;
+        rdfs:label         "05_car-registration-evaluator_TABAK-inquiry.xlsx" ;
+        j.0:hasHdfsURI     "Datatype[http://www.w3.org/2001/XMLSchema#anyURI -> class java.net.URI]"^^<http://hdfs.magneto.dcom.upv.es:3000/getfile?name=05_car-registration-evaluator_TABAK-inquiry.xlsx&path=hdfs/14cd349d-a842-47a8-9a4e-44dc8aa381d5/documents> ;
+        j.0:hasResourceId  "05_car-registration-evaluator_TABAK-inquiry.xlsx" .
+
+j.0:Person-17  a    j.0:Person ;
+        rdfs:label  "Guy" .
+
+j.0:Place-5  a      j.0:Place ;
+        rdfs:label  "House" .
+
+j.0:Address-2  a                   j.0:Address ;
+        rdfs:label                 "Tegernseer LandstraÃe 210, MÃNCHEN" ;
+        j.0:hasAddressCity         "MÃ¼nchen" ;
+        j.0:hasAddressCountry      "Germany" ;
+        j.0:hasAddressHouseNumber  "210" ;
+        j.0:hasAddressStreet       "Tegernseer LandstraÃe" ;
+        j.0:hasAddressZIPCode      "81549" ;
+        j.0:hasResource            j.0:Resource-4 .
+
+j.0:Place-6  a      j.0:Place ;
+        rdfs:label  "Road" .
+
+j.0:Address-3  a                   j.0:Address ;
+        rdfs:label                 "LeopoldstraÃe  8, MÃNCHEN" ;
+        j.0:hasAddressCity         "MÃ¼nchen" ;
+        j.0:hasAddressCountry      "Germany" ;
+        j.0:hasAddressHouseNumber  "8" ;
+        j.0:hasAddressStreet       "LeopoldstraÃe" ;
+        j.0:hasAddressZIPCode      "80802" ;
+        j.0:hasResource            j.0:Resource-4 .
+
+j.0:PassengerCar-2  a         j.0:PassengerCar ;
+        rdfs:label            "BMW X6" ;
+        j.0:hasColor          j.0:Color-1 ;
+        j.0:hasLicenseNumber  "M-PH3298" ;
+        j.0:hasManufacturer   "BMW" ;
+        j.0:hasModel          "X6" ;
+        j.0:hasResource       j.0:Resource-4 .
+
+j.0:Person-18  a    j.0:Person ;
+        rdfs:label  "Guy" .
+
+j.0:Place-12  a         j.0:Place ;
+        rdfs:label      "Alter Botanischer Garten" ;
+        j.0:hasGeoInfo  j.0:Address-9 .
+
+j.0:Address-9  a                   j.0:Address ;
+        rdfs:label                 "Sophienstr. 7, MÃ¼nchen" ;
+        j.0:hasAddressCity         "MÃ¼nchen" ;
+        j.0:hasAddressCountry      "Germany" ;
+        j.0:hasAddressHouseNumber  "7" ;
+        j.0:hasAddressStreet       "Sophienstr." ;
+        j.0:hasAddressZIPCode      "80333" .
+
+j.0:DateTime-3  a             j.0:DateTime ;
+        rdfs:label            "2018-07-07T09:45:00" ;
+        j.0:hasDateTimeValue  "2018-07-07T09:45:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+j.0:DarkWeb-1  a  j.0:DarkWeb .
+
+j.0:Address-4  a                   j.0:Address ;
+        rdfs:label                 "Leopoldstr. 8, MÃ¼nchen" ;
+        j.0:hasAddressCity         "MÃ¼nchen" ;
+        j.0:hasAddressCountry      "Germany" ;
+        j.0:hasAddressHouseNumber  "8" ;
+        j.0:hasAddressStreet       "Leopoldstr." ;
+        j.0:hasAddressZIPCode      "80802" .
+
+j.0:SearchEngineSearchForObjects-1
+        a                         j.0:SearchEngineSearchForObjects ;
+        rdfs:label                "Google search for: Martin" ;
+        j.0:hasEventDescription   "Martin" ;
+        j.0:hasEventStartTime     j.0:DateTime-6 ;
+        j.0:hasResource           j.0:Resource-6 ;
+        j.0:hasUrl                "https://www.google.com/search?client=firefox-b-ab&ei=PH9tXK-mMLKtgweHpbnwCA&q=Martin&oq=Martin&gs_l=psy-ab.3..0i67l3j0i131j0l6.5322.5946..6116...0.0..0.81.397.6......0....1..gws-wiz.......0i71j0i131i67.cUKAxzwe5Ws" ;
+        j.0:involvesActingPerson  j.0:Person-16 .
+
+j.0:Resource-5  a            j.0:Resource ;
+        rdfs:label           "BY8571-000010-19/9--04_text-mining_witness_Kurt_Ebner.docx" ;
+        j.0:hasAuthor        j.0:Person-7 ;
+        j.0:hasCreationDate  "2018-07-07T21:45:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        j.0:hasHdfsURI       "http://hdfs.magneto.dcom.upv.es:3000/getfile?name=04_text-mining_witness_Kurt_Ebner.docx&path=hdfs/14cd349d-a842-47a8-9a4e-44dc8aa381d5/documents"^^<http://www.w3.org/2001/XMLSchema#anyURI> ;
+        j.0:hasResourceId    "BY8571-000010-19/9--04_text-mining_witness_Kurt_Ebner.docx" .
+
+j.0:DateTime-5  a             j.0:DateTime ;
+        rdfs:label            "24.06.2018 16:12  (UTC+1)" ;
+        j.0:hasDateTimeValue  "2018-06-24T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+j.0:RoutePlanning-2  a             j.0:RoutePlanning ;
+        rdfs:label                 "Routing on google maps  for KazmairstraÃe 44, Munich, Germany" ;
+        j.0:hasEventDate           j.0:Date-2 ;
+        j.0:hasEventStartTime      j.0:DateTime-10 ;
+        j.0:hasMovementDestinationPoint
+                j.0:Place-9 ;
+        j.0:hasMovementStartPoint  j.0:Place-7 ;
+        j.0:hasResource            j.0:Resource-6 ;
+        j.0:hasUrl                 "https://www.google.com/maps/dir/Leopoldstra%C3%9Fe+8,+80802+M%C3%BCnchen,+Germany/Kazmairstra%C3%9Fe+44,+Munich,+Germany/@48.1436454,11.5434925,14z/data=!3m1!4b1!4m13!4m12!1m5!1m1!1s0x479e759569467abf:0xab8ef3a00a453f98!2m2!1d11.5836702!2d48.1532115!1m5!1m1!1s0x479dd8a9136ce677:0xfb98c2c046eda31b!2m2!1d11.5393097!2d48.1349787" ;
+        j.0:involvesActingPerson   j.0:Person-16 .
+
+j.0:Place-9  a          j.0:Place ;
+        rdfs:label      "Kazmairstr. 44" ;
+        j.0:hasGeoInfo  j.0:Address-6 .
+
+j.0:Place-7  a          j.0:Place ;
+        rdfs:label      "Leopoldstr. 8" ;
+        j.0:hasGeoInfo  j.0:Address-4 .
+
+j.0:Date-2  a             j.0:Date ;
+        rdfs:label        "15.05.2018" ;
+        j.0:hasDateValue  "2018-05-15T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+j.0:DateTime-9  a             j.0:DateTime ;
+        rdfs:label            "10.04.2018 18:00 (UTC+1)" ;
+        j.0:hasDateTimeValue  "2018-04-10T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+j.0:Place-11  a         j.0:Place ;
+        rdfs:label      "Leopoldstr. 8" ;
+        j.0:hasGeoInfo  j.0:Address-8 .
+
+j.0:Address-8  a                   j.0:Address ;
+        rdfs:label                 "Leopoldstr. 8, 80802" ;
+        j.0:hasAddressCity         "80802" ;
+        j.0:hasAddressCountry      "Germany" ;
+        j.0:hasAddressHouseNumber  "8" ;
+        j.0:hasAddressStreet       "Leopoldstr." ;
+        j.0:hasAddressZIPCode      "Munich" .
+
+j.0:DateTime-10  a            j.0:DateTime ;
+        rdfs:label            "15.05.2018 18:00 (UTC+1)" ;
+        j.0:hasDateTimeValue  "2018-05-15T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+j.0:DateTime-4  a             j.0:DateTime ;
+        rdfs:label            "24.06.2018 15:43 (UTC+1)" ;
+        j.0:hasDateTimeValue  "2018-06-24T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+j.0:Address-5  a                   j.0:Address ;
+        rdfs:label                 "Park West, MÃ¼nchen" ;
+        j.0:hasAddressCity         "MÃ¼nchen" ;
+        j.0:hasAddressCountry      "Germany" ;
+        j.0:hasAddressHouseNumber  "West" ;
+        j.0:hasAddressStreet       "Park" ;
+        j.0:hasAddressZIPCode      "81373" .
+
+j.0:RoutePlanning-3  a             j.0:RoutePlanning ;
+        rdfs:label                 "Routing on google maps  for Backstage Concerts GmbH, ReitknechtstraÃe 6, 80639 MÃ¼nchen, Germany" ;
+        j.0:hasEventDate           j.0:Date-3 ;
+        j.0:hasEventStartTime      j.0:DateTime-11 ;
+        j.0:hasMovementDestinationPoint
+                j.0:Place-10 ;
+        j.0:hasMovementStartPoint  j.0:Place-7 ;
+        j.0:hasResource            j.0:Resource-6 ;
+        j.0:hasUrl                 "https://www.google.com/maps/dir/Leopoldstra%C3%9Fe+8,+80802+M%C3%BCnchen,+Germany/Backstage+Concerts+GmbH,+Reitknechtstra%C3%9Fe+6,+80639+M%C3%BCnchen,+Germany/@48.148906,11.5344724,14z/data=!3m1!4b1!4m13!4m12!1m5!1m1!1s0x479e759569467abf:0xab8ef3a00a453f98!2m2!1d11.5836702!2d48.1532115!1m5!1m1!1s0x479e7623f72a2bd1:0xe9debf3b34dd6d84!2m2!1d11.5218!2d48.1451" ;
+        j.0:involvesActingPerson   j.0:Person-16 .
+
+j.0:Place-10  a         j.0:Place ;
+        rdfs:label      "Backstage Concerts GmbH" ;
+        j.0:hasGeoInfo  j.0:Address-7 .
+
+j.0:Date-3  a             j.0:Date ;
+        rdfs:label        "04.07.2018" ;
+        j.0:hasDateValue  "2018-07-04T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+j.0:DateTime-11  a            j.0:DateTime ;
+        rdfs:label            "04.07.2018 21:30 (UTC+1)" ;
+        j.0:hasDateTimeValue  "2018-07-04T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+j.0:Date-1  a             j.0:Date ;
+        rdfs:label        "10.04.2018" ;
+        j.0:hasDateValue  "2018-04-10T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+j.0:RoutePlanning-4  a             j.0:RoutePlanning ;
+        rdfs:label                 "Routing on google maps  for Alter Botanischer Garten, SophienstraÃe 7, 80333 MÃ¼nchen, Germany" ;
+        j.0:hasEventDate           j.0:Date-4 ;
+        j.0:hasEventStartTime      j.0:DateTime-12 ;
+        j.0:hasMovementDestinationPoint
+                j.0:Place-12 ;
+        j.0:hasMovementStartPoint  j.0:Place-11 ;
+        j.0:hasResource            j.0:Resource-6 ;
+        j.0:hasUrl                 "https://www.google.com/maps/dir/8+Leopoldstra%C3%9Fe,+Munich+80802,+Germany/Alter+Botanischer+Garten,+Sophienstra%C3%9Fe+7,+80333+M%C3%BCnchen,+Germany/@48.1476165,11.5653202,15z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x479e759569467abf:0xab8ef3a00a453f98!2m2!1d11.5836702!2d48.1532115!1m5!1m1!1s0x479e75f0a6858651:0x673ce6d9bccb11c!2m2!1d11.5644797!2d48.1423092!3e2" ;
+        j.0:involvesActingPerson   j.0:Person-16 .
+
+j.0:Date-4  a             j.0:Date ;
+        rdfs:label        "07.07.2018" ;
+        j.0:hasDateValue  "2018-07-07T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+j.0:SearchEngineSearchForObjects-3
+        a                         j.0:SearchEngineSearchForObjects ;
+        rdfs:label                "Google search for: Isabell" ;
+        j.0:hasEventDescription   "Isabell" ;
+        j.0:hasEventStartTime     j.0:DateTime-8 ;
+        j.0:hasResource           j.0:Resource-6 ;
+        j.0:hasUrl                "https://www.google.com/search?client=firefox-b-ab&ei=Q39tXKz5NoevUITQtuAP&q=Isabell&oq=Isabell&gs_l=psy-ab.3..0i67j0l2j0i131j0j0i67j0j0i67j0i131j0.11480.12270..12514...0.0..0.59.394.7......0....1..gws-wiz.......0i71.lmgxIQ3gTh0" ;
+        j.0:involvesActingPerson  j.0:Person-16 .
+
+j.0:DateTime-7  a             j.0:DateTime ;
+        rdfs:label            "01.07.2018 06:45 (UTC+1)" ;
+        j.0:hasDateTimeValue  "2018-07-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+j.0:DateTime-6  a             j.0:DateTime ;
+        rdfs:label            "30.06.2018 23:45 (UTC+1)" ;
+        j.0:hasDateTimeValue  "2018-06-30T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+j.0:DarkWeb-2  a  j.0:DarkWeb .
+
+j.0:RoutePlanning-5  a             j.0:RoutePlanning ;
+        rdfs:label                 "Routing on google maps  for HellensteinstraÃe 9, 81245 MÃ¼nchen, Germany" ;
+        j.0:hasEventDate           j.0:Date-4 ;
+        j.0:hasEventStartTime      j.0:DateTime-12 ;
+        j.0:hasMovementDestinationPoint
+                j.0:Place-1 ;
+        j.0:hasMovementStartPoint  j.0:Place-12 ;
+        j.0:hasResource            j.0:Resource-6 ;
+        j.0:hasUrl                 "https://www.google.com/maps/dir/Alter+Botanischer+Garten,+Sophienstra%C3%9Fe+7,+80333+M%C3%BCnchen,+Germany/Hellensteinstra%C3%9Fe+9,+81245+M%C3%BCnchen,+Germany/@48.1476056,11.4649817,13z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x479e75f0a6858651:0x673ce6d9bccb11c!2m2!1d11.5644797!2d48.1423092!1m5!1m1!1s0x479e780f3fb818fb:0xdf9121646d613ad7!2m2!1d11.4356418!2d48.1550275!3e2" ;
+        j.0:involvesActingPerson   j.0:Person-16 .
+
+j.0:SearchEngineSearchForObjects-2
+        a                         j.0:SearchEngineSearchForObjects ;
+        rdfs:label                "Google search for: Martin" ;
+        j.0:hasEventDescription   "Martin" ;
+        j.0:hasEventStartTime     j.0:DateTime-7 ;
+        j.0:hasResource           j.0:Resource-6 ;
+        j.0:hasUrl                "https://www.google.com/search?client=firefox-b-ab&ei=PH9tXK-mMLKtgweHpbnwCA&q=Martin&oq=Martin&gs_l=psy-ab.3..0i67l3j0i131j0l6.5322.5946..6116...0.0..0.81.397.6......0....1..gws-wiz.......0i71j0i131i67.cUKAxzwe5Ws" ;
+        j.0:involvesActingPerson  j.0:Person-16 .
+
+j.0:Place-8  a          j.0:Place ;
+        rdfs:label      "Park West" ;
+        j.0:hasGeoInfo  j.0:Address-5 .
+
+j.0:Weapon-1  a  j.0:Weapon .
+
+j.0:Address-6  a                   j.0:Address ;
+        rdfs:label                 "Kazmairstr. 44, Munich" ;
+        j.0:hasAddressCity         "Munich" ;
+        j.0:hasAddressCountry      "Germany" ;
+        j.0:hasAddressHouseNumber  "44" ;
+        j.0:hasAddressStreet       "Kazmairstr." .
+
+j.0:DateTime-8  a             j.0:DateTime ;
+        rdfs:label            "01.07.2018 07:12 (UTC+1)" ;
+        j.0:hasDateTimeValue  "2018-07-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+j.0:WebPageVisit-1  a             j.0:WebPageVisit ;
+        rdfs:label                "Web page wisited with titleDarknet buy weapon" ;
+        j.0:hasEventDescription   "Darknet buy weapon" ;
+        j.0:hasEventStartTime     j.0:DateTime-4 ;
+        j.0:hasResource           j.0:Resource-6 ;
+        j.0:hasUrl                "http://www.haz.de/Nachrichten/Panorama/Uebersicht/Wie-kommt-man-an-eine-Waffe-im-Darknet" ;
+        j.0:involvesActingPerson  j.0:Person-16 ;
+        j.0:involvesTopic         j.0:DarkWeb-1 , j.0:Weapon-1 .
+
+j.0:Address-7  a                   j.0:Address ;
+        rdfs:label                 "Reitknechtstr. 6, MÃ¼nchen" ;
+        j.0:hasAddressCity         "MÃ¼nchen" ;
+        j.0:hasAddressCountry      "Germany" ;
+        j.0:hasAddressHouseNumber  "6" ;
+        j.0:hasAddressStreet       "Reitknechtstr." ;
+        j.0:hasAddressZIPCode      "80639" .
+
+j.0:WebPageVisit-2  a             j.0:WebPageVisit ;
+        rdfs:label                "Web page wisited with titlehow to buy a weapon in darknet" ;
+        j.0:hasEventDescription   "how to buy a weapon in darknet" ;
+        j.0:hasEventStartTime     j.0:DateTime-5 ;
+        j.0:hasResource           j.0:Resource-6 ;
+        j.0:hasUrl                "http://www.op-marburg.de/Landkreis/Hinterland/Bad-Endbacher-wollte-im-Darknet-Waffen-kaufen" ;
+        j.0:involvesActingPerson  j.0:Person-16 ;
+        j.0:involvesTopic         j.0:DarkWeb-2 , j.0:Weapon-2 .
+
+j.0:Weapon-2  a  j.0:Weapon .
+
+j.0:RoutePlanning-1  a             j.0:RoutePlanning ;
+        rdfs:label                 "Routing on google maps  for West Park, 81373 MÃ¼nchen, Germany" ;
+        j.0:hasEventDate           j.0:Date-1 ;
+        j.0:hasEventStartTime      j.0:DateTime-9 ;
+        j.0:hasMovementDestinationPoint
+                j.0:Place-8 ;
+        j.0:hasMovementStartPoint  j.0:Place-7 ;
+        j.0:hasResource            j.0:Resource-6 ;
+        j.0:hasUrl                 "https://www.google.com/maps/dir/Leopoldstra%C3%9Fe+8,+80802+M%C3%BCnchen,+Germany/West+Park,+81373+M%C3%BCnchen,+Germany/@48.1366305,11.5137126,13z/data=!3m1!4b1!4m13!4m12!1m5!1m1!1s0x479e759569467abf:0xab8ef3a00a453f98!2m2!1d11.5836702!2d48.1532115!1m5!1m1!1s0x479dd894fd5d1833:0x2988c95d22bb0586!2m2!1d11.512898!2d48.1225548" ;
+        j.0:involvesActingPerson   j.0:Person-16 .
+
+j.0:Resource-6  a          j.0:Resource ;
+        rdfs:label         "12_smartphone_evaluation_Mueller-Sailer_demo__extra_traj2.xlsx" ;
+        j.0:hasHdfsURI     "http://hdfs.magneto.dcom.upv.es:3000/getfile?name=12_smartphone_evaluation_Mueller-Sailer_demo__extra_traj2.xlsx&path=hdfs/14cd349d-a842-47a8-9a4e-44dc8aa381d5/documents"^^<http://www.w3.org/2001/XMLSchema#anyURI> ;
+        j.0:hasResourceId  "12_smartphone_evaluation_Mueller-Sailer_demo__extra_traj2.xlsx" .
+
+j.0:PropertyTransfer-1
+        a                         j.0:Event , j.0:PropertyTransfer ;
+        rdfs:label                "Today Kurt Ebner got back from work early because Kurt Ebner wanted to watch the latest episode of Game of Thrones on Free TV" ;
+        j.0:hasEventDescription   "Today Kurt Ebner got back from work early because Kurt Ebner wanted to watch the latest episode of Game of Thrones on Free TV" ;
+        j.0:hasEventStartTime     j.0:DateTime-3 ;
+        j.0:hasResource           j.0:Resource-5 ;
+        j.0:involvesActingPerson  j.0:Person-5 ;
+        j.0:involvesObject        j.0:Object-6 , j.0:Object-7 , j.0:Object-8 .
+
+j.0:Object-16  a      j.0:Object ;
+        rdfs:label    "Speed" , "Maximum Speed" ;
+        j.0:hasLabel  "Speed" , "Maximum Speed" .
+
+j.0:Object-17  a      j.0:Object ;
+        rdfs:label    "Guess" ;
+        j.0:hasLabel  "Guess" .
+
+j.0:Object-18  a      j.0:Object ;
+        rdfs:label    "Years" ;
+        j.0:hasLabel  "Years" .
+
+j.0:DateTime-12  a            j.0:DateTime ;
+        rdfs:label            "07.07.2018 17:30 (UTC+1)" ;
+        j.0:hasDateTimeValue  "2018-07-07T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+j.0:Object-19  a      j.0:Object ;
+        rdfs:label    "thirty" ;
+        j.0:hasLabel  "thirty" .
+
+j.0:Object-20  a      j.0:Object ;
+        rdfs:label    "Wearing" ;
+        j.0:hasLabel  "Wearing" .
+
+j.0:Object-21  a      j.0:Object ;
+        rdfs:label    "Backpack" ;
+        j.0:hasLabel  "Backpack" .
+
+j.0:Object-22  a      j.0:Object ;
+        rdfs:label    "Shoulders" ;
+        j.0:hasLabel  "Shoulders" .
+
+j.0:Object-23  a      j.0:Object ;
+        rdfs:label    "Street Lamp" ;
+        j.0:hasLabel  "Street Lamp" .
+
+j.0:AuralPerception-2
+        a                        j.0:Event , j.0:AuralPerception ;
+        rdfs:label               "Kurt Ebner suddenly heard something coming out of the house" ;
+        j.0:hasEventDescription  "Kurt Ebner suddenly heard something coming out of the house" ;
+        j.0:hasEventStartTime    j.0:DateTime-3 ;
+        j.0:hasResource          j.0:Resource-5 ;
+        j.0:isRelatedTo          j.0:Event-0 .
+
+j.0:Movement-3  a                j.0:Event , j.0:Movement ;
+        rdfs:label               "coming out of the house" ;
+        j.0:hasEventDescription  "coming out of the house" ;
+        j.0:hasEventLocation     j.0:Place-5 ;
+        j.0:hasEventStartTime    j.0:DateTime-3 ;
+        j.0:hasResource          j.0:Resource-5 ;
+        j.0:isRelatedTo          j.0:AuralPerception-2 .
+
+j.0:AuralPerception-3
+        a                        j.0:Event , j.0:AuralPerception ;
+        rdfs:label               "that sounded like three gunshots" ;
+        j.0:hasEventDescription  "that sounded like three gunshots" ;
+        j.0:hasEventStartTime    j.0:DateTime-3 ;
+        j.0:hasResource          j.0:Resource-5 ;
+        j.0:haveSameObject       j.0:Movement-3 ;
+        j.0:involvesObject       j.0:Object-14 , j.0:Shot-2 .
+
+j.0:Shot-2  a         j.0:Shot ;
+        rdfs:label    "Gunshots" ;
+        j.0:hasLabel  "Gunshots" .
+
+j.0:Object-24  a      j.0:Object ;
+        rdfs:label    "M-PH32" ;
+        j.0:hasLabel  "M-PH32" .
+
+j.0:Movement-4  a                  j.0:Event , j.0:Movement ;
+        rdfs:label                 "a guy running from the house to his vehicle" ;
+        j.0:during                 j.0:VisualPerception-2 ;
+        j.0:hasEventDescription    "a guy running from the house to his vehicle" ;
+        j.0:hasEventStartTime      j.0:DateTime-3 ;
+        j.0:hasResource            j.0:Resource-5 ;
+        j.0:involvesObject         j.0:Vehicle-0 , j.0:House-0 ;
+        j.0:involvesPassivePerson  j.0:Person-17 .
+
+j.0:Vehicle-0  a      j.0:Vehicle ;
+        rdfs:label    "Vehicle" ;
+        j.0:hasLabel  "Vehicle" .
+
+j.0:Movement-5  a                 j.0:Event , j.0:Movement ;
+        rdfs:label                "a guy driving at maximum speed" ;
+        j.0:hasEventDescription   "a guy driving at maximum speed" ;
+        j.0:hasEventStartTime     j.0:DateTime-3 ;
+        j.0:hasResource           j.0:Resource-5 ;
+        j.0:involvesActingPerson  j.0:Person-17 ;
+        j.0:involvesObject        j.0:Object-16 ;
+        j.0:isRelatedTo           j.0:Movement-4 .
+
+j.0:Is-5  a                      j.0:Is , j.0:Event ;
+        rdfs:label               "the car was a black BMW X6" ;
+        j.0:hasEventDescription  "the car was a black BMW X6" ;
+        j.0:hasEventStartTime    j.0:DateTime-3 ;
+        j.0:hasResource          j.0:Resource-5 ;
+        j.0:inside               j.0:Finding-2 ;
+        j.0:involvesObject       j.0:Car-1 , j.0:Car-2 .
+
+j.0:TimeInterval-1  a                   j.0:TimeInterval ;
+        rdfs:label                      "P30Y" ;
+        j.0:hasTimeIntervalLengthUnit   "Y" ;
+        j.0:hasTimeIntervalLengthValue  "30.0"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+j.0:Color-1  a             j.0:Color ;
+        rdfs:label         "black" ;
+        j.0:hasColorValue  "black" .
+
+j.0:Color-2  a             j.0:Color ;
+        rdfs:label         "Black" ;
+        j.0:hasColorValue  "black" ;
+        j.0:hasLabel       "Black" .
+
+j.0:Own-0  a                     j.0:Event , j.0:Own ;
+        rdfs:label               "had a backpack on his shoulders" ;
+        j.0:hasEventDescription  "had a backpack on his shoulders" ;
+        j.0:hasEventStartTime    j.0:DateTime-3 ;
+        j.0:hasResource          j.0:Resource-5 ;
+        j.0:involvesObject       j.0:Object-21 , j.0:Object-22 ;
+        j.0:isRelatedTo          j.0:Event-1 .
+
+j.0:Finding-1  a                  j.0:Event , j.0:Finding ;
+        rdfs:label                "Kurt Ebner remember the first letters and numbers of the license plate of the vehicle" ;
+        j.0:hasEventDescription   "Kurt Ebner remember the first letters and numbers of the license plate of the vehicle" ;
+        j.0:hasEventStartTime     j.0:DateTime-3 ;
+        j.0:hasResource           j.0:Resource-5 ;
+        j.0:involvesActingPerson  j.0:Person-5 .
+
+j.0:Movement-6  a                 j.0:Event , j.0:Movement ;
+        rdfs:label                "the guy drove with because the car was under a street lamp along the road" ;
+        j.0:hasEventDescription   "the guy drove with because the car was under a street lamp along the road" ;
+        j.0:hasEventStartTime     j.0:DateTime-3 ;
+        j.0:hasResource           j.0:Resource-5 ;
+        j.0:involvesActingPerson  j.0:Person-18 ;
+        j.0:isRelatedTo           j.0:Finding-1 .
+
+j.0:Car-0  a          j.0:Car ;
+        rdfs:label    "Car" ;
+        j.0:hasLabel  "Car" .
+
+j.0:Finding-2  a                  j.0:Event , j.0:Finding ;
+        rdfs:label                "M-PH32 Kurt Ebner also know that the car was a black BMW X6" ;
+        j.0:hasEventDescription   "M-PH32 Kurt Ebner also know that the car was a black BMW X6" ;
+        j.0:hasEventStartTime     j.0:DateTime-3 ;
+        j.0:hasResource           j.0:Resource-5 ;
+        j.0:involvesActingPerson  j.0:Person-5 ;
+        j.0:involvesObject        j.0:Object-24 .
+
+j.0:Car-1  a                  j.0:Car ;
+        rdfs:label            "Car" ;
+        j.0:hasLabel          "Car" ;
+        j.0:hasLicenseNumber  "M-PH32" .
+
+j.0:Color-3  a             j.0:Color ;
+        rdfs:label         "Black" ;
+        j.0:hasColorValue  "black" ;
+        j.0:hasLabel       "Black" .
+
+j.0:Conversation-0  a             j.0:Event , j.0:Conversation ;
+        rdfs:label                "all Kurt Ebner tell you" ;
+        j.0:hasEventDescription   "all Kurt Ebner tell you" ;
+        j.0:hasEventStartTime     j.0:DateTime-3 ;
+        j.0:hasResource           j.0:Resource-5 ;
+        j.0:involvesActingPerson  j.0:Person-5 .
+
+j.0:Color-4  a             j.0:Color ;
+        rdfs:label         "Black" ;
+        j.0:hasColorValue  "black" ;
+        j.0:hasLabel       "Black" .
+
+j.0:House-0  a        j.0:House ;
+        rdfs:label    "House" ;
+        j.0:hasLabel  "House" .
+
+j.0:Car-2  a                  j.0:Car ;
+        rdfs:label            "BMW X6" ;
+        j.0:hasColor          j.0:Color-4 ;
+        j.0:hasLabel          "BMW X6" ;
+        j.0:hasLicenseNumber  "M-PH32" .
+
+j.0:ReasoningRule-2  a          j.0:ReasoningRule ;
+        rdfs:label              "Suspect Rule 1" ;
+        j.0:hasRuleAntecedent   "Car(carWit), hasLicenseNumber(carWit, licNumWit), Event(spot), hasEventStartTime(spot, spotDate), hasDateValue(spotDate, spotDateVal), involvesObject(spot, carWit), isWitness(wp, hom), hasResource(spot, res), Resource(res), isWitness(wp, res), Homicide(hom), hasEventDate(hom, homDate), hasDateValue(homDate, homDateVal), Car(carSusp), hasLicenseNumber(carSusp, licNumSusp), Person(sp), hasOwnershipOf(sp,carSusp), hasLicenseNumber(carSusp, licNumSus), [contains(licNumSus, licNumWit) && homDateVal=spotDateVal]" ;
+        j.0:hasRuleConsequent   "isSuspect(sp, hom)" ;
+        j.0:hasRuleDescription  "If a witness statement describes the license number part of a car that has been seen on the date that a homicide happened, and the statment has been made by a homicide witness, then the owner of a car with a license plate number that matches the description is a suspect." ;
+        j.0:hasRuleWeight       "1.0" .
+
+j.0:RelationDescription-7
+        a                         j.0:RelationDescription ;
+        rdfs:label                "isWitness (Person'Mathilde Clodi', Homicide'Homicide of Gillian Babcock')" ;
+        j.0:basedOnReasoningRule  j.0:ReasoningRule-7 , j.0:ReasoningRule-6 ;
+        j.0:hasConfidenceValue    "0.7565"^^<http://www.w3.org/2001/XMLSchema#float> ;
+        j.0:hasDomainInstance     j.0:Person-3 ;
+        j.0:hasRangeInstance      j.0:Homicide-1 ;
+        j.0:hasRelationName       "http://www.magneto-h2020.eu#isWitness" ;
+        j.0:hasResource           j.0:ReasoningProcess-1 .
+
+j.0:ReasoningRule-7  a          j.0:ReasoningRule ;
+        rdfs:label              "Witness Rule 2" ;
+        j.0:hasRuleAntecedent   "Perception(shotHear), Shot(shot), involvesObject(shotHear, shot), hasEventStartTime(shotHear, shotDate), hasDateValue(shotDate, shotDateVal), hasResource(shotHear, res), isWitness(p, res), Resource(res), Homicide(hom), hasEventDate(hom, homDate), Date(homDate), hasDateValue(homDate, shotDateVal)" ;
+        j.0:hasRuleConsequent   "isWitness(p, hom)" ;
+        j.0:hasRuleDescription  "If a witness statement contains the perception of a shot on the same date that a homicide took place, then the witness that has been interrogated might be a witness of the homicide." ;
+        j.0:hasRuleWeight       "2.0" .
+
+j.0:ReasoningRule-6  a          j.0:ReasoningRule ;
+        rdfs:label              "Witness Rule 1" ;
+        j.0:hasRuleAntecedent   "Perception(shotHear), Shot(shot), involvesObject(shotHear, shot), involvesActingPerson(shotHear, p), hasEventStartTime(shotHear, shotDate), hasDateValue(shotDate, shotDateVal),  Homicide(hom), hasEventDate(hom, homDate), hasDateValue(homDate, homDateVal), [shotDateVal = homDateVal]" ;
+        j.0:hasRuleConsequent   "isWitness(p, hom)" ;
+        j.0:hasRuleDescription  "If someone hears (or sees) a shot on the same date that a homicide took place, he/she might be witness of the homicide." ;
+        j.0:hasRuleWeight       "2.0" .
+
+j.0:ReasoningProcess-1
+        a                    j.0:ReasoningProcess ;
+        rdfs:label           "MLN Version 0.9" ;
+        j.0:hasCreationDate  "2021-02-18T08:25:44+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+j.0:ReasoningRule-3  a          j.0:ReasoningRule ;
+        rdfs:label              "Suspect Rule 2" ;
+        j.0:hasRuleAntecedent   "Car(carWit), hasLicenseNumber(carWit, licNumWit), Is(is), involvesObject(is, carWit), inside(is, find), Finding(find), hasEventStartTime(find, findDate), hasDateValue(findDate, findDateVal), involvesActingPerson(find, wp), isWitness(wp, hom),  Homicide(hom), hasEventDate(hom, homDate), hasDateValue(homDate, homDateVal), Car(carSusp), hasLicenseNumber(carSusp, licNumSusp), Person(sp), hasOwnershipOf(sp,carSusp), hasLicenseNumber(carSusp, licNumSus), [contains(licNumSus, licNumWit) && homDateVal=findDateVal]" ;
+        j.0:hasRuleConsequent   "isSuspect(sp, hom)" ;
+        j.0:hasRuleDescription  "If a homicide witness describes the license number part of a car he/she has seen on the date that a homicide happened, then the owner of a car with a license plate number that matches the description is a suspect." ;
+        j.0:hasRuleWeight       "1.0" .
+
+j.0:RelationDescription-8
+        a                         j.0:RelationDescription ;
+        rdfs:label                "isWitness (Person'Kurt Eduard  Ebner', Homicide'Homicide of Gillian Babcock')" ;
+        j.0:basedOnReasoningRule  j.0:ReasoningRule-7 , j.0:ReasoningRule-6 ;
+        j.0:hasConfidenceValue    "0.6763"^^<http://www.w3.org/2001/XMLSchema#float> ;
+        j.0:hasDomainInstance     j.0:Person-5 ;
+        j.0:hasRangeInstance      j.0:Homicide-1 ;
+        j.0:hasRelationName       "http://www.magneto-h2020.eu#isWitness" ;
+        j.0:hasResource           j.0:ReasoningProcess-1 .
+
+j.0:RelationDescription-5
+        a                         j.0:RelationDescription ;
+        rdfs:label                "isSuspectMurder (Person'Johannes Mueller-Sailer', Homicide'Homicide of Gillian Babcock')" ;
+        j.0:basedOnReasoningRule  j.0:ReasoningRule-5 , j.0:ReasoningRule-4 ;
+        j.0:hasConfidenceValue    "0.5223"^^<http://www.w3.org/2001/XMLSchema#float> ;
+        j.0:hasDomainInstance     j.0:Person-16 ;
+        j.0:hasRangeInstance      j.0:Homicide-1 ;
+        j.0:hasRelationName       "http://www.magneto-h2020.eu#isSuspectMurder" ;
+        j.0:hasResource           j.0:ReasoningProcess-1 .
+
+j.0:ReasoningRule-5  a          j.0:ReasoningRule ;
+        rdfs:label              "Suspect Murder Rule 2" ;
+        j.0:hasRuleAntecedent   "Homicide(hom),  WebPageVisit(web),  involvesTopic(web, weapon), Weapon(weapon), involvesActingPerson(web, p)" ;
+        j.0:hasRuleConsequent   "isSuspectMurder(p, hom)" ;
+        j.0:hasRuleDescription  "If a person has requested a google search of a weapon, he is a potential suspect of a homicide" ;
+        j.0:hasRuleWeight       "0.5" .
+
+j.0:ReasoningRule-4  a          j.0:ReasoningRule ;
+        rdfs:label              "Suspect Murder Rule 1" ;
+        j.0:hasRuleAntecedent   "Homicide(hom), hasEventDate(hom, homDate), Date(homDate), hasDateValue(homDate, homDateVal), hasEventLocation(hom, homLoc), RoutePlanning(routePlan), hasMovementDestinationPoint(routePlan, homLoc), involvesActingPerson(routePlan, p), hasEventDate(routePlan, routeDate), Date(routeDate), hasDateValue(routeDate, routeDateVal), [routeDateVal = homDateVal]" ;
+        j.0:hasRuleConsequent   "isSuspectMurder(p, hom)" ;
+        j.0:hasRuleDescription  "If a person has requested a google route planning to a crime scene on the same date that a crime took place, then the person is a suspect of the homicide." ;
+        j.0:hasRuleWeight       "0.5" .
+
+j.0:RelationDescription-6
+        a                         j.0:RelationDescription ;
+        rdfs:label                "isWitness (Person'Martin Hartwig', Homicide'Homicide of Gillian Babcock')" ;
+        j.0:basedOnReasoningRule  j.0:ReasoningRule-7 , j.0:ReasoningRule-6 ;
+        j.0:hasConfidenceValue    "0.757"^^<http://www.w3.org/2001/XMLSchema#float> ;
+        j.0:hasDomainInstance     j.0:Person-10 ;
+        j.0:hasRangeInstance      j.0:Homicide-1 ;
+        j.0:hasRelationName       "http://www.magneto-h2020.eu#isWitness" ;
+        j.0:hasResource           j.0:ReasoningProcess-1 .
+
+j.0:RelationDescription-3
+        a                         j.0:RelationDescription ;
+        rdfs:label                "isSuspect (Person'Johannes Mueller-Sailer', Homicide'Homicide of Gillian Babcock')" ;
+        j.0:basedOnReasoningRule  j.0:ReasoningRule-2 , j.0:ReasoningRule-3 ;
+        j.0:hasConfidenceValue    "0.4223"^^<http://www.w3.org/2001/XMLSchema#float> ;
+        j.0:hasDomainInstance     j.0:Person-16 ;
+        j.0:hasRangeInstance      j.0:Homicide-1 ;
+        j.0:hasRelationName       "http://www.magneto-h2020.eu#isSuspect" ;
+        j.0:hasResource           j.0:ReasoningProcess-1 .
+
+j.0:RelationDescription-4
+        a                         j.0:RelationDescription ;
+        rdfs:label                "isSuspect (Person'Radal Tundan', Homicide'Homicide of Gillian Babcock')" ;
+        j.0:basedOnReasoningRule  j.0:ReasoningRule-2 , j.0:ReasoningRule-3 ;
+        j.0:hasConfidenceValue    "0.1565"^^<http://www.w3.org/2001/XMLSchema#float> ;
+        j.0:hasDomainInstance     j.0:Person-15 ;
+        j.0:hasRangeInstance      j.0:Homicide-1 ;
+        j.0:hasRelationName       "http://www.magneto-h2020.eu#isSuspect" ;
+        j.0:hasResource           j.0:ReasoningProcess-1 .
+
+j.0:RelationDescription-1
+        a                         j.0:RelationDescription ;
+        rdfs:label                "hasLicenseNumber (Car'BMW X6')" ;
+        j.0:basedOnReasoningRule  j.0:ReasoningRule-1 ;
+        j.0:hasConfidenceValue    "0.2677"^^<http://www.w3.org/2001/XMLSchema#float> ;
+        j.0:hasDomainInstance     j.0:Car-2 ;
+        j.0:hasRelationName       "http://www.magneto-h2020.eu#hasLicenseNumber" ;
+        j.0:hasResource           j.0:ReasoningProcess-1 .
+
+j.0:ReasoningRule-1  a          j.0:ReasoningRule ;
+        rdfs:label              "LicensePlate Rule" ;
+        j.0:hasRuleAntecedent   "Finding(know), involvesObject(know, licplate), label(licplate, licNum), inside(carDesc, know), State(carDesc), Car(car1), involvesObject(carDesc, car1)" ;
+        j.0:hasRuleConsequent   "hasLicenseNumber(car1, licNum)" ;
+        j.0:hasRuleDescription  "If someone says he knows the number of a licence plate and he described a car in the sentence before, the licence number belongs to the car." ;
+        j.0:hasRuleWeight       "2.0" .
+
+j.0:RelationDescription-2
+        a                         j.0:RelationDescription ;
+        rdfs:label                "hasLicenseNumber (Car'Car')" ;
+        j.0:basedOnReasoningRule  j.0:ReasoningRule-1 ;
+        j.0:hasConfidenceValue    "0.2677"^^<http://www.w3.org/2001/XMLSchema#float> ;
+        j.0:hasDomainInstance     j.0:Car-1 ;
+        j.0:hasRelationName       "http://www.magneto-h2020.eu#hasLicenseNumber" ;
+        j.0:hasResource           j.0:ReasoningProcess-1 .
+
+j.0:inferredPerson1  a           j.0:inferredPersons ;
+        j.0:hasPersonFirstName   "Person-17" ;
+        j.0:hasPersonMiddleName  "hasOwnershipOf" ;
+        j.0:hasPersonSurname     "Vehicle" ;
+        j.0:hasServiceUserID     1 .
+
+j.0:inferredPerson2  a           j.0:inferredPersons ;
+        j.0:hasPersonFirstName   "Person-22" ;
+        j.0:hasPersonMiddleName  "hasOwnershipOf" ;
+        j.0:hasPersonSurname     "BMW" ;
+        j.0:hasServiceUserID     2 .
+
+j.0:inferredPerson3  a           j.0:inferredPersons ;
+        j.0:hasPersonFirstName   "Person-21" ;
+        j.0:hasPersonMiddleName  "hasOwnershipOf" ;
+        j.0:hasPersonSurname     "BMW" ;
+        j.0:hasServiceUserID     3 .

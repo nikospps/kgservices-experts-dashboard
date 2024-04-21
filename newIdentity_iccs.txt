@@ -1,0 +1,41 @@
+##############################Newly Created Identity-As a secret key("key"->"secret"), we use the below one in the key, to generate a new signedNonce. Afterwards we replace it in the appropriate script so as to create a new channel##############################
+{
+    "doc": {
+        "id": "did:iota:2phjoaYuYfHmgiWXwJ9KfoAvqmyMszCpK9rmarkiFomk",
+        "authentication": [
+            {
+                "id": "did:iota:2phjoaYuYfHmgiWXwJ9KfoAvqmyMszCpK9rmarkiFomk#key",
+                "controller": "did:iota:2phjoaYuYfHmgiWXwJ9KfoAvqmyMszCpK9rmarkiFomk",
+                "type": "Ed25519VerificationKey2018",
+                "publicKeyBase58": "5ezY4xFpVza9Wpiv8rYVBB2skrggNk1TJUnXUoG4Sa2y"
+            }
+        ],
+        "created": "2022-02-02T11:40:55Z",
+        "updated": "2022-02-02T11:40:55Z",
+        "proof": {
+            "type": "JcsEd25519Signature2020",
+            "verificationMethod": "#key",
+            "signatureValue": "582QREHLQxaQwod2kN7dGkPMXXP6J4KrCbYodHKL4Ktdiwc63jQww5feUkVeqhXowzCEx2LcaPZu3LzxiQhLncMV"
+        }
+    },
+    "key": {
+        "type": "ed25519",
+        "public": "5ezY4xFpVza9Wpiv8rYVBB2skrggNk1TJUnXUoG4Sa2y",
+        "secret": "2q9H1S19vLHeUarQavmcNT7czCnHz7Szh1AocVRj3zFe",
+        "encoding": "base58"
+    }
+}
+
+#############################Newly Generated Token (JWT)-Needs to be updated every 7 days##############################
+##############################Bearer ''JWT'' is important to be used inside the body of the script##############################
+e.g. Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiZGlkOmlvdGE6MnBoam9hWXVZZkhtZ2lXWHdKOUtmb0F2cW15TXN6Q3BLOXJtYXJraUZvbWsiLCJwdWJsaWNLZXkiOiI1ZXpZNHhGcFZ6YTlXcGl2OHJZVkJCMnNrcmdnTmsxVEpVblhVb0c0U2EyeSIsInVzZXJuYW1lIjoiaWNjcyIsInJlZ2lzdHJhdGlvbkRhdGUiOiIyMDIyLTAyLTAyVDExOjQwOjU4WiIsImNsYWltIjp7InR5cGUiOiJQZXJzb24iLCJuYW1lIjoiTmlrb3MgUGVwcGVzIiwiZmFtaWx5TmFtZSI6IlBlcHBlcyIsImdpdmVuTmFtZSI6Ik5pa29zIiwiYmlydGhEYXRlIjoiMTk4Ny0wMi0yMiJ9LCJyb2xlIjoiVXNlciJ9LCJpYXQiOjE2NDM5MDA5NTQsImV4cCI6MTY0NDUwNTc1NH0.nt5jw2eOaLinuR3KAPWbth4f9IYF5Ou_alTqO5dQtd4
+
+"jwt": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiZGlkOmlvdGE6MnBoam9hWXVZZkhtZ2lXWHdKOUtmb0F2cW15TXN6Q3BLOXJtYXJraUZvbWsiLCJwdWJsaWNLZXkiOiI1ZXpZNHhGcFZ6YTlXcGl2OHJZVkJCMnNrcmdnTmsxVEpVblhVb0c0U2EyeSIsInVzZXJuYW1lIjoiaWNjcyIsInJlZ2lzdHJhdGlvbkRhdGUiOiIyMDIyLTAyLTAyVDExOjQwOjU4WiIsImNsYWltIjp7InR5cGUiOiJQZXJzb24iLCJuYW1lIjoiTmlrb3MgUGVwcGVzIiwiZmFtaWx5TmFtZSI6IlBlcHBlcyIsImdpdmVuTmFtZSI6Ik5pa29zIiwiYmlydGhEYXRlIjoiMTk4Ny0wMi0yMiJ9LCJyb2xlIjoiVXNlciJ9LCJpYXQiOjE2NDM5MDA5NTQsImV4cCI6MTY0NDUwNTc1NH0.nt5jw2eOaLinuR3KAPWbth4f9IYF5Ou_alTqO5dQtd4"
+
+##############################Newly Created Channel-It's important to use each time the channelAddress with an updated JWT each 7 days##############################
+
+{
+    "channelAddress": "9f9deaac2fba505a7cd96c73c318296656b53f8d24d576a479d3426e815bac710000000000000000:179289a6a8f4005c0cfecb7d",
+    "presharedKey": "aad2625cbada48cc8602a29640f5ad1d",
+    "seed": "qerimqnyjmstmtoyebukawgxpiozpiksquetufttsoyvtuzbiezfvseqansedcgykdfcnkxf"
+}

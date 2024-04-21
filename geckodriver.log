@@ -1,0 +1,4 @@
+1603806301871	geckodriver	INFO	Listening on 127.0.0.1:54701
+Running Firefox as root in a regular user's session is not supported.  ($XAUTHORITY is /home/nikospps/.Xauthority which is owned by nikospps.)
+1603806327920	geckodriver	INFO	Listening on 127.0.0.1:59845
+Running Firefox as root in a regular user's session is not supported.  ($XAUTHORITY is /home/nikospps/.Xauthority which is owned by nikospps.)

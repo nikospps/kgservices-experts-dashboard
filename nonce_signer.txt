@@ -1,0 +1,14 @@
+> e-shop-nonce-signer@1.0.0 start
+> node nonce-signer.js
+
+Please enter your nonce: 67d1cd4afb3c80c39c1b24e37d606fcce3b67b54
+Please enter your secrect key: [-=]---------------------------------------
+Your signed nonce is: d5c554bc4abd42cf7bcc21e35dbe2d6bee3b2e82d150bea15d6fb1b6496e04c5945c69d9275dc72f780a73d72a29694591319c42b20b93453d0b0d52c106c703
+Use your signed nonce to log in to the e-shop.
+
+
+Comments: In order to generate the nonce we executed a http get request to: https://ensuresec.solutions.iota.org/api/v0.1/authentication/prove-ownership/did:iota:3tqQeyDeEmjjSgAWGa99qmhYgrse9mEX89QqgSwsrrWy?api-key=94F5BA49-12B6-4E45-A487-BF91C442276D , where:
+--api-key=94F5BA49-12B6-4E45-A487-BF91C442276D
+--DID:did:iota:3tqQeyDeEmjjSgAWGa99qmhYgrse9mEX89QqgSwsrrWy
+
+As secret key, we used a part of the inserted DID and more specifically: 3tqQeyDeEmjjSgAWGa99qmhYgrse9mEX89QqgSwsrrWy

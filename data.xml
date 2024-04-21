@@ -1,0 +1,1424 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix j.0:   <http://www.magneto-h2020.eu#> .
+
+j.0:Object-5  a     j.0:Object ;
+        rdfs:label  "Entwine" .
+
+j.0:Door-0  a       j.0:Door ;
+        rdfs:label  "Door" .
+
+j.0:Place-10  a     j.0:Place ;
+        rdfs:label  "his_Flat" .
+
+j.0:Movement-1  a   j.0:Movement ;
+        rdfs:label  "leave" .
+
+j.0:DateTime-0  a             j.0:DateTime ;
+        rdfs:label            "2018-07-06T19:00:00" ;
+        j.0:hasDateTimeValue  "2018-07-06T19:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+j.0:Object-12  a    j.0:Object ;
+        rdfs:label  "Drive" .
+
+j.0:Person-6  a                 j.0:Person ;
+        rdfs:label              "Today_Kurt_Ebner" ;
+        j.0:hasPersonFirstName  "Today" ;
+        j.0:hasPersonSurname    "Kurt" .
+
+j.0:AuralPerception-2
+        a           j.0:AuralPerception ;
+        rdfs:label  "hear" .
+
+j.0:Place-6  a      j.0:Place ;
+        rdfs:label  "Away" .
+
+j.0:Person-0  a                 j.0:Person ;
+        rdfs:label              "Urban, Christoph (PP-MUE)" ;
+        j.0:hasPersonFirstName  "Christoph" ;
+        j.0:hasPersonSurname    "Urban" ;
+        j.0:isAuthorOf          j.0:Resource-0 , j.0:Resource-1 , j.0:Resource-2 , j.0:Resource-3 .
+
+j.0:Resource-0  a            j.0:Resource ;
+        rdfs:label           "BY8571-000010-19/9PPM_dataset_02_interrogation_witness_Mathilde_Clodi_correctedIOSB.docx" ;
+        j.0:hasAuthor        j.0:Person-0 ;
+        j.0:hasCreationDate  j.0:Date-0 ;
+        j.0:hasResourceId    "BY8571-000010-19/9PPM_dataset_02_interrogation_witness_Mathilde_Clodi_correctedIOSB.docx" .
+
+j.0:Resource-1  a            j.0:Resource ;
+        rdfs:label           "BY8571-000010-19/9PPM_dataset_03_interrogation_witness_Martin_Hartwig.docx" ;
+        j.0:hasAuthor        j.0:Person-0 ;
+        j.0:hasCreationDate  j.0:Date-2 ;
+        j.0:hasResourceId    "BY8571-000010-19/9PPM_dataset_03_interrogation_witness_Martin_Hartwig.docx" .
+
+j.0:Resource-2  a            j.0:Resource ;
+        rdfs:label           "BY8571-000010-19/9PPM_dataset_04_interrogation_witness_Kurt_Ebner.docx" ;
+        j.0:hasAuthor        j.0:Person-0 ;
+        j.0:hasCreationDate  j.0:Date-3 ;
+        j.0:hasResourceId    "BY8571-000010-19/9PPM_dataset_04_interrogation_witness_Kurt_Ebner.docx" .
+
+j.0:Resource-3  a            j.0:Resource ;
+        rdfs:label           "BY8571-000010-19/9PPM_dataset_11_Interrogation_Mueller-Sailer.docx" ;
+        j.0:hasAuthor        j.0:Person-0 ;
+        j.0:hasCreationDate  j.0:Date-4 ;
+        j.0:hasResourceId    "BY8571-000010-19/9PPM_dataset_11_Interrogation_Mueller-Sailer.docx" .
+
+j.0:Event-17  a                   j.0:Event ;
+        rdfs:label                "Today_Kurt_Ebner come " ;
+        j.0:hasCategory           j.0:Movement-4 ;
+        j.0:hasEventLocation      j.0:Place-3 ;
+        j.0:hasResource           j.0:Resource-2 ;
+        j.0:involvesActingPerson  j.0:Person-6 .
+
+j.0:Movement-4  a   j.0:Movement ;
+        rdfs:label  "come" .
+
+j.0:Place-3  a      j.0:Place ;
+        rdfs:label  "Back" .
+
+j.0:Event-22  a             j.0:Event ;
+        rdfs:label          " see Maximum_Speed" ;
+        j.0:after           j.0:Event-21 ;
+        j.0:hasCategory     j.0:VisualPerception-6 ;
+        j.0:hasResource     j.0:Resource-2 ;
+        j.0:involvesObject  j.0:Object-9 .
+
+j.0:Event-21  a                   j.0:Event ;
+        rdfs:label                "Kurt_Ebner look " ;
+        j.0:after                 j.0:Event-20 ;
+        j.0:hasCategory           j.0:VisualPerception-5 ;
+        j.0:hasEventLocation      j.0:Place-4 ;
+        j.0:hasResource           j.0:Resource-2 ;
+        j.0:involvesActingPerson  j.0:Person-7 .
+
+j.0:VisualPerception-6
+        a           j.0:VisualPerception ;
+        rdfs:label  "see" .
+
+j.0:Object-9  a     j.0:Object ;
+        rdfs:label  "Maximum_Speed" .
+
+j.0:Event-25  a                   j.0:Event ;
+        rdfs:label                "Kurt_Ebner remember Drive Car_Stand_Street_Lamp_Road" ;
+        j.0:after                 j.0:Event-24 ;
+        j.0:hasCategory           j.0:Finding-1 ;
+        j.0:hasResource           j.0:Resource-2 ;
+        j.0:involvesActingPerson  j.0:Person-7 ;
+        j.0:involvesObject        j.0:Object-11 , j.0:Object-10 .
+
+j.0:Event-24  a             j.0:Event ;
+        rdfs:label          " get House" ;
+        j.0:after           j.0:Event-23 ;
+        j.0:hasCategory     j.0:PropertyTransfer-1 ;
+        j.0:hasResource     j.0:Resource-2 ;
+        j.0:involvesObject  j.0:House-0 .
+
+j.0:Finding-1  a    j.0:Finding ;
+        rdfs:label  "remember" .
+
+j.0:Person-7  a                 j.0:Person ;
+        rdfs:label              "Kurt_Ebner" ;
+        j.0:hasPersonFirstName  "Kurt" ;
+        j.0:hasPersonSurname    "Ebner" .
+
+j.0:Object-11  a    j.0:Object ;
+        rdfs:label  "Car_Stand_Street_Lamp_Road" .
+
+j.0:Object-10  a    j.0:Object ;
+        rdfs:label  "Drive" .
+
+j.0:Event-6  a              j.0:Event ;
+        rdfs:label          "Look Entwine look " ;
+        j.0:after           j.0:Event-5 ;
+        j.0:hasCategory     j.0:VisualPerception-2 ;
+        j.0:hasResource     j.0:Resource-0 ;
+        j.0:involvesObject  j.0:Object-5 , j.0:Object-4 .
+
+j.0:Event-5  a                    j.0:Event ;
+        rdfs:label                "Mathilde_Clodi see Black_Tattoo" ;
+        j.0:after                 j.0:Event-4 ;
+        j.0:hasCategory           j.0:VisualPerception-1 ;
+        j.0:hasResource           j.0:Resource-0 ;
+        j.0:involvesActingPerson  j.0:Person-1 ;
+        j.0:involvesObject        j.0:Object-3 .
+
+j.0:VisualPerception-2
+        a           j.0:VisualPerception ;
+        rdfs:label  "look" .
+
+j.0:Object-4  a     j.0:Object ;
+        rdfs:label  "Look" .
+
+j.0:Police-1  a     j.0:Police ;
+        rdfs:label  "So_Martin_Hartwig_Call_Police" .
+
+j.0:PropertyTransfer-1
+        a           j.0:PropertyTransfer ;
+        rdfs:label  "get" .
+
+j.0:Place-5  a      j.0:Place ;
+        rdfs:label  "House" .
+
+j.0:Object-1  a     j.0:Object ;
+        rdfs:label  "Leave" .
+
+j.0:Event-31  a                   j.0:Event ;
+        rdfs:label                "Wife cheat " ;
+        j.0:hasCategory           j.0:Cheating-0 ;
+        j.0:hasEventLocation      j.0:Place-8 ;
+        j.0:hasResource           j.0:Resource-3 ;
+        j.0:involvesActingPerson  j.0:Person-9 .
+
+j.0:Cheating-0  a   j.0:Cheating ;
+        rdfs:label  "cheat" .
+
+j.0:Place-8  a      j.0:Place ;
+        rdfs:label  "Johannes_MÃ¼ller-Sailer" .
+
+j.0:Person-9  a                 j.0:Person ;
+        rdfs:label              "Wife" ;
+        j.0:hasPersonFirstName  "Unknown" ;
+        j.0:hasPersonSurname    "Wife" .
+
+j.0:TelephoneCall-1  a  j.0:TelephoneCall ;
+        rdfs:label  "call" .
+
+j.0:Object-6  a     j.0:Object ;
+        rdfs:label  "Episode_Game_Throne" .
+
+j.0:Place-1  a      j.0:Place ;
+        rdfs:label  "Somewhere_House" .
+
+j.0:Date-0  a             j.0:Date ;
+        rdfs:label        "2018-07-07" ;
+        j.0:hasDateValue  "2018-07-07"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+j.0:Movement-11  a  j.0:Movement ;
+        rdfs:label  "drive" .
+
+j.0:Event-38  a                   j.0:Event ;
+        rdfs:label                "Johannes_MÃ¼ller-Sailer run " ;
+        j.0:after                 j.0:Event-37 ;
+        j.0:hasCategory           j.0:Movement-10 ;
+        j.0:hasEventLocation      j.0:Place-10 ;
+        j.0:hasResource           j.0:Resource-3 ;
+        j.0:involvesActingPerson  j.0:Person-10 .
+
+j.0:Event-37  a                   j.0:Event ;
+        rdfs:label                "Johannes_MÃ¼ller-Sailer shoot " ;
+        j.0:after                 j.0:Event-36 ;
+        j.0:hasCategory           j.0:Shooting-3 ;
+        j.0:hasResource           j.0:Resource-3 ;
+        j.0:involvesActingPerson  j.0:Person-10 .
+
+j.0:Movement-10  a  j.0:Movement ;
+        rdfs:label  "run" .
+
+j.0:Person-10  a                j.0:Person ;
+        rdfs:label              "Johannes_MÃ¼ller-Sailer" ;
+        j.0:hasOwnershipOf      j.0:Car-2 , j.0:Gun-0 ;
+        j.0:hasPersonFirstName  "Johannes" ;
+        j.0:hasPersonSurname    "MÃ¼ller-Sailer" .
+
+j.0:Event-23  a               j.0:Event ;
+        rdfs:label            " run To_his_Vehicle" ;
+        j.0:after             j.0:Event-22 ;
+        j.0:hasCategory       j.0:Movement-5 ;
+        j.0:hasEventLocation  j.0:Place-5 ;
+        j.0:hasResource       j.0:Resource-2 ;
+        j.0:involvesObject    j.0:Vehicle-0 .
+
+j.0:House-0  a      j.0:House ;
+        rdfs:label  "House" .
+
+j.0:VisualPerception-5
+        a           j.0:VisualPerception ;
+        rdfs:label  "look" .
+
+j.0:Finding-0  a    j.0:Finding ;
+        rdfs:label  "know" .
+
+j.0:Event-2  a                    j.0:Event ;
+        rdfs:label                "Mathilde_Clodi open Door" ;
+        j.0:after                 j.0:Event-1 ;
+        j.0:hasCategory           j.0:Movement-0 ;
+        j.0:hasResource           j.0:Resource-0 ;
+        j.0:involvesActingPerson  j.0:Person-1 ;
+        j.0:involvesObject        j.0:Door-0 .
+
+j.0:Event-1  a                 j.0:Event ;
+        rdfs:label             "They hear Loud_Shot" ;
+        j.0:after              j.0:Event-0 ;
+        j.0:hasCategory        j.0:AuralPerception-0 ;
+        j.0:hasEventEndTime    j.0:DateTime-0 ;
+        j.0:hasEventLocation   j.0:Place-1 ;
+        j.0:hasEventStartTime  j.0:DateTime-0 ;
+        j.0:hasResource        j.0:Resource-0 ;
+        j.0:involvesObject     j.0:Shooting-0 , j.0:Object-0 .
+
+j.0:Movement-0  a   j.0:Movement ;
+        rdfs:label  "open" .
+
+j.0:Person-1  a                 j.0:Person ;
+        rdfs:label              "Mathilde_Clodi" ;
+        j.0:hasPersonFirstName  "Mathilde" ;
+        j.0:hasPersonSurname    "Clodi" .
+
+j.0:Date-1  a             j.0:Date ;
+        rdfs:label        "2018-07-07" ;
+        j.0:hasDateValue  "2018-07-07"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+j.0:VisualPerception-8
+        a           j.0:VisualPerception ;
+        rdfs:label  "see" .
+
+j.0:Place-0  a      j.0:Place ;
+        rdfs:label  "Home" .
+
+j.0:Place-4  a      j.0:Place ;
+        rdfs:label  "Window_of_Kurt_Ebner" .
+
+j.0:Movement-5  a   j.0:Movement ;
+        rdfs:label  "run" .
+
+j.0:Vehicle-0  a    j.0:Vehicle ;
+        rdfs:label  "To_his_Vehicle" .
+
+j.0:Object-15  a    j.0:Object ;
+        rdfs:label  "M-PH32" .
+
+j.0:Conversation-0  a  j.0:Conversation ;
+        rdfs:label  "tell" .
+
+j.0:Person-5  a                 j.0:Person ;
+        rdfs:label              "Girlfriend" ;
+        j.0:hasPersonFirstName  "Unknown" ;
+        j.0:hasPersonSurname    "Girlfriend" .
+
+j.0:PropertyTransfer-2
+        a           j.0:PropertyTransfer ;
+        rdfs:label  "take" .
+
+j.0:Object-13  a    j.0:Object ;
+        rdfs:label  "Car_Stand_Street_Lamp_Road" .
+
+j.0:PropertyTransfer-0
+        a           j.0:PropertyTransfer ;
+        rdfs:label  "give" .
+
+j.0:Event-7  a                    j.0:Event ;
+        rdfs:label                "Mathilde_Clodi shut Door" ;
+        j.0:after                 j.0:Event-6 ;
+        j.0:hasCategory           j.0:Movement-2 ;
+        j.0:hasResource           j.0:Resource-0 ;
+        j.0:involvesActingPerson  j.0:Person-1 ;
+        j.0:involvesObject        j.0:Door-1 .
+
+j.0:Movement-2  a   j.0:Movement ;
+        rdfs:label  "shut" .
+
+j.0:Door-1  a       j.0:Door ;
+        rdfs:label  "Door" .
+
+j.0:Person-8  a                 j.0:Person ;
+        rdfs:label              "Guy" ;
+        j.0:hasPersonFirstName  "Unknown" ;
+        j.0:hasPersonSurname    "Guy" .
+
+j.0:Event-14  a                    j.0:Event ;
+        rdfs:label                 "Martin_Hartwig give Girlfriend" ;
+        j.0:after                  j.0:Event-13 ;
+        j.0:hasCategory            j.0:PropertyTransfer-0 ;
+        j.0:hasResource            j.0:Resource-1 ;
+        j.0:involvesActingPerson   j.0:Person-4 ;
+        j.0:involvesPassivePerson  j.0:Person-5 .
+
+j.0:Event-13  a                   j.0:Event ;
+        rdfs:label                "Martin_Hartwig call Police" ;
+        j.0:after                 j.0:Event-12 ;
+        j.0:hasCategory           j.0:TelephoneCall-1 ;
+        j.0:hasResource           j.0:Resource-1 ;
+        j.0:involvesActingPerson  j.0:Person-4 ;
+        j.0:involvesObject        j.0:Police-5 .
+
+j.0:Person-4  a                 j.0:Person ;
+        rdfs:label              "Martin_Hartwig" ;
+        j.0:hasPersonFirstName  "Martin" ;
+        j.0:hasPersonSurname    "Hartwig" .
+
+j.0:Event-40  a                    j.0:Event ;
+        rdfs:label                 "Nobody see Johannes_MÃ¼ller-Sailer" ;
+        j.0:after                  j.0:Event-39 ;
+        j.0:hasCategory            j.0:VisualPerception-8 ;
+        j.0:hasResource            j.0:Resource-3 ;
+        j.0:involvesActingPerson   j.0:Person-13 ;
+        j.0:involvesPassivePerson  j.0:Person-10 .
+
+j.0:Event-39  a                   j.0:Event ;
+        rdfs:label                "Johannes_MÃ¼ller-Sailer drive " ;
+        j.0:after                 j.0:Event-38 ;
+        j.0:hasCategory           j.0:Movement-11 ;
+        j.0:hasEventLocation      j.0:Place-11 ;
+        j.0:hasResource           j.0:Resource-3 ;
+        j.0:involvesActingPerson  j.0:Person-10 .
+
+j.0:Person-13  a                j.0:Person ;
+        rdfs:label              "Nobody" ;
+        j.0:hasPersonFirstName  "Unknown" ;
+        j.0:hasPersonSurname    "Nobody" .
+
+j.0:Place-11  a     j.0:Place ;
+        rdfs:label  "Away" .
+
+j.0:Event-18  a                   j.0:Event ;
+        rdfs:label                "Kurt_Ebner watch Episode_Game_Throne Game_Throne" ;
+        j.0:after                 j.0:Event-17 ;
+        j.0:hasCategory           j.0:VisualPerception-4 ;
+        j.0:hasResource           j.0:Resource-2 ;
+        j.0:involvesActingPerson  j.0:Person-7 ;
+        j.0:involvesObject        j.0:Object-6 , j.0:Object-7 .
+
+j.0:VisualPerception-4
+        a           j.0:VisualPerception ;
+        rdfs:label  "watch" .
+
+j.0:Object-7  a     j.0:Object ;
+        rdfs:label  "Game_Throne" .
+
+j.0:Event-10  a     j.0:Event ;
+        rdfs:label  "Martin_Hartwig NOT see Anything" .
+
+j.0:AuralPerception-1
+        a           j.0:AuralPerception ;
+        rdfs:label  "hear" .
+
+j.0:Police-2  a     j.0:Police ;
+        rdfs:label  "Police" .
+
+j.0:Object-2  a     j.0:Object ;
+        rdfs:label  "Leave" .
+
+j.0:Person-11  a                j.0:Person ;
+        rdfs:label              "Mr._Babcock" ;
+        j.0:hasPersonFirstName  "Mr." ;
+        j.0:hasPersonSurname    "Babcock" .
+
+j.0:Date-4  a             j.0:Date ;
+        rdfs:label        "2018-07-08" ;
+        j.0:hasDateValue  "2018-07-08"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+j.0:Event-11  a                   j.0:Event ;
+        rdfs:label                "Mathilde_Clodi watch So_Martin_Hartwig_Call_Police Police" ;
+        j.0:hasCategory           j.0:VisualPerception-3 ;
+        j.0:hasResource           j.0:Resource-1 ;
+        j.0:involvesActingPerson  j.0:Person-1 ;
+        j.0:involvesObject        j.0:Police-1 , j.0:Police-2 .
+
+j.0:VisualPerception-3
+        a           j.0:VisualPerception ;
+        rdfs:label  "watch" .
+
+j.0:Police-5  a     j.0:Police ;
+        rdfs:label  "Police" .
+
+j.0:Event-15  a                    j.0:Event ;
+        rdfs:label                 " know Martin_Hartwig" ;
+        j.0:after                  j.0:Event-14 ;
+        j.0:hasCategory            j.0:Finding-0 ;
+        j.0:hasResource            j.0:Resource-1 ;
+        j.0:involvesPassivePerson  j.0:Person-4 .
+
+j.0:Shooting-0  a   j.0:Shooting ;
+        rdfs:label  "Loud_Shot" .
+
+j.0:VisualPerception-7
+        a           j.0:VisualPerception ;
+        rdfs:label  "see" .
+
+j.0:Person-12  a                j.0:Person ;
+        rdfs:label              "Husband" ;
+        j.0:hasPersonFirstName  "Unknown" ;
+        j.0:hasPersonSurname    "Husband" .
+
+j.0:Place-9  a      j.0:Place ;
+        rdfs:label  "House" .
+
+j.0:Event-32  a                   j.0:Event ;
+        rdfs:label                "Johannes_MÃ¼ller-Sailer take Car_of_Johannes_MÃ¼ller-Sailer" ;
+        j.0:after                 j.0:Event-31 ;
+        j.0:hasCategory           j.0:PropertyTransfer-2 ;
+        j.0:hasResource           j.0:Resource-3 ;
+        j.0:involvesActingPerson  j.0:Person-10 ;
+        j.0:involvesObject        j.0:Car-2 .
+
+j.0:Car-2  a        j.0:Car ;
+        rdfs:label  "Car_of_Johannes_MÃ¼ller-Sailer" .
+
+j.0:Date-3  a             j.0:Date ;
+        rdfs:label        "2018-07-07" ;
+        j.0:hasDateValue  "2018-07-07"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+j.0:Event-3  a                     j.0:Event ;
+        rdfs:label                 "Mathilde_Clodi see Leave Apartment_Mr._Gilian_Babcock" ;
+        j.0:after                  j.0:Event-2 ;
+        j.0:hasCategory            j.0:VisualPerception-0 ;
+        j.0:hasResource            j.0:Resource-0 ;
+        j.0:involvesActingPerson   j.0:Person-1 ;
+        j.0:involvesObject         j.0:Object-1 ;
+        j.0:involvesPassivePerson  j.0:Person-2 .
+
+j.0:VisualPerception-0
+        a           j.0:VisualPerception ;
+        rdfs:label  "see" .
+
+j.0:Person-2  a                 j.0:Person ;
+        rdfs:label              "Apartment_Mr._Gilian_Babcock" ;
+        j.0:hasPersonFirstName  "Apartment" ;
+        j.0:hasPersonSurname    "Mr." .
+
+j.0:TelephoneCall-0  a  j.0:TelephoneCall ;
+        rdfs:label  "call" .
+
+j.0:Finding-3  a    j.0:Finding ;
+        rdfs:label  "know" .
+
+j.0:Date-2  a             j.0:Date ;
+        rdfs:label        "2019-02-20" ;
+        j.0:hasDateValue  "2019-02-20"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+j.0:Event-27  a             j.0:Event ;
+        rdfs:label          "Number_Plate_Car read M-PH32" ;
+        j.0:after           j.0:Event-26 ;
+        j.0:hasCategory     j.0:Finding-2 ;
+        j.0:hasResource     j.0:Resource-2 ;
+        j.0:involvesObject  j.0:Object-14 , j.0:Car-0 .
+
+j.0:Event-26  a                   j.0:Event ;
+        rdfs:label                "Guy drive Drive Car_Stand_Street_Lamp_Road" ;
+        j.0:after                 j.0:Event-25 ;
+        j.0:hasCategory           j.0:Movement-6 ;
+        j.0:hasEventLocation      j.0:Place-6 ;
+        j.0:hasResource           j.0:Resource-2 ;
+        j.0:involvesActingPerson  j.0:Person-8 ;
+        j.0:involvesObject        j.0:Object-12 , j.0:Object-13 .
+
+j.0:Finding-2  a    j.0:Finding ;
+        rdfs:label  "read" .
+
+j.0:Object-14  a    j.0:Object ;
+        rdfs:label  "M-PH32" .
+
+j.0:Car-0  a        j.0:Car ;
+        rdfs:label  "Number_Plate_Car" .
+
+j.0:Car-1  a        j.0:Car ;
+        rdfs:label  "Car_Be_Black_BMW_X6" .
+
+j.0:Event-36  a                    j.0:Event ;
+        rdfs:label                 "Johannes_MÃ¼ller-Sailer turn Gun_of_Johannes_MÃ¼ller-Sailer" ;
+        j.0:after                  j.0:Event-35 ;
+        j.0:hasCategory            j.0:Movement-9 ;
+        j.0:hasResource            j.0:Resource-3 ;
+        j.0:involvesActingPerson   j.0:Person-10 ;
+        j.0:involvesObject         j.0:Gun-0 ;
+        j.0:involvesPassivePerson  j.0:Person-11 .
+
+j.0:Shooting-3  a   j.0:Shooting ;
+        rdfs:label  "shoot" .
+
+j.0:AuralPerception-0
+        a           j.0:AuralPerception ;
+        rdfs:label  "hear" .
+
+j.0:Event-35  a                    j.0:Event ;
+        rdfs:label                 "Johannes_MÃ¼ller-Sailer say Be Husband" ;
+        j.0:after                  j.0:Event-34 ;
+        j.0:hasCategory            j.0:Conversation-1 ;
+        j.0:hasResource            j.0:Resource-3 ;
+        j.0:involvesActingPerson   j.0:Person-10 ;
+        j.0:involvesObject         j.0:Object-17 ;
+        j.0:involvesPassivePerson  j.0:Person-12 .
+
+j.0:Event-34  a                    j.0:Event ;
+        rdfs:label                 "Mr._Babcock open Johannes_MÃ¼ller-Sailer" ;
+        j.0:after                  j.0:Event-33 ;
+        j.0:hasCategory            j.0:Movement-8 ;
+        j.0:hasResource            j.0:Resource-3 ;
+        j.0:involvesActingPerson   j.0:Person-11 ;
+        j.0:involvesPassivePerson  j.0:Person-10 .
+
+j.0:Conversation-1  a  j.0:Conversation ;
+        rdfs:label  "say" .
+
+j.0:Object-17  a    j.0:Object ;
+        rdfs:label  "Be" .
+
+j.0:Event-33  a                   j.0:Event ;
+        rdfs:label                "Johannes_MÃ¼ller-Sailer drive " ;
+        j.0:after                 j.0:Event-32 ;
+        j.0:hasCategory           j.0:Movement-7 ;
+        j.0:hasEventLocation      j.0:Place-9 ;
+        j.0:hasResource           j.0:Resource-3 ;
+        j.0:involvesActingPerson  j.0:Person-10 .
+
+j.0:Movement-8  a   j.0:Movement ;
+        rdfs:label  "open" .
+
+j.0:Movement-7  a   j.0:Movement ;
+        rdfs:label  "drive" .
+
+j.0:Police-4  a     j.0:Police ;
+        rdfs:label  "Police" .
+
+j.0:Object-3  a     j.0:Object ;
+        rdfs:label  "Black_Tattoo" .
+
+j.0:Event-4  a                    j.0:Event ;
+        rdfs:label                "Leave Apartment_Mr._Gilian_Babcock leave " ;
+        j.0:after                 j.0:Event-3 ;
+        j.0:hasCategory           j.0:Movement-1 ;
+        j.0:hasResource           j.0:Resource-0 ;
+        j.0:involvesActingPerson  j.0:Person-2 ;
+        j.0:involvesObject        j.0:Object-2 .
+
+j.0:Stay-0  a       j.0:Stay ;
+        rdfs:label  "stay" .
+
+j.0:Event-12  a               j.0:Event ;
+        rdfs:label            "So_Martin_Hartwig_Call_Police Police leave " ;
+        j.0:after             j.0:Event-11 ;
+        j.0:hasCategory       j.0:Movement-3 ;
+        j.0:hasEventLocation  j.0:Place-2 ;
+        j.0:hasResource       j.0:Resource-1 ;
+        j.0:involvesObject    j.0:Police-4 , j.0:Police-3 .
+
+j.0:Movement-3  a   j.0:Movement ;
+        rdfs:label  "leave" .
+
+j.0:Place-7  a      j.0:Place ;
+        rdfs:label  "Number_Plate" .
+
+j.0:Place-2  a      j.0:Place ;
+        rdfs:label  "Apartment" .
+
+j.0:Police-3  a     j.0:Police ;
+        rdfs:label  "So_Martin_Hartwig_Call_Police" .
+
+j.0:Event-28  a                   j.0:Event ;
+        rdfs:label                "Kurt_Ebner see M-PH32" ;
+        j.0:after                 j.0:Event-27 ;
+        j.0:hasCategory           j.0:VisualPerception-7 ;
+        j.0:hasEventLocation      j.0:Place-7 ;
+        j.0:hasResource           j.0:Resource-2 ;
+        j.0:involvesActingPerson  j.0:Person-7 ;
+        j.0:involvesObject        j.0:Object-15 .
+
+j.0:Event-20  a             j.0:Event ;
+        rdfs:label          " sound " ;
+        j.0:after           j.0:Event-19 ;
+        j.0:hasCategory     j.0:AuralPerception-3 ;
+        j.0:hasResource     j.0:Resource-2 ;
+        j.0:involvesObject  j.0:Shooting-2 .
+
+j.0:Event-19  a                   j.0:Event ;
+        rdfs:label                "Kurt_Ebner hear Something" ;
+        j.0:after                 j.0:Event-18 ;
+        j.0:hasCategory           j.0:AuralPerception-2 ;
+        j.0:hasResource           j.0:Resource-2 ;
+        j.0:involvesActingPerson  j.0:Person-7 ;
+        j.0:involvesObject        j.0:Object-8 .
+
+j.0:AuralPerception-3
+        a           j.0:AuralPerception ;
+        rdfs:label  "sound" .
+
+j.0:Shooting-2  a   j.0:Shooting ;
+        rdfs:label  "Three_Shot" .
+
+j.0:Event-0  a                    j.0:Event ;
+        rdfs:label                "Mathilde_Clodi stay " ;
+        j.0:hasCategory           j.0:Stay-0 ;
+        j.0:hasEventDate          j.0:Date-1 ;
+        j.0:hasEventLocation      j.0:Place-0 ;
+        j.0:hasResource           j.0:Resource-0 ;
+        j.0:involvesActingPerson  j.0:Person-1 .
+
+j.0:Object-8  a     j.0:Object ;
+        rdfs:label  "Something" .
+
+j.0:Event-8  a                    j.0:Event ;
+        rdfs:label                "Boyfriend_of_Mathilde_Clodi call Police" ;
+        j.0:after                 j.0:Event-7 ;
+        j.0:hasCategory           j.0:TelephoneCall-0 ;
+        j.0:hasResource           j.0:Resource-0 ;
+        j.0:involvesActingPerson  j.0:Person-3 ;
+        j.0:involvesObject        j.0:Police-0 .
+
+j.0:Person-3  a                 j.0:Person ;
+        rdfs:label              "Boyfriend_of_Mathilde_Clodi" ;
+        j.0:hasPersonFirstName  "Boyfriend" ;
+        j.0:hasPersonSurname    "of" .
+
+j.0:Police-0  a     j.0:Police ;
+        rdfs:label  "Police" .
+
+j.0:Gun-0  a        j.0:Gun ;
+        rdfs:label  "Gun_of_Johannes_MÃ¼ller-Sailer" .
+
+j.0:VisualPerception-1
+        a           j.0:VisualPerception ;
+        rdfs:label  "see" .
+
+j.0:Movement-6  a   j.0:Movement ;
+        rdfs:label  "drive" .
+
+j.0:Shooting-1  a   j.0:Shooting ;
+        rdfs:label  "Three_Shot" .
+
+j.0:Movement-9  a   j.0:Movement ;
+        rdfs:label  "turn" .
+
+j.0:Event-29  a                   j.0:Event ;
+        rdfs:label                "Kurt_Ebner know Car_Be_Black_BMW_X6" ;
+        j.0:after                 j.0:Event-28 ;
+        j.0:hasCategory           j.0:Finding-3 ;
+        j.0:hasResource           j.0:Resource-2 ;
+        j.0:involvesActingPerson  j.0:Person-7 ;
+        j.0:involvesObject        j.0:Car-1 .
+
+j.0:Object-0  a     j.0:Object ;
+        rdfs:label  "They" .
+
+j.0:Object-16  a    j.0:Object ;
+        rdfs:label  "You" .
+
+j.0:Event-16  a                   j.0:Event ;
+        rdfs:label                "Martin_Hartwig hear Three_Shot" ;
+        j.0:after                 j.0:Event-15 ;
+        j.0:hasCategory           j.0:AuralPerception-1 ;
+        j.0:hasResource           j.0:Resource-1 ;
+        j.0:involvesActingPerson  j.0:Person-4 ;
+        j.0:involvesObject        j.0:Shooting-1 .
+
+j.0:Event-30  a                   j.0:Event ;
+        rdfs:label                "Kurt_Ebner tell You" ;
+        j.0:after                 j.0:Event-29 ;
+        j.0:hasCategory           j.0:Conversation-0 ;
+        j.0:hasResource           j.0:Resource-2 ;
+        j.0:involvesActingPerson  j.0:Person-7 ;
+        j.0:involvesObject        j.0:Object-16 .
+
+j.0:Event-9  a      j.0:Event ;
+        rdfs:label  "Martin_Hartwig not tell You Anything" .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix j.0:   <http://www.magneto-h2020.eu#> .
+
+j.0:Object-5  a     j.0:Object ;
+        rdfs:label  "Entwine" .
+
+j.0:Door-0  a       j.0:Door ;
+        rdfs:label  "Door" .
+
+j.0:Place-10  a     j.0:Place ;
+        rdfs:label  "his_Flat" .
+
+j.0:Movement-1  a   j.0:Movement ;
+        rdfs:label  "leave" .
+
+j.0:DateTime-0  a             j.0:DateTime ;
+        rdfs:label            "2018-07-06T19:00:00" ;
+        j.0:hasDateTimeValue  "2018-07-06T19:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+j.0:Object-12  a    j.0:Object ;
+        rdfs:label  "Drive" .
+
+j.0:Person-6  a                 j.0:Person ;
+        rdfs:label              "Today_Kurt_Ebner" ;
+        j.0:hasPersonFirstName  "Today" ;
+        j.0:hasPersonSurname    "Kurt" .
+
+j.0:AuralPerception-2
+        a           j.0:AuralPerception ;
+        rdfs:label  "hear" .
+
+j.0:Place-6  a      j.0:Place ;
+        rdfs:label  "Away" .
+
+j.0:Person-0  a                 j.0:Person ;
+        rdfs:label              "Urban, Christoph (PP-MUE)" ;
+        j.0:hasPersonFirstName  "Christoph" ;
+        j.0:hasPersonSurname    "Urban" ;
+        j.0:isAuthorOf          j.0:Resource-0 , j.0:Resource-1 , j.0:Resource-2 , j.0:Resource-3 .
+
+j.0:Resource-0  a            j.0:Resource ;
+        rdfs:label           "BY8571-000010-19/9PPM_dataset_02_interrogation_witness_Mathilde_Clodi_correctedIOSB.docx" ;
+        j.0:hasAuthor        j.0:Person-0 ;
+        j.0:hasCreationDate  j.0:Date-0 ;
+        j.0:hasResourceId    "BY8571-000010-19/9PPM_dataset_02_interrogation_witness_Mathilde_Clodi_correctedIOSB.docx" .
+
+j.0:Resource-1  a            j.0:Resource ;
+        rdfs:label           "BY8571-000010-19/9PPM_dataset_03_interrogation_witness_Martin_Hartwig.docx" ;
+        j.0:hasAuthor        j.0:Person-0 ;
+        j.0:hasCreationDate  j.0:Date-2 ;
+        j.0:hasResourceId    "BY8571-000010-19/9PPM_dataset_03_interrogation_witness_Martin_Hartwig.docx" .
+
+j.0:Resource-2  a            j.0:Resource ;
+        rdfs:label           "BY8571-000010-19/9PPM_dataset_04_interrogation_witness_Kurt_Ebner.docx" ;
+        j.0:hasAuthor        j.0:Person-0 ;
+        j.0:hasCreationDate  j.0:Date-3 ;
+        j.0:hasResourceId    "BY8571-000010-19/9PPM_dataset_04_interrogation_witness_Kurt_Ebner.docx" .
+
+j.0:Resource-3  a            j.0:Resource ;
+        rdfs:label           "BY8571-000010-19/9PPM_dataset_11_Interrogation_Mueller-Sailer.docx" ;
+        j.0:hasAuthor        j.0:Person-0 ;
+        j.0:hasCreationDate  j.0:Date-4 ;
+        j.0:hasResourceId    "BY8571-000010-19/9PPM_dataset_11_Interrogation_Mueller-Sailer.docx" .
+
+j.0:Event-17  a                   j.0:Event ;
+        rdfs:label                "Today_Kurt_Ebner come " ;
+        j.0:hasCategory           j.0:Movement-4 ;
+        j.0:hasEventLocation      j.0:Place-3 ;
+        j.0:hasResource           j.0:Resource-2 ;
+        j.0:involvesActingPerson  j.0:Person-6 .
+
+j.0:Movement-4  a   j.0:Movement ;
+        rdfs:label  "come" .
+
+j.0:Place-3  a      j.0:Place ;
+        rdfs:label  "Back" .
+
+j.0:Event-22  a             j.0:Event ;
+        rdfs:label          " see Maximum_Speed" ;
+        j.0:after           j.0:Event-21 ;
+        j.0:hasCategory     j.0:VisualPerception-6 ;
+        j.0:hasResource     j.0:Resource-2 ;
+        j.0:involvesObject  j.0:Object-9 .
+
+j.0:Event-21  a                   j.0:Event ;
+        rdfs:label                "Kurt_Ebner look " ;
+        j.0:after                 j.0:Event-20 ;
+        j.0:hasCategory           j.0:VisualPerception-5 ;
+        j.0:hasEventLocation      j.0:Place-4 ;
+        j.0:hasResource           j.0:Resource-2 ;
+        j.0:involvesActingPerson  j.0:Person-7 .
+
+j.0:VisualPerception-6
+        a           j.0:VisualPerception ;
+        rdfs:label  "see" .
+
+j.0:Object-9  a     j.0:Object ;
+        rdfs:label  "Maximum_Speed" .
+
+j.0:Event-25  a                   j.0:Event ;
+        rdfs:label                "Kurt_Ebner remember Drive Car_Stand_Street_Lamp_Road" ;
+        j.0:after                 j.0:Event-24 ;
+        j.0:hasCategory           j.0:Finding-1 ;
+        j.0:hasResource           j.0:Resource-2 ;
+        j.0:involvesActingPerson  j.0:Person-7 ;
+        j.0:involvesObject        j.0:Object-11 , j.0:Object-10 .
+
+j.0:Event-24  a             j.0:Event ;
+        rdfs:label          " get House" ;
+        j.0:after           j.0:Event-23 ;
+        j.0:hasCategory     j.0:PropertyTransfer-1 ;
+        j.0:hasResource     j.0:Resource-2 ;
+        j.0:involvesObject  j.0:House-0 .
+
+j.0:Finding-1  a    j.0:Finding ;
+        rdfs:label  "remember" .
+
+j.0:Person-7  a                 j.0:Person ;
+        rdfs:label              "Kurt_Ebner" ;
+        j.0:hasPersonFirstName  "Kurt" ;
+        j.0:hasPersonSurname    "Ebner" .
+
+j.0:Object-11  a    j.0:Object ;
+        rdfs:label  "Car_Stand_Street_Lamp_Road" .
+
+j.0:Object-10  a    j.0:Object ;
+        rdfs:label  "Drive" .
+
+j.0:Event-6  a              j.0:Event ;
+        rdfs:label          "Look Entwine look " ;
+        j.0:after           j.0:Event-5 ;
+        j.0:hasCategory     j.0:VisualPerception-2 ;
+        j.0:hasResource     j.0:Resource-0 ;
+        j.0:involvesObject  j.0:Object-5 , j.0:Object-4 .
+
+j.0:Event-5  a                    j.0:Event ;
+        rdfs:label                "Mathilde_Clodi see Black_Tattoo" ;
+        j.0:after                 j.0:Event-4 ;
+        j.0:hasCategory           j.0:VisualPerception-1 ;
+        j.0:hasResource           j.0:Resource-0 ;
+        j.0:involvesActingPerson  j.0:Person-1 ;
+        j.0:involvesObject        j.0:Object-3 .
+
+j.0:VisualPerception-2
+        a           j.0:VisualPerception ;
+        rdfs:label  "look" .
+
+j.0:Object-4  a     j.0:Object ;
+        rdfs:label  "Look" .
+
+j.0:Police-1  a     j.0:Police ;
+        rdfs:label  "So_Martin_Hartwig_Call_Police" .
+
+j.0:PropertyTransfer-1
+        a           j.0:PropertyTransfer ;
+        rdfs:label  "get" .
+
+j.0:Place-5  a      j.0:Place ;
+        rdfs:label  "House" .
+
+j.0:Object-1  a     j.0:Object ;
+        rdfs:label  "Leave" .
+
+j.0:Event-31  a                   j.0:Event ;
+        rdfs:label                "Wife cheat " ;
+        j.0:hasCategory           j.0:Cheating-0 ;
+        j.0:hasEventLocation      j.0:Place-8 ;
+        j.0:hasResource           j.0:Resource-3 ;
+        j.0:involvesActingPerson  j.0:Person-9 .
+
+j.0:Cheating-0  a   j.0:Cheating ;
+        rdfs:label  "cheat" .
+
+j.0:Place-8  a      j.0:Place ;
+        rdfs:label  "Johannes_MÃ¼ller-Sailer" .
+
+j.0:Person-9  a                 j.0:Person ;
+        rdfs:label              "Wife" ;
+        j.0:hasPersonFirstName  "Unknown" ;
+        j.0:hasPersonSurname    "Wife" .
+
+j.0:TelephoneCall-1  a  j.0:TelephoneCall ;
+        rdfs:label  "call" .
+
+j.0:Object-6  a     j.0:Object ;
+        rdfs:label  "Episode_Game_Throne" .
+
+j.0:Place-1  a      j.0:Place ;
+        rdfs:label  "Somewhere_House" .
+
+j.0:Date-0  a             j.0:Date ;
+        rdfs:label        "2018-07-07" ;
+        j.0:hasDateValue  "2018-07-07"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+j.0:Movement-11  a  j.0:Movement ;
+        rdfs:label  "drive" .
+
+j.0:Event-38  a                   j.0:Event ;
+        rdfs:label                "Johannes_MÃ¼ller-Sailer run " ;
+        j.0:after                 j.0:Event-37 ;
+        j.0:hasCategory           j.0:Movement-10 ;
+        j.0:hasEventLocation      j.0:Place-10 ;
+        j.0:hasResource           j.0:Resource-3 ;
+        j.0:involvesActingPerson  j.0:Person-10 .
+
+j.0:Event-37  a                   j.0:Event ;
+        rdfs:label                "Johannes_MÃ¼ller-Sailer shoot " ;
+        j.0:after                 j.0:Event-36 ;
+        j.0:hasCategory           j.0:Shooting-3 ;
+        j.0:hasResource           j.0:Resource-3 ;
+        j.0:involvesActingPerson  j.0:Person-10 .
+
+j.0:Movement-10  a  j.0:Movement ;
+        rdfs:label  "run" .
+
+j.0:Person-10  a                j.0:Person ;
+        rdfs:label              "Johannes_MÃ¼ller-Sailer" ;
+        j.0:hasOwnershipOf      j.0:Car-2 , j.0:Gun-0 ;
+        j.0:hasPersonFirstName  "Johannes" ;
+        j.0:hasPersonSurname    "MÃ¼ller-Sailer" .
+
+j.0:Event-23  a               j.0:Event ;
+        rdfs:label            " run To_his_Vehicle" ;
+        j.0:after             j.0:Event-22 ;
+        j.0:hasCategory       j.0:Movement-5 ;
+        j.0:hasEventLocation  j.0:Place-5 ;
+        j.0:hasResource       j.0:Resource-2 ;
+        j.0:involvesObject    j.0:Vehicle-0 .
+
+j.0:House-0  a      j.0:House ;
+        rdfs:label  "House" .
+
+j.0:VisualPerception-5
+        a           j.0:VisualPerception ;
+        rdfs:label  "look" .
+
+j.0:Finding-0  a    j.0:Finding ;
+        rdfs:label  "know" .
+
+j.0:Event-2  a                    j.0:Event ;
+        rdfs:label                "Mathilde_Clodi open Door" ;
+        j.0:after                 j.0:Event-1 ;
+        j.0:hasCategory           j.0:Movement-0 ;
+        j.0:hasResource           j.0:Resource-0 ;
+        j.0:involvesActingPerson  j.0:Person-1 ;
+        j.0:involvesObject        j.0:Door-0 .
+
+j.0:Event-1  a                 j.0:Event ;
+        rdfs:label             "They hear Loud_Shot" ;
+        j.0:after              j.0:Event-0 ;
+        j.0:hasCategory        j.0:AuralPerception-0 ;
+        j.0:hasEventEndTime    j.0:DateTime-0 ;
+        j.0:hasEventLocation   j.0:Place-1 ;
+        j.0:hasEventStartTime  j.0:DateTime-0 ;
+        j.0:hasResource        j.0:Resource-0 ;
+        j.0:involvesObject     j.0:Shooting-0 , j.0:Object-0 .
+
+j.0:Movement-0  a   j.0:Movement ;
+        rdfs:label  "open" .
+
+j.0:Person-1  a                 j.0:Person ;
+        rdfs:label              "Mathilde_Clodi" ;
+        j.0:hasPersonFirstName  "Mathilde" ;
+        j.0:hasPersonSurname    "Clodi" .
+
+j.0:Date-1  a             j.0:Date ;
+        rdfs:label        "2018-07-07" ;
+        j.0:hasDateValue  "2018-07-07"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+j.0:VisualPerception-8
+        a           j.0:VisualPerception ;
+        rdfs:label  "see" .
+
+j.0:Place-0  a      j.0:Place ;
+        rdfs:label  "Home" .
+
+j.0:Place-4  a      j.0:Place ;
+        rdfs:label  "Window_of_Kurt_Ebner" .
+
+j.0:Movement-5  a   j.0:Movement ;
+        rdfs:label  "run" .
+
+j.0:Vehicle-0  a    j.0:Vehicle ;
+        rdfs:label  "To_his_Vehicle" .
+
+j.0:Object-15  a    j.0:Object ;
+        rdfs:label  "M-PH32" .
+
+j.0:Conversation-0  a  j.0:Conversation ;
+        rdfs:label  "tell" .
+
+j.0:Person-5  a                 j.0:Person ;
+        rdfs:label              "Girlfriend" ;
+        j.0:hasPersonFirstName  "Unknown" ;
+        j.0:hasPersonSurname    "Girlfriend" .
+
+j.0:PropertyTransfer-2
+        a           j.0:PropertyTransfer ;
+        rdfs:label  "take" .
+
+j.0:Object-13  a    j.0:Object ;
+        rdfs:label  "Car_Stand_Street_Lamp_Road" .
+
+j.0:PropertyTransfer-0
+        a           j.0:PropertyTransfer ;
+        rdfs:label  "give" .
+
+j.0:Event-7  a                    j.0:Event ;
+        rdfs:label                "Mathilde_Clodi shut Door" ;
+        j.0:after                 j.0:Event-6 ;
+        j.0:hasCategory           j.0:Movement-2 ;
+        j.0:hasResource           j.0:Resource-0 ;
+        j.0:involvesActingPerson  j.0:Person-1 ;
+        j.0:involvesObject        j.0:Door-1 .
+
+j.0:Movement-2  a   j.0:Movement ;
+        rdfs:label  "shut" .
+
+j.0:Door-1  a       j.0:Door ;
+        rdfs:label  "Door" .
+
+j.0:Person-8  a                 j.0:Person ;
+        rdfs:label              "Guy" ;
+        j.0:hasPersonFirstName  "Unknown" ;
+        j.0:hasPersonSurname    "Guy" .
+
+j.0:Event-14  a                    j.0:Event ;
+        rdfs:label                 "Martin_Hartwig give Girlfriend" ;
+        j.0:after                  j.0:Event-13 ;
+        j.0:hasCategory            j.0:PropertyTransfer-0 ;
+        j.0:hasResource            j.0:Resource-1 ;
+        j.0:involvesActingPerson   j.0:Person-4 ;
+        j.0:involvesPassivePerson  j.0:Person-5 .
+
+j.0:Event-13  a                   j.0:Event ;
+        rdfs:label                "Martin_Hartwig call Police" ;
+        j.0:after                 j.0:Event-12 ;
+        j.0:hasCategory           j.0:TelephoneCall-1 ;
+        j.0:hasResource           j.0:Resource-1 ;
+        j.0:involvesActingPerson  j.0:Person-4 ;
+        j.0:involvesObject        j.0:Police-5 .
+
+j.0:Person-4  a                 j.0:Person ;
+        rdfs:label              "Martin_Hartwig" ;
+        j.0:hasPersonFirstName  "Martin" ;
+        j.0:hasPersonSurname    "Hartwig" .
+
+j.0:Event-40  a                    j.0:Event ;
+        rdfs:label                 "Nobody see Johannes_MÃ¼ller-Sailer" ;
+        j.0:after                  j.0:Event-39 ;
+        j.0:hasCategory            j.0:VisualPerception-8 ;
+        j.0:hasResource            j.0:Resource-3 ;
+        j.0:involvesActingPerson   j.0:Person-13 ;
+        j.0:involvesPassivePerson  j.0:Person-10 .
+
+j.0:Event-39  a                   j.0:Event ;
+        rdfs:label                "Johannes_MÃ¼ller-Sailer drive " ;
+        j.0:after                 j.0:Event-38 ;
+        j.0:hasCategory           j.0:Movement-11 ;
+        j.0:hasEventLocation      j.0:Place-11 ;
+        j.0:hasResource           j.0:Resource-3 ;
+        j.0:involvesActingPerson  j.0:Person-10 .
+
+j.0:Person-13  a                j.0:Person ;
+        rdfs:label              "Nobody" ;
+        j.0:hasPersonFirstName  "Unknown" ;
+        j.0:hasPersonSurname    "Nobody" .
+
+j.0:Place-11  a     j.0:Place ;
+        rdfs:label  "Away" .
+
+j.0:Event-18  a                   j.0:Event ;
+        rdfs:label                "Kurt_Ebner watch Episode_Game_Throne Game_Throne" ;
+        j.0:after                 j.0:Event-17 ;
+        j.0:hasCategory           j.0:VisualPerception-4 ;
+        j.0:hasResource           j.0:Resource-2 ;
+        j.0:involvesActingPerson  j.0:Person-7 ;
+        j.0:involvesObject        j.0:Object-6 , j.0:Object-7 .
+
+j.0:VisualPerception-4
+        a           j.0:VisualPerception ;
+        rdfs:label  "watch" .
+
+j.0:Object-7  a     j.0:Object ;
+        rdfs:label  "Game_Throne" .
+
+j.0:Event-10  a     j.0:Event ;
+        rdfs:label  "Martin_Hartwig NOT see Anything" .
+
+j.0:AuralPerception-1
+        a           j.0:AuralPerception ;
+        rdfs:label  "hear" .
+
+j.0:Police-2  a     j.0:Police ;
+        rdfs:label  "Police" .
+
+j.0:Object-2  a     j.0:Object ;
+        rdfs:label  "Leave" .
+
+j.0:Person-11  a                j.0:Person ;
+        rdfs:label              "Mr._Babcock" ;
+        j.0:hasPersonFirstName  "Mr." ;
+        j.0:hasPersonSurname    "Babcock" .
+
+j.0:Date-4  a             j.0:Date ;
+        rdfs:label        "2018-07-08" ;
+        j.0:hasDateValue  "2018-07-08"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+j.0:Event-11  a                   j.0:Event ;
+        rdfs:label                "Mathilde_Clodi watch So_Martin_Hartwig_Call_Police Police" ;
+        j.0:hasCategory           j.0:VisualPerception-3 ;
+        j.0:hasResource           j.0:Resource-1 ;
+        j.0:involvesActingPerson  j.0:Person-1 ;
+        j.0:involvesObject        j.0:Police-1 , j.0:Police-2 .
+
+j.0:VisualPerception-3
+        a           j.0:VisualPerception ;
+        rdfs:label  "watch" .
+
+j.0:Police-5  a     j.0:Police ;
+        rdfs:label  "Police" .
+
+j.0:Event-15  a                    j.0:Event ;
+        rdfs:label                 " know Martin_Hartwig" ;
+        j.0:after                  j.0:Event-14 ;
+        j.0:hasCategory            j.0:Finding-0 ;
+        j.0:hasResource            j.0:Resource-1 ;
+        j.0:involvesPassivePerson  j.0:Person-4 .
+
+j.0:Shooting-0  a   j.0:Shooting ;
+        rdfs:label  "Loud_Shot" .
+
+j.0:VisualPerception-7
+        a           j.0:VisualPerception ;
+        rdfs:label  "see" .
+
+j.0:Person-12  a                j.0:Person ;
+        rdfs:label              "Husband" ;
+        j.0:hasPersonFirstName  "Unknown" ;
+        j.0:hasPersonSurname    "Husband" .
+
+j.0:Place-9  a      j.0:Place ;
+        rdfs:label  "House" .
+
+j.0:Event-32  a                   j.0:Event ;
+        rdfs:label                "Johannes_MÃ¼ller-Sailer take Car_of_Johannes_MÃ¼ller-Sailer" ;
+        j.0:after                 j.0:Event-31 ;
+        j.0:hasCategory           j.0:PropertyTransfer-2 ;
+        j.0:hasResource           j.0:Resource-3 ;
+        j.0:involvesActingPerson  j.0:Person-10 ;
+        j.0:involvesObject        j.0:Car-2 .
+
+j.0:Car-2  a        j.0:Car ;
+        rdfs:label  "Car_of_Johannes_MÃ¼ller-Sailer" .
+
+j.0:Date-3  a             j.0:Date ;
+        rdfs:label        "2018-07-07" ;
+        j.0:hasDateValue  "2018-07-07"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+j.0:Event-3  a                     j.0:Event ;
+        rdfs:label                 "Mathilde_Clodi see Leave Apartment_Mr._Gilian_Babcock" ;
+        j.0:after                  j.0:Event-2 ;
+        j.0:hasCategory            j.0:VisualPerception-0 ;
+        j.0:hasResource            j.0:Resource-0 ;
+        j.0:involvesActingPerson   j.0:Person-1 ;
+        j.0:involvesObject         j.0:Object-1 ;
+        j.0:involvesPassivePerson  j.0:Person-2 .
+
+j.0:VisualPerception-0
+        a           j.0:VisualPerception ;
+        rdfs:label  "see" .
+
+j.0:Person-2  a                 j.0:Person ;
+        rdfs:label              "Apartment_Mr._Gilian_Babcock" ;
+        j.0:hasPersonFirstName  "Apartment" ;
+        j.0:hasPersonSurname    "Mr." .
+
+j.0:TelephoneCall-0  a  j.0:TelephoneCall ;
+        rdfs:label  "call" .
+
+j.0:Finding-3  a    j.0:Finding ;
+        rdfs:label  "know" .
+
+j.0:Date-2  a             j.0:Date ;
+        rdfs:label        "2019-02-20" ;
+        j.0:hasDateValue  "2019-02-20"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+j.0:Event-27  a             j.0:Event ;
+        rdfs:label          "Number_Plate_Car read M-PH32" ;
+        j.0:after           j.0:Event-26 ;
+        j.0:hasCategory     j.0:Finding-2 ;
+        j.0:hasResource     j.0:Resource-2 ;
+        j.0:involvesObject  j.0:Object-14 , j.0:Car-0 .
+
+j.0:Event-26  a                   j.0:Event ;
+        rdfs:label                "Guy drive Drive Car_Stand_Street_Lamp_Road" ;
+        j.0:after                 j.0:Event-25 ;
+        j.0:hasCategory           j.0:Movement-6 ;
+        j.0:hasEventLocation      j.0:Place-6 ;
+        j.0:hasResource           j.0:Resource-2 ;
+        j.0:involvesActingPerson  j.0:Person-8 ;
+        j.0:involvesObject        j.0:Object-12 , j.0:Object-13 .
+
+j.0:Finding-2  a    j.0:Finding ;
+        rdfs:label  "read" .
+
+j.0:Object-14  a    j.0:Object ;
+        rdfs:label  "M-PH32" .
+
+j.0:Car-0  a        j.0:Car ;
+        rdfs:label  "Number_Plate_Car" .
+
+j.0:Car-1  a        j.0:Car ;
+        rdfs:label  "Car_Be_Black_BMW_X6" .
+
+j.0:Event-36  a                    j.0:Event ;
+        rdfs:label                 "Johannes_MÃ¼ller-Sailer turn Gun_of_Johannes_MÃ¼ller-Sailer" ;
+        j.0:after                  j.0:Event-35 ;
+        j.0:hasCategory            j.0:Movement-9 ;
+        j.0:hasResource            j.0:Resource-3 ;
+        j.0:involvesActingPerson   j.0:Person-10 ;
+        j.0:involvesObject         j.0:Gun-0 ;
+        j.0:involvesPassivePerson  j.0:Person-11 .
+
+j.0:Shooting-3  a   j.0:Shooting ;
+        rdfs:label  "shoot" .
+
+j.0:AuralPerception-0
+        a           j.0:AuralPerception ;
+        rdfs:label  "hear" .
+
+j.0:Event-35  a                    j.0:Event ;
+        rdfs:label                 "Johannes_MÃ¼ller-Sailer say Be Husband" ;
+        j.0:after                  j.0:Event-34 ;
+        j.0:hasCategory            j.0:Conversation-1 ;
+        j.0:hasResource            j.0:Resource-3 ;
+        j.0:involvesActingPerson   j.0:Person-10 ;
+        j.0:involvesObject         j.0:Object-17 ;
+        j.0:involvesPassivePerson  j.0:Person-12 .
+
+j.0:Event-34  a                    j.0:Event ;
+        rdfs:label                 "Mr._Babcock open Johannes_MÃ¼ller-Sailer" ;
+        j.0:after                  j.0:Event-33 ;
+        j.0:hasCategory            j.0:Movement-8 ;
+        j.0:hasResource            j.0:Resource-3 ;
+        j.0:involvesActingPerson   j.0:Person-11 ;
+        j.0:involvesPassivePerson  j.0:Person-10 .
+
+j.0:Conversation-1  a  j.0:Conversation ;
+        rdfs:label  "say" .
+
+j.0:Object-17  a    j.0:Object ;
+        rdfs:label  "Be" .
+
+j.0:Event-33  a                   j.0:Event ;
+        rdfs:label                "Johannes_MÃ¼ller-Sailer drive " ;
+        j.0:after                 j.0:Event-32 ;
+        j.0:hasCategory           j.0:Movement-7 ;
+        j.0:hasEventLocation      j.0:Place-9 ;
+        j.0:hasResource           j.0:Resource-3 ;
+        j.0:involvesActingPerson  j.0:Person-10 .
+
+j.0:Movement-8  a   j.0:Movement ;
+        rdfs:label  "open" .
+
+j.0:Movement-7  a   j.0:Movement ;
+        rdfs:label  "drive" .
+
+j.0:Police-4  a     j.0:Police ;
+        rdfs:label  "Police" .
+
+j.0:Object-3  a     j.0:Object ;
+        rdfs:label  "Black_Tattoo" .
+
+j.0:Event-4  a                    j.0:Event ;
+        rdfs:label                "Leave Apartment_Mr._Gilian_Babcock leave " ;
+        j.0:after                 j.0:Event-3 ;
+        j.0:hasCategory           j.0:Movement-1 ;
+        j.0:hasResource           j.0:Resource-0 ;
+        j.0:involvesActingPerson  j.0:Person-2 ;
+        j.0:involvesObject        j.0:Object-2 .
+
+j.0:Stay-0  a       j.0:Stay ;
+        rdfs:label  "stay" .
+
+j.0:Event-12  a               j.0:Event ;
+        rdfs:label            "So_Martin_Hartwig_Call_Police Police leave " ;
+        j.0:after             j.0:Event-11 ;
+        j.0:hasCategory       j.0:Movement-3 ;
+        j.0:hasEventLocation  j.0:Place-2 ;
+        j.0:hasResource       j.0:Resource-1 ;
+        j.0:involvesObject    j.0:Police-4 , j.0:Police-3 .
+
+j.0:Movement-3  a   j.0:Movement ;
+        rdfs:label  "leave" .
+
+j.0:Place-7  a      j.0:Place ;
+        rdfs:label  "Number_Plate" .
+
+j.0:Place-2  a      j.0:Place ;
+        rdfs:label  "Apartment" .
+
+j.0:Police-3  a     j.0:Police ;
+        rdfs:label  "So_Martin_Hartwig_Call_Police" .
+
+j.0:Event-28  a                   j.0:Event ;
+        rdfs:label                "Kurt_Ebner see M-PH32" ;
+        j.0:after                 j.0:Event-27 ;
+        j.0:hasCategory           j.0:VisualPerception-7 ;
+        j.0:hasEventLocation      j.0:Place-7 ;
+        j.0:hasResource           j.0:Resource-2 ;
+        j.0:involvesActingPerson  j.0:Person-7 ;
+        j.0:involvesObject        j.0:Object-15 .
+
+j.0:Event-20  a             j.0:Event ;
+        rdfs:label          " sound " ;
+        j.0:after           j.0:Event-19 ;
+        j.0:hasCategory     j.0:AuralPerception-3 ;
+        j.0:hasResource     j.0:Resource-2 ;
+        j.0:involvesObject  j.0:Shooting-2 .
+
+j.0:Event-19  a                   j.0:Event ;
+        rdfs:label                "Kurt_Ebner hear Something" ;
+        j.0:after                 j.0:Event-18 ;
+        j.0:hasCategory           j.0:AuralPerception-2 ;
+        j.0:hasResource           j.0:Resource-2 ;
+        j.0:involvesActingPerson  j.0:Person-7 ;
+        j.0:involvesObject        j.0:Object-8 .
+
+j.0:AuralPerception-3
+        a           j.0:AuralPerception ;
+        rdfs:label  "sound" .
+
+j.0:Shooting-2  a   j.0:Shooting ;
+        rdfs:label  "Three_Shot" .
+
+j.0:Event-0  a                    j.0:Event ;
+        rdfs:label                "Mathilde_Clodi stay " ;
+        j.0:hasCategory           j.0:Stay-0 ;
+        j.0:hasEventDate          j.0:Date-1 ;
+        j.0:hasEventLocation      j.0:Place-0 ;
+        j.0:hasResource           j.0:Resource-0 ;
+        j.0:involvesActingPerson  j.0:Person-1 .
+
+j.0:Object-8  a     j.0:Object ;
+        rdfs:label  "Something" .
+
+j.0:Event-8  a                    j.0:Event ;
+        rdfs:label                "Boyfriend_of_Mathilde_Clodi call Police" ;
+        j.0:after                 j.0:Event-7 ;
+        j.0:hasCategory           j.0:TelephoneCall-0 ;
+        j.0:hasResource           j.0:Resource-0 ;
+        j.0:involvesActingPerson  j.0:Person-3 ;
+        j.0:involvesObject        j.0:Police-0 .
+
+j.0:Person-3  a                 j.0:Person ;
+        rdfs:label              "Boyfriend_of_Mathilde_Clodi" ;
+        j.0:hasPersonFirstName  "Boyfriend" ;
+        j.0:hasPersonSurname    "of" .
+
+j.0:Police-0  a     j.0:Police ;
+        rdfs:label  "Police" .
+
+j.0:Gun-0  a        j.0:Gun ;
+        rdfs:label  "Gun_of_Johannes_MÃ¼ller-Sailer" .
+
+j.0:VisualPerception-1
+        a           j.0:VisualPerception ;
+        rdfs:label  "see" .
+
+j.0:Movement-6  a   j.0:Movement ;
+        rdfs:label  "drive" .
+
+j.0:Shooting-1  a   j.0:Shooting ;
+        rdfs:label  "Three_Shot" .
+
+j.0:Movement-9  a   j.0:Movement ;
+        rdfs:label  "turn" .
+
+j.0:Event-29  a                   j.0:Event ;
+        rdfs:label                "Kurt_Ebner know Car_Be_Black_BMW_X6" ;
+        j.0:after                 j.0:Event-28 ;
+        j.0:hasCategory           j.0:Finding-3 ;
+        j.0:hasResource           j.0:Resource-2 ;
+        j.0:involvesActingPerson  j.0:Person-7 ;
+        j.0:involvesObject        j.0:Car-1 .
+
+j.0:Object-0  a     j.0:Object ;
+        rdfs:label  "They" .
+
+j.0:Object-16  a    j.0:Object ;
+        rdfs:label  "You" .
+
+j.0:Event-16  a                   j.0:Event ;
+        rdfs:label                "Martin_Hartwig hear Three_Shot" ;
+        j.0:after                 j.0:Event-15 ;
+        j.0:hasCategory           j.0:AuralPerception-1 ;
+        j.0:hasResource           j.0:Resource-1 ;
+        j.0:involvesActingPerson  j.0:Person-4 ;
+        j.0:involvesObject        j.0:Shooting-1 .
+
+j.0:Event-30  a                   j.0:Event ;
+        rdfs:label                "Kurt_Ebner tell You" ;
+        j.0:after                 j.0:Event-29 ;
+        j.0:hasCategory           j.0:Conversation-0 ;
+        j.0:hasResource           j.0:Resource-2 ;
+        j.0:involvesActingPerson  j.0:Person-7 ;
+        j.0:involvesObject        j.0:Object-16 .
+
+j.0:Event-9  a      j.0:Event ;
+        rdfs:label  "Martin_Hartwig not tell You Anything" .

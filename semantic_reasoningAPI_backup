@@ -1,0 +1,536 @@
+#############################################*****Semantic Reasoning*****###############################################
+#3rd of july - import 18 different functions in order to apply 18 different rules - depends to the amount of the predefined
+#rules
+@app.route('/reasoning1', methods=['GET'])
+@cross_origin()
+def reasoning1():
+    res = reasoning_sub1.execreas()
+
+    message = []
+    for i in range(len(res)):
+        newMessage = {
+            'Reasoning_Result': res[i]
+        }
+        message.append(newMessage)
+    res.clear()  # Clear the personList in order to avoid possible iterations over persons
+    return jsonify(message)
+########################################################################################################################
+@app.route('/reasoning2', methods=['GET'])
+@cross_origin()
+def reasoning2():
+    res = reasoning_sub2.execreas()
+
+    message = []
+    for i in range(len(res)):
+        newMessage = {
+            'Reasoning_Result': res[i]
+        }
+        message.append(newMessage)
+    res.clear()  # Clear the personList in order to avoid possible iterations over persons
+    return jsonify(message)
+########################################################################################################################
+@app.route('/reasoning3', methods=['GET'])
+@cross_origin()
+def reasoning3():
+    res = reasoning_sub3.execreas()
+
+    message = []
+    for i in range(len(res)):
+        newMessage = {
+            'Reasoning_Result': res[i]
+        }
+        message.append(newMessage)
+    res.clear()  # Clear the personList in order to avoid possible iterations over persons
+    return jsonify(message)
+########################################################################################################################
+@app.route('/reasoning4', methods=['GET'])
+@cross_origin()
+def reasoning4():
+    res = reasoning_sub4.execreas()
+
+    message = []
+    for i in range(len(res)):
+        newMessage = {
+            'Reasoning_Result': res[i]
+        }
+        message.append(newMessage)
+    res.clear()  # Clear the personList in order to avoid possible iterations over persons
+    return jsonify(message)
+########################################################################################################################
+@app.route('/reasoning5', methods=['GET'])
+@cross_origin()
+def reasoning5():
+    res = reasoning_sub5.execreas()
+
+    message = []
+    for i in range(len(res)):
+        newMessage = {
+            'Reasoning_Result': res[i]
+        }
+        message.append(newMessage)
+    res.clear()  # Clear the personList in order to avoid possible iterations over persons
+    return jsonify(message)
+########################################################################################################################
+@app.route('/reasoning6', methods=['GET'])
+@cross_origin()
+def reasoning6():
+    res = reasoning_sub6.execreas()
+
+    message = []
+    for i in range(len(res)):
+        newMessage = {
+            'Reasoning_Result': res[i]
+        }
+        message.append(newMessage)
+    res.clear()  # Clear the personList in order to avoid possible iterations over persons
+    return jsonify(message)
+########################################################################################################################
+@app.route('/reasoning7', methods=['GET'])
+@cross_origin()
+def reasoning7():
+    res = reasoning_sub7.execreas()
+
+    message = []
+    for i in range(len(res)):
+        newMessage = {
+            'Reasoning_Result': res[i]
+        }
+        message.append(newMessage)
+    res.clear()  # Clear the personList in order to avoid possible iterations over persons
+    return jsonify(message)
+########################################################################################################################
+@app.route('/reasoning8', methods=['GET'])
+@cross_origin()
+def reasoning8():
+    res = reasoning_sub8.execreas()
+
+    message = []
+    for i in range(len(res)):
+        newMessage = {
+            'Reasoning_Result': res[i]
+        }
+        message.append(newMessage)
+    res.clear()  # Clear the personList in order to avoid possible iterations over persons
+    return jsonify(message)
+########################################################################################################################
+@app.route('/reasoning9', methods=['GET'])
+@cross_origin()
+def reasoning9():
+    res = reasoning_sub9.execreas()
+
+    message = []
+    for i in range(len(res)):
+        newMessage = {
+            'Reasoning_Result': res[i]
+        }
+        message.append(newMessage)
+    res.clear()  # Clear the personList in order to avoid possible iterations over persons
+    return jsonify(message)
+########################################################################################################################
+@app.route('/reasoning10', methods=['GET'])
+@cross_origin()
+def reasoning10():
+    res = reasoning_sub10.execreas()
+
+    message = []
+    for i in range(len(res)):
+        newMessage = {
+            'Reasoning_Result': res[i]
+        }
+        message.append(newMessage)
+    res.clear()  # Clear the personList in order to avoid possible iterations over persons
+    return jsonify(message)
+########################################################################################################################
+@app.route('/reasoning11', methods=['GET'])
+@cross_origin()
+def reasoning11():
+    res = reasoning_sub11.execreas()#MLN Reasoning - isSuspect
+
+    message = []
+    for i in range(len(res)):
+        newMessage = {
+            'Reasoning_Result': res[i]
+        }
+        message.append(newMessage)
+    res.clear()  # Clear the personList in order to avoid possible iterations over persons
+    return jsonify(message)
+########################################################################################################################
+@app.route('/reasoning12', methods=['GET'])
+@cross_origin()
+def reasoning12():
+    res = reasoning_sub12.execreas()#MLN Reasoning - isSuspectMurder
+
+    message = []
+    for i in range(len(res)):
+        newMessage = {
+            'Reasoning_Result': res[i]
+        }
+        message.append(newMessage)
+    res.clear()  # Clear the personList in order to avoid possible iterations over persons
+    return jsonify(message)
+########################################################################################################################
+@app.route('/reasoning13', methods=['GET'])
+@cross_origin()
+def reasoning13():
+    res = reasoning_sub13.execreas()
+
+    message = []
+    for i in range(len(res)):
+        newMessage = {
+            'Reasoning_Result': res[i]
+        }
+        message.append(newMessage)
+    res.clear()  # Clear the personList in order to avoid possible iterations over persons
+    return jsonify(message)
+########################################################################################################################
+@app.route('/reasoning14', methods=['GET'])
+@cross_origin()
+def reasoning14():
+    res = reasoning_sub14.execreas()#MLN Reasoning 3 - isWitness
+
+    message = []
+    for i in range(len(res)):
+        newMessage = {
+            'Reasoning_Result': res[i]
+        }
+        message.append(newMessage)
+    res.clear()  # Clear the personList in order to avoid possible iterations over persons
+    return jsonify(message)
+########################################################################################################################
+@app.route('/reasoning15', methods=['GET'])
+@cross_origin()
+def reasoning15():
+    res = reasoning_sub15.execreas()
+
+    message = []
+    for i in range(len(res)):
+        newMessage = {
+            'Reasoning_Result': res[i]
+        }
+        message.append(newMessage)
+    res.clear()  # Clear the personList in order to avoid possible iterations over persons
+    return jsonify(message)
+########################################################################################################################
+@app.route('/reasoning16', methods=['GET'])
+@cross_origin()
+def reasoning16():
+    res = reasoning_sub16.execreas()
+
+    message = []
+    for i in range(len(res)):
+        newMessage = {
+            'Reasoning_Result': res[i]
+        }
+        message.append(newMessage)
+    res.clear()  # Clear the personList in order to avoid possible iterations over persons
+    return jsonify(message)
+########################################################################################################################
+@app.route('/reasoning17', methods=['GET'])
+@cross_origin()
+def reasoning17():
+    res = reasoning_sub17.execreas()
+
+    message = []
+    for i in range(len(res)):
+        newMessage = {
+            'Reasoning_Result': res[i]
+        }
+        message.append(newMessage)
+    res.clear()  # Clear the personList in order to avoid possible iterations over persons
+    return jsonify(message)
+########################################################################################################################
+@app.route('/fusedPerson/<id>', methods=['GET'])
+@cross_origin()
+def fusedPerson(id):
+    import sparqlPost
+    message1 = sparqlPost.ins(num=id)
+    message = []
+
+    message.append(message1)
+    return jsonify(message)
+########################################################################################################################
+@app.route('/fusion', methods=['GET'])
+@cross_origin()
+def fusion():
+    import sparqlPostTest
+    try:
+        id = request.args.get('id')
+        caseId = request.args.get('caseId')
+        dataL, update_endpoint = sparqlPostTest.asyn(caseId)
+        sparqlPostTest.fus(dataL, id, update_endpoint)
+        return ('Fused Person with TableId:{} was saved in Fuseki with {}'.format(id, caseId))
+    except:
+        #caseId = request.args.get('caseId')
+        #sparqlPostTest(caseId)
+        ('An Error Occured')
+########################################################################################################################
+# Method used for storing back into the DB saved
+#3rd of july
+@app.route('/infer1', methods=['GET'])
+@cross_origin()
+def infer1():
+    from inferring_rules import sparqlPostRules
+    try:
+        caseId = request.args.get('caseId')
+        results = sparqlPostRules.asyn(caseId)
+        sparqlPostRules.infer(results, caseId)
+        storedrules()
+        return ('Inferred Rules were stored into the Fuseki Database')
+    except:
+        ('An Error Occured')
+########################################################################################################################
+# Method used for storing back into the DB saved
+#3rd of july
+@app.route('/infer2', methods=['GET'])
+@cross_origin()
+def infer2():
+    from inferring_rules import sparqlPostRules2
+    try:
+        caseId = request.args.get('caseId')
+        results = sparqlPostRules2.asyn(caseId)
+        sparqlPostRules2.infer(results, caseId)
+        #sparqlPostRules2.infer()
+        storedrules()
+        return ('Inferred Rules were stored into the Fuseki Database')
+    except:
+        ('An Error Occured')
+########################################################################################################################
+# Method used for storing back into the DB saved
+#3rd of july
+@app.route('/infer3', methods=['GET'])
+@cross_origin()
+def infer3():
+    from inferring_rules import sparqlPostRules3
+    try:
+        caseId = request.args.get('caseId')
+        results = sparqlPostRules3.asyn(caseId)
+        sparqlPostRules3.infer(results, caseId)
+        #sparqlPostRules3.infer()
+        storedrules()
+        return ('Inferred Rules were stored into the Fuseki Database')
+    except:
+        ('An Error Occured')
+########################################################################################################################
+# Method used for storing back into the DB saved
+#3rd of july
+@app.route('/infer4', methods=['GET'])
+@cross_origin()
+def infer4():
+    from inferring_rules import sparqlPostRules4
+    try:
+        caseId = request.args.get('caseId')
+        results = sparqlPostRules4.asyn(caseId)
+        sparqlPostRules4.infer(results, caseId)
+        #sparqlPostRules4.infer()
+        storedrules()
+        return ('Inferred Rules were stored into the Fuseki Database')
+    except:
+        ('An Error Occured')
+########################################################################################################################
+# Method used for storing back into the DB saved
+#3rd of july
+@app.route('/infer5', methods=['GET'])
+@cross_origin()
+def infer5():
+    from inferring_rules import sparqlPostRules5
+    try:
+        caseId = request.args.get('caseId')
+        results = sparqlPostRules5.asyn(caseId)
+        sparqlPostRules5.infer(results, caseId)
+        #sparqlPostRules5.infer()
+        storedrules()
+        return ('Inferred Rules were stored into the Fuseki Database')
+    except:
+        ('An Error Occured')
+########################################################################################################################
+# Method used for storing back into the DB saved
+#3rd of july
+@app.route('/infer6', methods=['GET'])
+@cross_origin()
+def infer6():
+    from inferring_rules import sparqlPostRules6
+    try:
+        caseId = request.args.get('caseId')
+        results = sparqlPostRules6.asyn(caseId)
+        sparqlPostRules6.infer(results, caseId)
+        #sparqlPostRules6.infer()
+        storedrules()
+        return ('Inferred Rules were stored into the Fuseki Database')
+    except:
+        ('An Error Occured')
+########################################################################################################################
+# Method used for storing back into the DB saved
+#3rd of july
+@app.route('/infer7', methods=['GET'])
+@cross_origin()
+def infer7():
+    from inferring_rules import sparqlPostRules7
+    try:
+        caseId = request.args.get('caseId')
+        results = sparqlPostRules7.asyn(caseId)
+        sparqlPostRules7.infer(results, caseId)
+        #sparqlPostRules7.infer()
+        storedrules()
+        return ('Inferred Rules were stored into the Fuseki Database')
+    except:
+        ('An Error Occured')
+########################################################################################################################
+# Method used for storing back into the DB saved
+#3rd of july
+@app.route('/infer8', methods=['GET'])
+@cross_origin()
+def infer8():
+    from inferring_rules import sparqlPostRules8
+    try:
+        caseId = request.args.get('caseId')
+        results = sparqlPostRules8.asyn(caseId)
+        sparqlPostRules8.infer(results, caseId)
+        #sparqlPostRules8.infer()
+        storedrules()
+        return ('Inferred Rules were stored into the Fuseki Database')
+    except:
+        ('An Error Occured')
+########################################################################################################################
+# Method used for storing back into the DB saved
+#3rd of july
+@app.route('/infer9', methods=['GET'])
+@cross_origin()
+def infer9():
+    from inferring_rules import sparqlPostRules9
+    try:
+        caseId = request.args.get('caseId')
+        results = sparqlPostRules9.asyn(caseId)
+        sparqlPostRules9.infer(results, caseId)
+        #sparqlPostRules9.infer()
+        storedrules()
+        return ('Inferred Rules were stored into the Fuseki Database')
+    except:
+        ('An Error Occured')
+########################################################################################################################
+# Method used for storing back into the DB saved
+#3rd of july
+@app.route('/infer10', methods=['GET'])
+@cross_origin()
+def infer10():
+    from inferring_rules import sparqlPostRules10
+    try:
+        caseId = request.args.get('caseId')
+        results = sparqlPostRules10.asyn(caseId)
+        sparqlPostRules10.infer(results, caseId)
+        #sparqlPostRules10.infer()
+        storedrules()
+        return ('Inferred Rules were stored into the Fuseki Database')
+    except:
+        ('An Error Occured')
+########################################################################################################################
+# Method used for storing back into the DB saved
+#3rd of july
+@app.route('/infer11', methods=['GET'])
+@cross_origin()
+def infer11():
+    from inferring_rules import sparqlPostRules11
+    try:
+        caseId = request.args.get('caseId')
+        results = sparqlPostRules11.asyn(caseId)
+        sparqlPostRules11.infer(results, caseId)
+        #sparqlPostRules11.infer()
+        storedrules()
+        return ('Inferred Rules were stored into the Fuseki Database')
+    except:
+        ('An Error Occured')
+########################################################################################################################
+# Method used for storing back into the DB saved
+#3rd of july
+@app.route('/infer12', methods=['GET'])
+@cross_origin()
+def infer12():
+    from inferring_rules import sparqlPostRules12
+    try:
+        caseId = request.args.get('caseId')
+        results = sparqlPostRules12.asyn(caseId)
+        sparqlPostRules12.infer(results, caseId)
+        #sparqlPostRules12.infer()
+        storedrules()
+        return ('Inferred Rules were stored into the Fuseki Database')
+    except:
+        ('An Error Occured')
+########################################################################################################################
+# Method used for storing back into the DB saved
+#3rd of july
+@app.route('/infer13', methods=['GET'])
+@cross_origin()
+def infer13():
+    from inferring_rules import sparqlPostRules13
+    try:
+        caseId = request.args.get('caseId')
+        results = sparqlPostRules13.asyn(caseId)
+        sparqlPostRules13.infer(results, caseId)
+        #sparqlPostRules13.infer()
+        storedrules()
+        return ('Inferred Rules were stored into the Fuseki Database')
+    except:
+        ('An Error Occured')
+########################################################################################################################
+# Method used for storing back into the DB saved
+#3rd of july
+@app.route('/infer14', methods=['GET'])
+@cross_origin()
+def infer14():
+    from inferring_rules import sparqlPostRules14
+    try:
+        caseId = request.args.get('caseId')
+        results = sparqlPostRules14.asyn(caseId)
+        sparqlPostRules14.infer(results, caseId)
+        #sparqlPostRules14.infer()
+        storedrules()
+        return ('Inferred Rules were stored into the Fuseki Database')
+    except:
+        ('An Error Occured')
+########################################################################################################################
+# Method used for storing back into the DB saved
+#3rd of july
+@app.route('/infer15', methods=['GET'])
+@cross_origin()
+def infer15():
+    from inferring_rules import sparqlPostRules15
+    try:
+        caseId = request.args.get('caseId')
+        results = sparqlPostRules15.asyn(caseId)
+        sparqlPostRules15.infer(results, caseId)
+        #sparqlPostRules15.infer()
+        storedrules()
+        return ('Inferred Rules were stored into the Fuseki Database')
+    except:
+        ('An Error Occured')
+########################################################################################################################
+# Method used for storing back into the DB saved
+#3rd of july
+@app.route('/infer16', methods=['GET'])
+@cross_origin()
+def infer16():
+    from inferring_rules import sparqlPostRules16
+    try:
+        caseId = request.args.get('caseId')
+        results = sparqlPostRules16.asyn(caseId)
+        sparqlPostRules16.infer(results, caseId)
+        #sparqlPostRules16.infer()
+        storedrules()
+        return ('Inferred Rules were stored into the Fuseki Database')
+    except:
+        ('An Error Occured')
+########################################################################################################################
+# Method used for storing back into the DB saved
+#3rd of july
+@app.route('/infer17', methods=['GET'])
+@cross_origin()
+def infer17():
+    from inferring_rules import sparqlPostRules17
+    try:
+        caseId = request.args.get('caseId')
+        results = sparqlPostRules17.asyn(caseId)
+        sparqlPostRules17.infer(results, caseId)
+        #sparqlPostRules17.infer()
+        storedrules()
+        return ('Inferred Rules were stored into the Fuseki Database')
+    except:
+        ('An Error Occured')

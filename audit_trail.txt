@@ -1,0 +1,5 @@
+https://ensuresec.solutions.iota.org/api/v0.1
+api-key=94F5BA49-12B6-4E45-A487-BF91C442276D
+
+###After creating a new DID for iccs, we tried to authenticate via signed channel using the below line, but we received 500 error###
+https://ensuresec.solutions.iota.org/api/v0.1/authentication/prove-ownership/did:iota:2phjoaYuYfHmgiWXwJ9KfoAvqmyMszCpK9rmarkiFomk?api-key=94F5BA49-12B6-4E45-A487-BF91C442276D

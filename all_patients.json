@@ -1,0 +1,1408 @@
+[
+  {
+    "id": "9dc26d1e-874e-40e6-bb43-8016e8c7c1c4",
+    "firstName": "alamedasuub11",
+    "lastName": "SUUB",
+    "email": "able.alameda@gmail.com",
+    "enabled": true,
+    "emailVerified": true,
+    "attributes": {
+      "registeredAt": [
+        "2022-11-08T07:04:58.1667883898"
+      ],
+      "groups": [
+        "SUUB"
+      ],
+      "roles": [
+        "patient"
+      ]
+    }
+  },
+  {
+    "id": "0085260e-c884-4074-90a4-32c4f104cafc",
+    "firstName": "alamedankua12",
+    "lastName": "NKUA",
+    "email": "adveyndl.alameda@gmail.com",
+    "enabled": true,
+    "emailVerified": true,
+    "attributes": {
+      "registeredAt": [
+        "2022-09-16T11:00:09.1663315209"
+      ],
+      "groups": [
+        "NKUA"
+      ],
+      "roles": [
+        "patient"
+      ]
+    }
+  },
+  {
+    "id": "c6154f5a-2860-4ddb-a9ea-56aef6c01411",
+    "firstName": "Dim",
+    "lastName": "KAR",
+    "email": "agriokatsiko@gmail.com",
+    "enabled": true,
+    "emailVerified": true,
+    "attributes": {
+      "registeredAt": [
+        "2022-05-17T09:16:46.1652768206"
+      ],
+      "groups": [
+        "FISM"
+      ],
+      "roles": [
+        "patient"
+      ]
+    }
+  },
+  {
+    "id": "93900dc4-7014-49a4-800f-bcc3992045a7",
+    "firstName": "alamedasuub8",
+    "lastName": "SUUB",
+    "email": "ante.alameda@gmail.com",
+    "enabled": true,
+    "emailVerified": true,
+    "attributes": {
+      "registeredAt": [
+        "2022-10-05T11:46:01.1664959561"
+      ],
+      "groups": [
+        "SUUB"
+      ],
+      "roles": [
+        "patient"
+      ]
+    }
+  },
+  {
+    "id": "b256dc59-0181-45d3-b1e0-d8bf9307d686",
+    "firstName": "alamedafism15",
+    "lastName": "FISM",
+    "email": "arz06w.alameda@gmail.com",
+    "enabled": true,
+    "emailVerified": true,
+    "attributes": {
+      "registeredAt": [
+        "2022-12-05T12:08:03.1670234883"
+      ],
+      "groups": [
+        "FISM"
+      ],
+      "roles": [
+        "patient"
+      ]
+    }
+  },
+  {
+    "id": "082fc2bb-b584-48ca-a7c1-88ecc3ed496a",
+    "firstName": "alamedankua8",
+    "lastName": "NKUA",
+    "email": "askildec.alameda@gmail.com",
+    "enabled": true,
+    "emailVerified": true,
+    "attributes": {
+      "registeredAt": [
+        "2022-07-18T12:19:25.1658135965"
+      ],
+      "groups": [
+        "NKUA"
+      ],
+      "roles": [
+        "patient"
+      ]
+    }
+  },
+  {
+    "id": "645dce47-a8ae-478d-a3a9-3838a7a9cadd",
+    "firstName": "alamedasuub2",
+    "lastName": "SUUB",
+    "email": "atic.alameda@gmail.com",
+    "enabled": true,
+    "emailVerified": true,
+    "attributes": {
+      "registeredAt": [
+        "2022-07-18T12:14:18.1658135658"
+      ],
+      "groups": [
+        "SUUB"
+      ],
+      "roles": [
+        "patient"
+      ]
+    }
+  },
+  {
+    "id": "7bbe25f5-c76d-4083-bfec-91131ccbaedf",
+    "firstName": "alameda2",
+    "lastName": "NKUA",
+    "email": "atryponi.alameda@gmail.com",
+    "enabled": true,
+    "emailVerified": true,
+    "attributes": {
+      "registeredAt": [
+        "2022-06-09T10:53:14.1654761194"
+      ],
+      "groups": [
+        "NKUA"
+      ],
+      "roles": [
+        "patient"
+      ]
+    }
+  },
+  {
+    "id": "7b674e31-8d6c-4564-9ff1-f55116e7459f",
+    "firstName": "alamedankua15",
+    "lastName": "NKUA",
+    "email": "aviverep.alameda@gmail.com",
+    "enabled": true,
+    "emailVerified": true,
+    "attributes": {
+      "registeredAt": [
+        "2022-10-17T06:53:38.1665978818"
+      ],
+      "groups": [
+        "NKUA"
+      ],
+      "roles": [
+        "patient"
+      ]
+    }
+  },
+  {
+    "id": "31d7534f-bd4c-4900-845f-3b31abdee606",
+    "firstName": "alamedafism16",
+    "lastName": "FISM",
+    "email": "bi72lq.alameda@gmail.com",
+    "enabled": true,
+    "emailVerified": true,
+    "attributes": {
+      "registeredAt": [
+        "2022-12-05T12:08:43.1670234923"
+      ],
+      "groups": [
+        "FISM"
+      ],
+      "roles": [
+        "patient"
+      ]
+    }
+  },
+  {
+    "id": "983e2284-315f-4ed5-b5df-3f6ecdf25917",
+    "firstName": "alamedafism10",
+    "lastName": "FISM",
+    "email": "c7q8hu.alameda@gmail.com",
+    "enabled": true,
+    "emailVerified": true,
+    "attributes": {
+      "registeredAt": [
+        "2022-12-05T12:03:33.1670234613"
+      ],
+      "groups": [
+        "FISM"
+      ],
+      "roles": [
+        "patient"
+      ]
+    }
+  },
+  {
+    "id": "13114d8d-ed2d-4c1a-af82-0cd23d97ad92",
+    "firstName": "alamedasuub12",
+    "lastName": "SUUB",
+    "email": "cast.alameda@gmail.com",
+    "enabled": true,
+    "emailVerified": true,
+    "attributes": {
+      "registeredAt": [
+        "2022-11-29T10:24:00.1669710240"
+      ],
+      "groups": [
+        "SUUB"
+      ],
+      "roles": [
+        "patient"
+      ]
+    }
+  },
+  {
+    "id": "9f973de8-3c7d-452c-8161-b9f6a0461316",
+    "firstName": "unicuser2",
+    "lastName": "FISM",
+    "email": "conrom007@gmail.com",
+    "enabled": true,
+    "emailVerified": true,
+    "attributes": {
+      "registeredAt": [
+        "2022-10-18T12:18:33.1666084713"
+      ],
+      "groups": [
+        "FISM"
+      ],
+      "roles": [
+        "patient"
+      ]
+    }
+  },
+  {
+    "id": "73330e8a-ec94-484b-8a32-41a0961a7444",
+    "firstName": "alamedasuub5",
+    "lastName": "SUUB",
+    "email": "cret.alameda@gmail.com",
+    "enabled": true,
+    "emailVerified": true,
+    "attributes": {
+      "registeredAt": [
+        "2022-08-09T15:36:58.1660048618"
+      ],
+      "groups": [
+        "SUUB"
+      ],
+      "roles": [
+        "patient"
+      ]
+    }
+  },
+  {
+    "id": "1ed970c8-78ff-402b-b024-f52561d5735d",
+    "firstName": "alamedafism5",
+    "lastName": "FISM",
+    "email": "cwjb3b.alameda@gmail.com",
+    "enabled": true,
+    "emailVerified": true,
+    "attributes": {
+      "registeredAt": [
+        "2022-09-08T06:10:08.1662606608"
+      ],
+      "groups": [
+        "FISM"
+      ],
+      "roles": [
+        "patient"
+      ]
+    }
+  },
+  {
+    "id": "31f10911-1da7-4b48-a33f-5f501023b588",
+    "firstName": "Dimitris",
+    "lastName": "Karamitros",
+    "email": "d.karamitros@wellics.com",
+    "enabled": true,
+    "emailVerified": true,
+    "attributes": {
+      "registeredAt": [
+        "2022-05-11T22:40:13.1652298013"
+      ],
+      "groups": [
+        "NKUA"
+      ],
+      "roles": [
+        "patient"
+      ]
+    }
+  },
+  {
+    "id": "631327a2-0b50-417a-8c1d-625d84c5114a",
+    "firstName": "unicuser4",
+    "lastName": "SUUB",
+    "email": "damdelen.g@live.unic.ac.cy",
+    "enabled": true,
+    "emailVerified": true,
+    "attributes": {
+      "registeredAt": [
+        "2022-10-18T12:19:54.1666084794"
+      ],
+      "groups": [
+        "SUUB"
+      ],
+      "roles": [
+        "patient"
+      ]
+    }
+  },
+  {
+    "id": "ceb2be98-618b-42b1-b4c7-a3bb419abaf1",
+    "firstName": "demoAlamedaSUUB",
+    "lastName": "SUUB",
+    "email": "demo.alameda@gmail.com",
+    "enabled": true,
+    "emailVerified": true,
+    "attributes": {
+      "registeredAt": [
+        "2022-11-22T11:24:05.1669109045"
+      ],
+      "groups": [
+        "SUUB"
+      ],
+      "roles": [
+        "patient"
+      ]
+    }
+  },
+  {
+    "id": "b7b0af1c-8971-479e-b93d-f8acb36a91da",
+    "firstName": "alameda21",
+    "lastName": "FISM",
+    "email": "df8we4.alameda@gmail.com",
+    "enabled": true,
+    "emailVerified": true,
+    "attributes": {
+      "registeredAt": [
+        "2023-03-20T10:22:42.673944587"
+      ],
+      "groups": [
+        "FISM"
+      ],
+      "roles": [
+        "patient"
+      ]
+    }
+  },
+  {
+    "id": "3101ec23-4b35-4057-b8f3-ca383e466cf9",
+    "firstName": "alamedasnkua7",
+    "lastName": "NKUA",
+    "email": "ententio.alameda@gmail.com",
+    "enabled": true,
+    "emailVerified": true,
+    "attributes": {
+      "registeredAt": [
+        "2022-07-07T09:39:33.1657175973"
+      ],
+      "groups": [
+        "NKUA"
+      ],
+      "roles": [
+        "patient"
+      ]
+    }
+  },
+  {
+    "id": "3fcae687-65be-4c2a-b618-b33b8c3b9e78",
+    "firstName": "alamedankua10",
+    "lastName": "NKUA",
+    "email": "epundren.alameda@gmail.com",
+    "enabled": true,
+    "emailVerified": true,
+    "attributes": {
+      "registeredAt": [
+        "2022-09-12T05:36:22.1662950182"
+      ],
+      "groups": [
+        "NKUA"
+      ],
+      "roles": [
+        "patient"
+      ]
+    }
+  },
+  {
+    "id": "b292b4c3-7d36-4991-a1b2-5055f16489bc",
+    "firstName": "Fism",
+    "lastName": "Fism",
+    "email": "fism1@wellics.testinator.com",
+    "enabled": true,
+    "emailVerified": true,
+    "attributes": {
+      "registeredAt": [
+        "2022-05-18T09:24:58.1652855098"
+      ],
+      "groups": [
+        "FISM"
+      ],
+      "roles": [
+        "patient"
+      ]
+    }
+  },
+  {
+    "id": "fa8eda9b-fcd5-4c78-afd5-307ed8d781b0",
+    "firstName": "Fism2",
+    "lastName": "Fism2",
+    "email": "fism2@wellics.testinator.com",
+    "enabled": true,
+    "emailVerified": true,
+    "attributes": {
+      "registeredAt": [
+        "2022-05-18T09:25:29.1652855129"
+      ],
+      "groups": [
+        "FISM"
+      ],
+      "roles": [
+        "patient"
+      ]
+    }
+  },
+  {
+    "id": "44739901-0ab9-40dd-b0b0-209d73098515",
+    "firstName": "alamedafism7",
+    "lastName": "FISM",
+    "email": "g35pbv.alameda@gmail.com",
+    "enabled": true,
+    "emailVerified": true,
+    "attributes": {
+      "registeredAt": [
+        "2022-09-21T06:04:00.1663729440"
+      ],
+      "groups": [
+        "FISM"
+      ],
+      "roles": [
+        "patient"
+      ]
+    }
+  },
+  {
+    "id": "ce59b975-9c29-46ab-8fcc-698954397c00",
+    "firstName": "alamedankua1",
+    "lastName": "NKUA",
+    "email": "gonsfenu.alameda@proton.me",
+    "enabled": true,
+    "emailVerified": true,
+    "attributes": {
+      "registeredAt": [
+        "2022-06-09T10:50:52.1654761052"
+      ],
+      "groups": [
+        "NKUA"
+      ],
+      "roles": [
+        "patient"
+      ]
+    }
+  },
+  {
+    "id": "95b73c7b-33dc-4394-8476-8ba3b1a15ccf",
+    "firstName": "alamedasuub10",
+    "lastName": "SUUB",
+    "email": "grou1.alameda@gmail.com",
+    "enabled": true,
+    "emailVerified": true,
+    "attributes": {
+      "registeredAt": [
+        "2022-10-27T12:57:31.1666864651"
+      ],
+      "groups": [
+        "SUUB"
+      ],
+      "roles": [
+        "patient"
+      ]
+    }
+  },
+  {
+    "id": "7f565bf8-3c0c-43c6-a38d-37d5ef9da731",
+    "firstName": "Hara",
+    "lastName": "Stefanou",
+    "email": "h.stefanou@wellics.com",
+    "enabled": true,
+    "emailVerified": true,
+    "attributes": {
+      "registeredAt": [
+        "2022-05-16T20:05:01.1652720701"
+      ],
+      "groups": [
+        "NKUA"
+      ],
+      "roles": [
+        "patient"
+      ]
+    }
+  },
+  {
+    "id": "93231598-6af6-4216-8d5a-e3e2de3273d7",
+    "firstName": "alamedasnkua6",
+    "lastName": "NKUA",
+    "email": "haverout.alameda@gmail.com",
+    "enabled": true,
+    "emailVerified": true,
+    "attributes": {
+      "registeredAt": [
+        "2022-07-07T09:36:18.1657175778"
+      ],
+      "groups": [
+        "NKUA"
+      ],
+      "roles": [
+        "patient"
+      ]
+    }
+  },
+  {
+    "id": "1b8b0ff1-d829-4e4e-9d4b-a6e436351093",
+    "firstName": "alamedankua9",
+    "lastName": "NKUA",
+    "email": "helemens.alameda@gmail.com",
+    "enabled": true,
+    "emailVerified": true,
+    "attributes": {
+      "registeredAt": [
+        "2022-07-22T08:01:09.1658466069"
+      ],
+      "groups": [
+        "NKUA"
+      ],
+      "roles": [
+        "patient"
+      ]
+    }
+  },
+  {
+    "id": "82a93f00-e516-44a1-a4fb-1740ba583422",
+    "firstName": "Ioannis",
+    "lastName": "Ladakis",
+    "email": "i.ladakis@wellics.com",
+    "enabled": true,
+    "emailVerified": true,
+    "attributes": {
+      "registeredAt": [
+        "2022-05-16T08:58:49.1652680729"
+      ],
+      "groups": [
+        "NKUA"
+      ],
+      "roles": [
+        "patient"
+      ]
+    }
+  },
+  {
+    "id": "ab45a80c-9339-419b-bf63-6a4dbc9e7927",
+    "firstName": "alamedankua3",
+    "lastName": "NKUA",
+    "email": "icineber.alameda@gmail.com",
+    "enabled": true,
+    "emailVerified": true,
+    "attributes": {
+      "registeredAt": [
+        "2022-09-05T06:22:19.1662348139"
+      ],
+      "groups": [
+        "NKUA"
+      ],
+      "roles": [
+        "patient"
+      ]
+    }
+  },
+  {
+    "id": "3407ad63-ab3c-48af-a294-72a8999b2cf7",
+    "firstName": "Ioannis",
+    "lastName": "Ladakis",
+    "email": "iladakig@auth.gr",
+    "enabled": true,
+    "emailVerified": true,
+    "attributes": {
+      "registeredAt": [
+        "2022-05-16T13:46:45.1652698005"
+      ],
+      "groups": [
+        "SUUB"
+      ],
+      "roles": [
+        "patient"
+      ]
+    }
+  },
+  {
+    "id": "e86e31c1-5e66-4a8c-b820-39a005482ec9",
+    "firstName": "alamedasuub4",
+    "lastName": "SUUB",
+    "email": "ileo.alameda@gmail.com",
+    "enabled": true,
+    "emailVerified": true,
+    "attributes": {
+      "registeredAt": [
+        "2022-08-02T10:45:47.1659426347"
+      ],
+      "groups": [
+        "SUUB"
+      ],
+      "roles": [
+        "patient"
+      ]
+    }
+  },
+  {
+    "id": "ecaf9602-d335-42fe-a1f7-13daaaad69f0",
+    "firstName": "alamedafism8",
+    "lastName": "FISM",
+    "email": "jxe5dl.alameda@gmail.com",
+    "enabled": true,
+    "emailVerified": true,
+    "attributes": {
+      "registeredAt": [
+        "2022-09-21T06:04:17.1663729457"
+      ],
+      "groups": [
+        "FISM"
+      ],
+      "roles": [
+        "patient"
+      ]
+    }
+  },
+  {
+    "id": "571976ef-d367-465c-a7cd-7b4ebee62e13",
+    "firstName": "alamedafism17",
+    "lastName": "FISM",
+    "email": "khd66q.alameda@gmail.com",
+    "enabled": true,
+    "emailVerified": true,
+    "attributes": {
+      "registeredAt": [
+        "2022-12-05T12:09:13.1670234953"
+      ],
+      "groups": [
+        "FISM"
+      ],
+      "roles": [
+        "patient"
+      ]
+    }
+  },
+  {
+    "id": "7acfadf5-671d-44e2-8e6c-914c503c1d2d",
+    "firstName": "Ioannis",
+    "lastName": "Ladakis",
+    "email": "ldk.gia@hotmail.com",
+    "enabled": true,
+    "emailVerified": true,
+    "attributes": {
+      "registeredAt": [
+        "2022-05-16T09:00:01.1652680801"
+      ],
+      "groups": [
+        "FISM"
+      ],
+      "roles": [
+        "patient"
+      ]
+    }
+  },
+  {
+    "id": "9724ce89-3cc5-4620-a8e8-13ae78981f1d",
+    "firstName": "alamedaSUUB15",
+    "lastName": "SUUB",
+    "email": "luse.alameda@gmail.com",
+    "enabled": true,
+    "emailVerified": true,
+    "attributes": {
+      "registeredAt": [
+        "2023-02-02T19:57:59.1675360679"
+      ],
+      "groups": [
+        "SUUB"
+      ],
+      "roles": [
+        "patient"
+      ]
+    }
+  },
+  {
+    "id": "491ee843-b1a8-40f3-b79f-72e00bb138d2",
+    "firstName": "alamedafism14",
+    "lastName": "FISM",
+    "email": "m2is1g.alameda@gmail.com",
+    "enabled": true,
+    "emailVerified": true,
+    "attributes": {
+      "registeredAt": [
+        "2022-12-05T12:07:31.1670234851"
+      ],
+      "groups": [
+        "FISM"
+      ],
+      "roles": [
+        "patient"
+      ]
+    }
+  },
+  {
+    "id": "23e4e5e9-7580-442d-a256-9b66d16e23a8",
+    "firstName": "unicuser3",
+    "lastName": "SUUB",
+    "email": "michael.p15@live.unic.ac.cy",
+    "enabled": true,
+    "emailVerified": true,
+    "attributes": {
+      "registeredAt": [
+        "2022-10-18T12:19:26.1666084766"
+      ],
+      "groups": [
+        "SUUB"
+      ],
+      "roles": [
+        "patient"
+      ]
+    }
+  },
+  {
+    "id": "e5e5d505-b5f9-408b-82db-20d8eb3a4e14",
+    "firstName": "unicuser1",
+    "lastName": "FISM",
+    "email": "michalis.agathocleous@gmail.com",
+    "enabled": true,
+    "emailVerified": true,
+    "attributes": {
+      "registeredAt": [
+        "2022-10-18T12:18:06.1666084686"
+      ],
+      "groups": [
+        "FISM"
+      ],
+      "roles": [
+        "patient"
+      ]
+    }
+  },
+  {
+    "id": "d0023400-6cf1-44af-8356-5ec4ab63cad3",
+    "firstName": "Minas",
+    "lastName": "Badounas",
+    "email": "minasbadou@hotmail.com",
+    "enabled": true,
+    "emailVerified": true,
+    "attributes": {
+      "registeredAt": [
+        "2022-05-11T07:06:45.000"
+      ],
+      "groups": [
+        "NKUA"
+      ],
+      "roles": [
+        "patient"
+      ]
+    }
+  },
+  {
+    "id": "32983503-b6d2-4bff-80a4-331ab34d5d77",
+    "firstName": "securityTestUser",
+    "lastName": "FISM",
+    "email": "minasbadounas@gmail.com",
+    "enabled": true,
+    "emailVerified": true,
+    "attributes": {
+      "registeredAt": [
+        "2022-09-27T07:37:31.1664253451"
+      ],
+      "groups": [
+        "FISM"
+      ],
+      "roles": [
+        "patient"
+      ]
+    }
+  },
+  {
+    "id": "08e9d802-70d6-466f-a655-c8c49a7cce02",
+    "firstName": "alamedafism13",
+    "lastName": "FISM",
+    "email": "n6plc5.alameda@gmail.com",
+    "enabled": true,
+    "emailVerified": true,
+    "attributes": {
+      "registeredAt": [
+        "2022-12-05T12:06:53.1670234813"
+      ],
+      "groups": [
+        "FISM"
+      ],
+      "roles": [
+        "patient"
+      ]
+    }
+  },
+  {
+    "id": "56f6ad70-e71e-4ce2-9d4e-f6a4dccf3b1b",
+    "firstName": "Nkua1",
+    "lastName": "Nkua1",
+    "email": "nkua1@wellics.testinator.com",
+    "enabled": true,
+    "emailVerified": true,
+    "attributes": {
+      "registeredAt": [
+        "2022-05-18T09:26:51.1652855211"
+      ],
+      "groups": [
+        "NKUA"
+      ],
+      "roles": [
+        "patient"
+      ]
+    }
+  },
+  {
+    "id": "a35ef5a0-045e-46ce-b255-4b74e188d60f",
+    "firstName": "Nkua2",
+    "lastName": "Nkua2",
+    "email": "nkua2@wellics.testinator.com",
+    "enabled": true,
+    "emailVerified": true,
+    "attributes": {
+      "registeredAt": [
+        "2022-05-18T09:30:55.1652855455"
+      ],
+      "groups": [
+        "NKUA"
+      ],
+      "roles": [
+        "patient"
+      ]
+    }
+  },
+  {
+    "id": "438ee35c-1626-4315-aa3f-ab1e2387585d",
+    "firstName": "alamedasuub7",
+    "lastName": "SUUB",
+    "email": "oisa.alameda@gmail.com",
+    "enabled": true,
+    "emailVerified": true,
+    "attributes": {
+      "registeredAt": [
+        "2022-09-08T11:44:20.1662626660"
+      ],
+      "groups": [
+        "SUUB"
+      ],
+      "roles": [
+        "patient"
+      ]
+    }
+  },
+  {
+    "id": "57e3fa16-e8ab-45f6-99b4-c04f44949ef7",
+    "firstName": "alamedasuub13",
+    "lastName": "SUUB",
+    "email": "ombr.alameda@gmail.com",
+    "enabled": true,
+    "emailVerified": true,
+    "attributes": {
+      "registeredAt": [
+        "2023-01-19T08:11:15.1674108675"
+      ],
+      "groups": [
+        "SUUB"
+      ],
+      "roles": [
+        "patient"
+      ]
+    }
+  },
+  {
+    "id": "9942d7de-fdfe-4ef4-96d1-48d56fc1f0b6",
+    "firstName": "alamedafism9",
+    "lastName": "FISM",
+    "email": "oz12uv.alameda@gmail.com",
+    "enabled": true,
+    "emailVerified": true,
+    "attributes": {
+      "registeredAt": [
+        "2022-09-21T06:04:33.1663729473"
+      ],
+      "groups": [
+        "FISM"
+      ],
+      "roles": [
+        "patient"
+      ]
+    }
+  },
+  {
+    "id": "66182135-bfc1-4d54-8efa-7974c6a5792b",
+    "firstName": "unicuser5",
+    "lastName": "SUUB",
+    "email": "pandelisagathangelou@gmail.com",
+    "enabled": true,
+    "emailVerified": true,
+    "attributes": {
+      "registeredAt": [
+        "2022-10-18T12:20:14.1666084814"
+      ],
+      "groups": [
+        "SUUB"
+      ],
+      "roles": [
+        "patient"
+      ]
+    }
+  },
+  {
+    "id": "8152c89c-00d0-4694-84ef-6ef3d1c70463",
+    "firstName": "alamedafism1",
+    "lastName": "Fism",
+    "email": "pgvjtj.alameda@gmail.com",
+    "enabled": true,
+    "emailVerified": true,
+    "attributes": {
+      "registeredAt": [
+        "2022-07-04T08:41:57.1656913317"
+      ],
+      "groups": [
+        "FISM"
+      ],
+      "roles": [
+        "patient"
+      ]
+    }
+  },
+  {
+    "id": "6e8f3159-c2d3-4e06-8a33-b94a8d04853d",
+    "firstName": "alamedasuub6",
+    "lastName": "SUUB",
+    "email": "poli.alameda@gmail.com",
+    "enabled": true,
+    "emailVerified": true,
+    "attributes": {
+      "registeredAt": [
+        "2022-08-18T07:30:54.1660797054"
+      ],
+      "groups": [
+        "SUUB"
+      ],
+      "roles": [
+        "patient"
+      ]
+    }
+  },
+  {
+    "id": "45841632-f0aa-424f-98d3-8ef32ba8587f",
+    "firstName": "alamedaSUUB14",
+    "lastName": "SUUB",
+    "email": "pous.alameda@gmail.com",
+    "enabled": true,
+    "emailVerified": true,
+    "attributes": {
+      "registeredAt": [
+        "2023-02-02T19:57:10.1675360630"
+      ],
+      "groups": [
+        "SUUB"
+      ],
+      "roles": [
+        "patient"
+      ]
+    }
+  },
+  {
+    "id": "aaf53b5b-fd8e-49fe-9608-15e3c6c72ee8",
+    "firstName": "alamedafism11",
+    "lastName": "FISM",
+    "email": "qp9j3e.alameda@gmail.com",
+    "enabled": true,
+    "emailVerified": true,
+    "attributes": {
+      "registeredAt": [
+        "2022-12-05T12:05:40.1670234740"
+      ],
+      "groups": [
+        "FISM"
+      ],
+      "roles": [
+        "patient"
+      ]
+    }
+  },
+  {
+    "id": "d973c829-7bbb-4314-b199-28aef6adcb02",
+    "firstName": "alamedafism2",
+    "lastName": "FISM",
+    "email": "qt4bsv.alameda@gmail.com",
+    "enabled": true,
+    "emailVerified": true,
+    "attributes": {
+      "registeredAt": [
+        "2022-09-08T06:08:43.1662606523"
+      ],
+      "groups": [
+        "FISM"
+      ],
+      "roles": [
+        "patient"
+      ]
+    }
+  },
+  {
+    "id": "84d2a309-d654-4390-9408-3255a44eb3c1",
+    "firstName": "alamedafism18",
+    "lastName": "FISM",
+    "email": "r1dmv9.alameda@gmail.com",
+    "enabled": true,
+    "emailVerified": true,
+    "attributes": {
+      "registeredAt": [
+        "2022-12-05T12:09:50.1670234990"
+      ],
+      "groups": [
+        "FISM"
+      ],
+      "roles": [
+        "patient"
+      ]
+    }
+  },
+  {
+    "id": "ec7c90bd-f83c-4c12-9b78-d84c8ae924bf",
+    "firstName": "alameda5",
+    "lastName": "NKUA",
+    "email": "raircica.alameda@gmail.com",
+    "enabled": true,
+    "emailVerified": true,
+    "attributes": {
+      "registeredAt": [
+        "2022-06-09T10:54:02.1654761242"
+      ],
+      "groups": [
+        "NKUA"
+      ],
+      "roles": [
+        "patient"
+      ]
+    }
+  },
+  {
+    "id": "479a7674-8737-4edd-b9ce-7e7cdfae071a",
+    "firstName": "alamedankua16",
+    "lastName": "NKUA",
+    "email": "regebit.alameda@gmail.com",
+    "enabled": true,
+    "emailVerified": true,
+    "attributes": {
+      "registeredAt": [
+        "2022-10-17T07:19:05.1665980345"
+      ],
+      "groups": [
+        "NKUA"
+      ],
+      "roles": [
+        "patient"
+      ]
+    }
+  },
+  {
+    "id": "91175647-bbd4-4ea5-a1b2-13c491e1b076",
+    "firstName": "alamedafism6",
+    "lastName": "FISM",
+    "email": "rkm8tj.alameda@gmail.com",
+    "enabled": true,
+    "emailVerified": true,
+    "attributes": {
+      "registeredAt": [
+        "2022-09-21T06:03:38.1663729418"
+      ],
+      "groups": [
+        "FISM"
+      ],
+      "roles": [
+        "patient"
+      ]
+    }
+  },
+  {
+    "id": "d22cc8e1-9d68-4d85-b625-6b4e030ee672",
+    "firstName": "Patient",
+    "lastName": "Givera",
+    "email": "rnd_patient01@enorainnovation.com",
+    "enabled": true,
+    "emailVerified": true,
+    "attributes": {
+      "registeredAt": [
+        "2023-02-20T08:53:03.433760274"
+      ],
+      "groups": [
+        "GROUP1"
+      ],
+      "roles": [
+        "patient"
+      ]
+    }
+  },
+  {
+    "id": "0ac5fef8-c2b0-4566-9fad-3fcba9c14897",
+    "firstName": "alameda14",
+    "lastName": "NKUA",
+    "email": "steravel.alameda@gmail.com",
+    "enabled": true,
+    "emailVerified": true,
+    "attributes": {
+      "registeredAt": [
+        "2022-06-24T06:40:13.1656042013"
+      ],
+      "groups": [
+        "NKUA"
+      ],
+      "roles": [
+        "patient"
+      ]
+    }
+  },
+  {
+    "id": "65d55a13-3739-47e0-973d-5a53b16dccea",
+    "firstName": "Suub1",
+    "lastName": "Suub1",
+    "email": "suub1@wellics.testinator.com",
+    "enabled": true,
+    "emailVerified": true,
+    "attributes": {
+      "registeredAt": [
+        "2022-05-18T09:31:38.1652855498"
+      ],
+      "groups": [
+        "SUUB"
+      ],
+      "roles": [
+        "patient"
+      ]
+    }
+  },
+  {
+    "id": "ac031199-7612-4b2b-929b-f14bf4921bbd",
+    "firstName": "Suub2",
+    "lastName": "Suub2",
+    "email": "suub2@wellics.testinator.com",
+    "enabled": true,
+    "emailVerified": true,
+    "attributes": {
+      "registeredAt": [
+        "2022-05-18T09:31:55.1652855515"
+      ],
+      "groups": [
+        "SUUB"
+      ],
+      "roles": [
+        "patient"
+      ]
+    }
+  },
+  {
+    "id": "8b21fa41-cac2-4d43-b4b9-4d5d307347ef",
+    "firstName": "alamedasuub3",
+    "lastName": "SUUB",
+    "email": "syco.alameda@gmail.com",
+    "enabled": true,
+    "emailVerified": true,
+    "attributes": {
+      "registeredAt": [
+        "2022-08-01T07:55:37.1659329737"
+      ],
+      "groups": [
+        "SUUB"
+      ],
+      "roles": [
+        "patient"
+      ]
+    }
+  },
+  {
+    "id": "a2c6f94e-92e3-4047-a3e6-e9e78d82bb37",
+    "firstName": "alamedankua11",
+    "lastName": "NKUA",
+    "email": "tatendle.alameda@gmail.com",
+    "enabled": true,
+    "emailVerified": true,
+    "attributes": {
+      "registeredAt": [
+        "2022-09-12T05:39:04.1662950344"
+      ],
+      "groups": [
+        "NKUA"
+      ],
+      "roles": [
+        "patient"
+      ]
+    }
+  },
+  {
+    "id": "0aa9c6f6-642c-457b-b2cb-b3417baa54a5",
+    "firstName": "alamedasuub9",
+    "lastName": "SUUB",
+    "email": "tist.alameda@gmail.com",
+    "enabled": true,
+    "emailVerified": true,
+    "attributes": {
+      "registeredAt": [
+        "2022-10-20T06:44:43.1666237483"
+      ],
+      "groups": [
+        "SUUB"
+      ],
+      "roles": [
+        "patient"
+      ]
+    }
+  },
+  {
+    "id": "056e3644-22cd-40ef-b983-bb8bc82414c7",
+    "firstName": "alamedasuub1",
+    "lastName": "SUUB",
+    "email": "trim.alameda@gmail.com",
+    "enabled": true,
+    "emailVerified": true,
+    "attributes": {
+      "registeredAt": [
+        "2022-07-12T06:15:05.1657595705"
+      ],
+      "groups": [
+        "SUUB"
+      ],
+      "roles": [
+        "patient"
+      ]
+    }
+  },
+  {
+    "id": "bf2699a8-e8d6-466d-baf0-efeb982971fd",
+    "firstName": "alamedafism12",
+    "lastName": "FISM",
+    "email": "u9v0ed.alameda@gmail.com",
+    "enabled": true,
+    "emailVerified": true,
+    "attributes": {
+      "registeredAt": [
+        "2022-12-05T12:06:21.1670234781"
+      ],
+      "groups": [
+        "FISM"
+      ],
+      "roles": [
+        "patient"
+      ]
+    }
+  },
+  {
+    "id": "b2c72b91-e0cd-4c24-a156-f080d4b6df98",
+    "firstName": "alamedafism19",
+    "lastName": "FISM",
+    "email": "ugy2a3.alameda@gmail.com",
+    "enabled": true,
+    "emailVerified": true,
+    "attributes": {
+      "registeredAt": [
+        "2022-12-05T12:10:35.1670235035"
+      ],
+      "groups": [
+        "FISM"
+      ],
+      "roles": [
+        "patient"
+      ]
+    }
+  },
+  {
+    "id": "0b4cff88-d4bc-423c-9a2f-1347f1710b8e",
+    "firstName": "alameda4",
+    "lastName": "NKUA",
+    "email": "umustrop.alameda@gmail.com",
+    "enabled": true,
+    "emailVerified": true,
+    "attributes": {
+      "registeredAt": [
+        "2022-06-09T10:53:50.1654761230"
+      ],
+      "groups": [
+        "NKUA"
+      ],
+      "roles": [
+        "patient"
+      ]
+    }
+  },
+  {
+    "id": "8d245e61-fffa-4a77-8cef-597b6aa1e66f",
+    "firstName": "alameda13",
+    "lastName": "NKUA",
+    "email": "unthylan.alameda@gmail.com",
+    "enabled": true,
+    "emailVerified": true,
+    "attributes": {
+      "registeredAt": [
+        "2022-06-24T06:39:13.1656041953"
+      ],
+      "groups": [
+        "NKUA"
+      ],
+      "roles": [
+        "patient"
+      ]
+    }
+  },
+  {
+    "id": "7684f343-3007-478e-a9a8-c55731437444",
+    "firstName": "User",
+    "lastName": "Four",
+    "email": "user4@mail.com",
+    "enabled": true,
+    "emailVerified": true,
+    "attributes": {
+      "registeredAt": [
+        "2022-10-01T00:00:00.000"
+      ],
+      "groups": [
+        "group1"
+      ],
+      "roles": [
+        "patient"
+      ]
+    }
+  },
+  {
+    "id": "679efd98-98ce-431a-b861-92009191a963",
+    "firstName": "alamedafism4",
+    "lastName": "FISM",
+    "email": "vk9def.alameda@gmail.com",
+    "enabled": true,
+    "emailVerified": true,
+    "attributes": {
+      "registeredAt": [
+        "2022-09-08T06:09:43.1662606583"
+      ],
+      "groups": [
+        "FISM"
+      ],
+      "roles": [
+        "patient"
+      ]
+    }
+  },
+  {
+    "id": "ec36c32b-7eb2-4dbc-9a0a-01185ec656e1",
+    "firstName": "alamedafism3",
+    "lastName": "FISM",
+    "email": "wmyw7r.alameda@gmail.com",
+    "enabled": true,
+    "emailVerified": true,
+    "attributes": {
+      "registeredAt": [
+        "2022-09-08T06:09:14.1662606554"
+      ],
+      "groups": [
+        "FISM"
+      ],
+      "roles": [
+        "patient"
+      ]
+    }
+  },
+  {
+    "id": "5d82e041-b88b-47e7-8389-f2fdc0c0aa5d",
+    "firstName": "alameda20",
+    "lastName": "FISM",
+    "email": "zm6s1f.alameda@gmail.com",
+    "enabled": true,
+    "emailVerified": true,
+    "attributes": {
+      "registeredAt": [
+        "2023-03-20T09:03:56.205884405"
+      ],
+      "groups": [
+        "FISM"
+      ],
+      "roles": [
+        "patient"
+      ]
+    }
+  }
+]

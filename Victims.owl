@@ -1,0 +1,1038 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix j.0:   <http://www.magneto-h2020.eu#> .
+
+j.0:Address-1  a                   j.0:Address ;
+        rdfs:label                 "Hellensteinstr. 9, MÃ¼nchen" ;
+        j.0:hasAddressCity         "MÃ¼nchen" ;
+        j.0:hasAddressCountry      "Germany" ;
+        j.0:hasAddressHouseNumber  "9" ;
+        j.0:hasAddressStreet       "Hellensteinstr." ;
+        j.0:hasAddressZIPCode      "81737" ;
+        j.0:hasResource            j.0:Resource-1 .
+
+j.0:Place-1  a      j.0:Place ;
+        rdfs:label  "Residential House in Hellensteinstr. 9" .
+
+j.0:Date-0  a             j.0:Date ;
+        rdfs:label        "2018-07-07T19:00:00" ;
+        j.0:hasDateValue  "2018-07-07T19:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+j.0:Homicide-1  a   j.0:Homicide ;
+        rdfs:label  "Homicide" .
+
+j.0:Event-6  a                     j.0:Event ;
+        rdfs:label                 "leaving the apartment of Mr. Gillian Babcock" ;
+        j.0:hasCategory            j.0:Movement-1 ;
+        j.0:hasEventDate           j.0:Date-1 ;
+        j.0:hasResource            j.0:Resource-3 ;
+        j.0:involvesObject         j.0:Object-4 , j.0:Apartment-0 ;
+        j.0:involvesPassivePerson  j.0:Person-1 ;
+        j.0:isRelatedTo            j.0:Event-5 .
+
+j.0:Person-1  a                   j.0:Person ;
+        rdfs:label                "Gillian Babcock" ;
+        j.0:hasDateOfBirth        "1984-08-18T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> , "1984-08-18T00:00:00+02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        j.0:hasPersonFirstName    "Gillian" ;
+        j.0:hasPersonSurname      "Babcock" ;
+        j.0:hasResidenceLocation  j.0:Place-1 , j.0:Place-2 ;
+        j.0:hasResource           j.0:Resource-1 ;
+        j.0:isVictim              j.0:Event-1 .
+
+j.0:Person-5  a                   j.0:Person ;
+        rdfs:label                "Kurt Eduard  Ebner" ;
+        j.0:hasDateOfBirth        "1976-11-16T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        j.0:hasPersonFirstName    "Eduard " ;
+        j.0:hasPersonMiddleName   "Kurt" ;
+        j.0:hasPersonSurname      "Ebner" ;
+        j.0:hasResidenceLocation  j.0:Place-2 ;
+        j.0:hasResource           j.0:Resource-1 .
+
+j.0:Resource-1  a          j.0:Resource ;
+        rdfs:label         "1.xls" ;
+        j.0:hasResourceId  "1.xls" .
+
+j.0:Person-6  a                   j.0:Person ;
+        rdfs:label                "Ewald Ebner" ;
+        j.0:hasDateOfBirth        "2006-05-21T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        j.0:hasPersonFirstName    "Ewald" ;
+        j.0:hasPersonSurname      "Ebner" ;
+        j.0:hasResidenceLocation  j.0:Place-2 ;
+        j.0:hasResource           j.0:Resource-1 .
+
+j.0:Person-2  a                   j.0:Person ;
+        rdfs:label                "Lucian-Alexandru Shanna Babcock" ;
+        j.0:hasDateOfBirth        "2005-04-23T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        j.0:hasPersonFirstName    "Shanna" ;
+        j.0:hasPersonMiddleName   "Lucian-Alexandru" ;
+        j.0:hasPersonSurname      "Babcock" ;
+        j.0:hasResidenceLocation  j.0:Place-2 ;
+        j.0:hasResource           j.0:Resource-1 .
+
+j.0:Person-3  a                   j.0:Person ;
+        rdfs:label                "Mathilde Clodi" ;
+        j.0:hasDateOfBirth        "1993-06-25T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        j.0:hasPersonFirstName    "Mathilde" ;
+        j.0:hasPersonSurname      "Clodi" ;
+        j.0:hasResidenceLocation  j.0:Place-2 ;
+        j.0:hasResource           j.0:Resource-1 ;
+        j.0:isWitness             j.0:Resource-2 .
+
+j.0:Person-4  a                   j.0:Person ;
+        rdfs:label                "Christiane Pia Ebner" ;
+        j.0:hasDateOfBirth        "2004-06-05T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        j.0:hasPersonFirstName    "Pia" ;
+        j.0:hasPersonMiddleName   "Christiane" ;
+        j.0:hasPersonSurname      "Ebner" ;
+        j.0:hasResidenceLocation  j.0:Place-2 ;
+        j.0:hasResource           j.0:Resource-1 .
+
+j.0:Event-7  a                     j.0:Event ;
+        rdfs:label                 "The man was about thirty years old bald and wearing dark jeans and a black T-shirt" ;
+        j.0:hasCategory            j.0:State-1 ;
+        j.0:hasEventDate           j.0:Date-1 ;
+        j.0:hasEventTimeIntervall  j.0:TimeIntervall-0 ;
+        j.0:hasResource            j.0:Resource-3 ;
+        j.0:involvesActingPerson   j.0:Person-11 ;
+        j.0:involvesObject         j.0:Clothing-0 , j.0:Clothing-1 , j.0:Object-5 .
+
+j.0:State-0  a      j.0:State ;
+        rdfs:label  "be" .
+
+j.0:Resource-2  a            j.0:Resource ;
+        rdfs:label           "2.docx" ;
+        j.0:hasCreationDate  "2018-07-07T22:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        j.0:hasResourceId    "2.docx" .
+
+j.0:Person-7  a                 j.0:Person ;
+        rdfs:label              "Christoph Urban" ;
+        j.0:hasPersonFirstName  "Christoph" ;
+        j.0:hasPersonSurname    "Urban" ;
+        j.0:isAuthorOf          j.0:Resource-3 , j.0:Resource-5 , j.0:Resource-7 .
+
+j.0:Date-1  a             j.0:Date ;
+        rdfs:label        "2018-07-07" ;
+        j.0:hasDateValue  "2018-07-07"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+j.0:Object-0  a     j.0:Object ;
+        rdfs:label  "Home_Cooking" .
+
+j.0:Person-8  a                 j.0:Person ;
+        rdfs:label              "Role: Friend" ;
+        j.0:hasPersonFirstName  "Role:" ;
+        j.0:hasPersonSurname    "Friend" ;
+        j.0:isFriendOf          j.0:Person-3 , j.0:Person-9 .
+
+j.0:Person-9  a                 j.0:Person ;
+        rdfs:label              "Martin Hartwig" ;
+        j.0:hasPersonFirstName  "Martin" ;
+        j.0:hasPersonSurname    "Hartwig" ;
+        j.0:isWitness           j.0:Resource-4 .
+
+j.0:Event-8  a              j.0:Event ;
+        rdfs:label          "wearing dark jeans and a black T-shirt" ;
+        j.0:hasCategory     j.0:Other-0 ;
+        j.0:hasEventDate    j.0:Date-1 ;
+        j.0:hasResource     j.0:Resource-3 ;
+        j.0:involvesObject  j.0:Clothing-2 , j.0:Clothing-3 , j.0:Object-6 ;
+        j.0:isRelatedTo     j.0:Event-7 .
+
+j.0:AuralPerception-0
+        a           j.0:AuralPerception ;
+        rdfs:label  "hear" .
+
+j.0:Person-10  a                j.0:Person ;
+        rdfs:label              "Unknown They" ;
+        j.0:hasPersonFirstName  "Unknown" ;
+        j.0:hasPersonSurname    "They" .
+
+j.0:Object-1  a     j.0:Object ;
+        rdfs:label  "Gunshot" .
+
+j.0:Object-2  a     j.0:Object ;
+        rdfs:label  "Loud" .
+
+j.0:Object-3  a     j.0:Object ;
+        rdfs:label  "3" .
+
+j.0:Place-2  a           j.0:Place ;
+        rdfs:label       "Residential House in Hellensteinstr. 9" ;
+        j.0:hasGeoInfo   j.0:Address-1 ;
+        j.0:hasResource  j.0:Resource-1 .
+
+j.0:DateTime-0  a             j.0:DateTime ;
+        rdfs:label            "2018-07-06T19:00:00" ;
+        j.0:hasDateTimeValue  "2018-07-06T19:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+j.0:Event-9  a                    j.0:Event ;
+        rdfs:label                "He also carrying a backpack" ;
+        j.0:hasCategory           j.0:Other-1 ;
+        j.0:hasEventDate          j.0:Date-1 ;
+        j.0:hasResource           j.0:Resource-3 ;
+        j.0:involvesActingPerson  j.0:Person-12 ;
+        j.0:involvesObject        j.0:Object-7 .
+
+j.0:Movement-0  a   j.0:Movement ;
+        rdfs:label  "open" .
+
+j.0:Door-0  a       j.0:Door ;
+        rdfs:label  "Door" .
+
+j.0:Event-10  a                   j.0:Event ;
+        rdfs:label                "The man be very angry and confused" ;
+        j.0:hasCategory           j.0:State-2 ;
+        j.0:hasEventDate          j.0:Date-1 ;
+        j.0:hasResource           j.0:Resource-3 ;
+        j.0:involvesActingPerson  j.0:Person-11 ;
+        j.0:involvesObject        j.0:Object-8 , j.0:Object-9 .
+
+j.0:VisualPerception-0
+        a           j.0:VisualPerception ;
+        rdfs:label  "see" .
+
+j.0:Object-4  a     j.0:Object ;
+        rdfs:label  "Mr." .
+
+j.0:Person-11  a                j.0:Person ;
+        rdfs:label              "Unknown Man" ;
+        j.0:hasPersonFirstName  "Unknown" ;
+        j.0:hasPersonSurname    "Man" .
+
+j.0:Apartment-0  a  j.0:Apartment ;
+        rdfs:label  "Apartment" .
+
+j.0:Event-11  a                    j.0:Event ;
+        rdfs:label                 "Mathilde Clodi also saw a black tattoo on his left side" ;
+        j.0:hasCategory            j.0:VisualPerception-1 ;
+        j.0:hasEventDate           j.0:Date-1 ;
+        j.0:hasEventLocation       j.0:Place-4 ;
+        j.0:hasResource            j.0:Resource-3 ;
+        j.0:involvesActingPerson   j.0:Person-3 ;
+        j.0:involvesObject         j.0:Object-10 ;
+        j.0:involvesPassivePerson  j.0:Person-13 .
+
+j.0:Movement-1  a   j.0:Movement ;
+        rdfs:label  "leave" .
+
+j.0:Event-12  a                   j.0:Event ;
+        rdfs:label                "looked like several intertwined flowers" ;
+        j.0:hasCategory           j.0:VisualPerception-2 ;
+        j.0:hasEventDate          j.0:Date-1 ;
+        j.0:hasEventLocation      j.0:Place-4 , j.0:Place-5 ;
+        j.0:hasResource           j.0:Resource-3 ;
+        j.0:haveSameLocation      j.0:Event-11 ;
+        j.0:involvesActingPerson  j.0:Person-13 ;
+        j.0:involvesObject        j.0:Object-11 .
+
+j.0:State-1  a      j.0:State ;
+        rdfs:label  "be" .
+
+j.0:Clothing-0  a     j.0:Clothing ;
+        rdfs:label    "T-shirt" ;
+        j.0:hasColor  j.0:Color-0 .
+
+j.0:Color-0  a             j.0:Color ;
+        rdfs:label         "Black" ;
+        j.0:hasColorValue  "black" .
+
+j.0:TimeIntervall-0  a                  j.0:TimeIntervall ;
+        rdfs:label                      "P30Y" ;
+        j.0:hasTimeIntervallLEngthUnit  "year" ;
+        j.0:hasTimeIntervallLengthValue
+                "30.0"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+j.0:Clothing-1  a   j.0:Clothing ;
+        rdfs:label  "Jeans" .
+
+j.0:Object-5  a     j.0:Object ;
+        rdfs:label  "Dark" .
+
+j.0:Event-13  a             j.0:Event ;
+        rdfs:label          "The color of the tattoo was black" ;
+        j.0:hasCategory     j.0:State-3 ;
+        j.0:hasEventDate    j.0:Date-1 ;
+        j.0:hasResource     j.0:Resource-3 ;
+        j.0:involvesObject  j.0:Object-12 , j.0:Object-13 .
+
+j.0:Other-0  a      j.0:Other ;
+        rdfs:label  "wear" .
+
+j.0:Clothing-2  a     j.0:Clothing ;
+        rdfs:label    "T-shirt" ;
+        j.0:hasColor  j.0:Color-1 .
+
+j.0:Color-1  a             j.0:Color ;
+        rdfs:label         "Black" ;
+        j.0:hasColorValue  "black" .
+
+j.0:Clothing-3  a   j.0:Clothing ;
+        rdfs:label  "Jeans" .
+
+j.0:Object-6  a     j.0:Object ;
+        rdfs:label  "Dark" .
+
+j.0:Event-14  a                   j.0:Event ;
+        rdfs:label                "Mathilde Clodi was very scared" ;
+        j.0:hasCategory           j.0:State-4 ;
+        j.0:hasEventDate          j.0:Date-1 ;
+        j.0:hasResource           j.0:Resource-3 ;
+        j.0:involvesActingPerson  j.0:Person-3 ;
+        j.0:involvesObject        j.0:Object-14 .
+
+j.0:Other-1  a      j.0:Other ;
+        rdfs:label  "carry" .
+
+j.0:Person-12  a                j.0:Person ;
+        rdfs:label              "Unknown He" ;
+        j.0:hasPersonFirstName  "Unknown" ;
+        j.0:hasPersonSurname    "He" .
+
+j.0:Object-7  a     j.0:Object ;
+        rdfs:label  "Backpack" .
+
+j.0:Event-15  a                   j.0:Event ;
+        rdfs:label                "Mathilde Clodi closed the door" ;
+        j.0:hasCategory           j.0:Other-2 ;
+        j.0:hasEventDate          j.0:Date-1 ;
+        j.0:hasResource           j.0:Resource-3 ;
+        j.0:involvesActingPerson  j.0:Person-3 ;
+        j.0:involvesObject        j.0:Door-1 ;
+        j.0:startedBy             j.0:Event-14 .
+
+j.0:State-2  a      j.0:State ;
+        rdfs:label  "be" .
+
+j.0:Object-8  a     j.0:Object ;
+        rdfs:label  "Angry" .
+
+j.0:Object-9  a     j.0:Object ;
+        rdfs:label  "Confused" .
+
+j.0:Event-16  a                   j.0:Event ;
+        rdfs:label                "Mathilde Clodi 's friend called the police" ;
+        j.0:hasCategory           j.0:TelephoneCall-0 ;
+        j.0:hasEventDate          j.0:Date-1 ;
+        j.0:hasResource           j.0:Resource-3 ;
+        j.0:involvesActingPerson  j.0:Person-8 .
+
+j.0:VisualPerception-1
+        a           j.0:VisualPerception ;
+        rdfs:label  "see" .
+
+j.0:Object-10  a      j.0:Object ;
+        rdfs:label    "Tattoo" ;
+        j.0:hasColor  j.0:Color-2 .
+
+j.0:Color-2  a             j.0:Color ;
+        rdfs:label         "Black" ;
+        j.0:hasColorValue  "black" .
+
+j.0:Person-13  a                j.0:Person ;
+        rdfs:label              "Unknown his" ;
+        j.0:hasPersonFirstName  "Unknown" ;
+        j.0:hasPersonSurname    "his" .
+
+j.0:Place-3  a      j.0:Place ;
+        rdfs:label  "House" .
+
+j.0:Event-17  a     j.0:Event ;
+        rdfs:label  "Martin Hartwig n't tell you anything" .
+
+j.0:VisualPerception-2
+        a           j.0:VisualPerception ;
+        rdfs:label  "look" .
+
+j.0:Place-4  a      j.0:Place ;
+        rdfs:label  "Side" .
+
+j.0:Object-11  a    j.0:Object ;
+        rdfs:label  "Flower" .
+
+j.0:Event-18  a     j.0:Event ;
+        rdfs:label  "Martin Hartwig n't see anything" .
+
+j.0:State-3  a      j.0:State ;
+        rdfs:label  "be" .
+
+j.0:Object-12  a    j.0:Object ;
+        rdfs:label  "Tattoo" .
+
+j.0:Color-3  a      j.0:Color ;
+        rdfs:label  "Color" .
+
+j.0:Object-13  a    j.0:Object ;
+        rdfs:label  "Black" .
+
+j.0:Event-19  a                   j.0:Event ;
+        rdfs:label                "Martin Hartwig 's friend Mathilde Clodi watching the suspect leaving the apartment" ;
+        j.0:hasCategory           j.0:VisualPerception-3 ;
+        j.0:hasEventDate          j.0:Date-2 ;
+        j.0:hasResource           j.0:Resource-5 ;
+        j.0:involvesActingPerson  j.0:Person-3 , j.0:Person-8 ;
+        j.0:involvesObject        j.0:Apartment-1 .
+
+j.0:State-4  a      j.0:State ;
+        rdfs:label  "be" .
+
+j.0:Object-14  a    j.0:Object ;
+        rdfs:label  "Scared" .
+
+j.0:Event-20  a             j.0:Event ;
+        rdfs:label          "leaving the apartment" ;
+        j.0:hasCategory     j.0:Movement-2 ;
+        j.0:hasEventDate    j.0:Date-2 ;
+        j.0:hasResource     j.0:Resource-5 ;
+        j.0:involvesObject  j.0:Apartment-1 ;
+        j.0:isRelatedTo     j.0:Event-19 .
+
+j.0:Other-2  a      j.0:Other ;
+        rdfs:label  "close" .
+
+j.0:Door-1  a       j.0:Door ;
+        rdfs:label  "Door" .
+
+j.0:Event-21  a                   j.0:Event ;
+        rdfs:label                "Martin Hartwig called the police" ;
+        j.0:hasCategory           j.0:TelephoneCall-1 ;
+        j.0:hasEventDate          j.0:Date-2 ;
+        j.0:hasResource           j.0:Resource-5 ;
+        j.0:involvesActingPerson  j.0:Person-9 ;
+        j.0:isRelatedTo           j.0:Event-20 .
+
+j.0:TelephoneCall-0  a  j.0:TelephoneCall ;
+        rdfs:label  "call" .
+
+j.0:Organisation-0  a  j.0:Organisation ;
+        rdfs:label  "Police" ;
+        j.0:isOrganisationInvolvedInEvent
+                j.0:Event-16 .
+
+j.0:Event-22  a                    j.0:Event ;
+        rdfs:label                 "Martin Hartwig gave the phone to Martin Hartwig 's girlfriend" ;
+        j.0:hasCategory            j.0:PropertyTransfer-0 ;
+        j.0:hasEventDate           j.0:Date-2 ;
+        j.0:hasResource            j.0:Resource-5 ;
+        j.0:involvesActingPerson   j.0:Person-9 ;
+        j.0:involvesObject         j.0:Telephone-0 ;
+        j.0:involvesPassivePerson  j.0:Person-14 ;
+        j.0:isRelatedTo            j.0:Event-21 .
+
+j.0:Event-23  a                    j.0:Event ;
+        rdfs:label                 "all Martin Hartwig know apart from the fact" ;
+        j.0:hasCategory            j.0:Finding-0 ;
+        j.0:hasEventDate           j.0:Date-2 ;
+        j.0:hasResource            j.0:Resource-5 ;
+        j.0:involvesObject         j.0:Object-15 ;
+        j.0:involvesPassivePerson  j.0:Person-9 .
+
+j.0:Event-24  a                   j.0:Event ;
+        rdfs:label                "Martin Hartwig heard three shots" ;
+        j.0:hasCategory           j.0:AuralPerception-1 ;
+        j.0:hasEventDate          j.0:Date-2 ;
+        j.0:hasResource           j.0:Resource-5 ;
+        j.0:involvesActingPerson  j.0:Person-9 ;
+        j.0:involvesObject        j.0:Object-16 , j.0:Object-17 ;
+        j.0:isRelatedTo           j.0:Event-23 .
+
+j.0:VisualPerception-3
+        a           j.0:VisualPerception ;
+        rdfs:label  "watch" .
+
+j.0:Resource-3  a            j.0:Resource ;
+        rdfs:label           "BY8571-000010-19/92.docx" ;
+        j.0:hasAuthor        j.0:Person-7 ;
+        j.0:hasCreationDate  "2018-07-07T22:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        j.0:hasResourceId    "BY8571-000010-19/92.docx" .
+
+j.0:Apartment-1  a  j.0:Apartment ;
+        rdfs:label  "Apartment" .
+
+j.0:Date-2  a             j.0:Date ;
+        rdfs:label        "2019-02-20" ;
+        j.0:hasDateValue  "2019-02-20"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+j.0:Event-25  a                   j.0:Event ;
+        rdfs:label                "Today Kurt Ebner got back from work early" ;
+        j.0:hasCategory           j.0:Other-3 ;
+        j.0:hasEventDate          j.0:Date-1 ;
+        j.0:hasResource           j.0:Resource-7 ;
+        j.0:involvesActingPerson  j.0:Person-15 ;
+        j.0:involvesObject        j.0:Object-18 , j.0:Object-19 .
+
+j.0:Movement-2  a   j.0:Movement ;
+        rdfs:label  "leave" .
+
+j.0:Event-26  a                   j.0:Event ;
+        rdfs:label                "Kurt Ebner watch the latest episode of Game of Thrones on free TV" ;
+        j.0:causalRelation        j.0:Event-25 ;
+        j.0:hasCategory           j.0:VisualPerception-4 ;
+        j.0:hasEventDate          j.0:Date-1 ;
+        j.0:hasResource           j.0:Resource-7 ;
+        j.0:involvesActingPerson  j.0:Person-15 ;
+        j.0:involvesObject        j.0:Object-20 , j.0:Object-21 , j.0:Object-22 .
+
+j.0:TelephoneCall-1  a  j.0:TelephoneCall ;
+        rdfs:label  "call" .
+
+j.0:Organisation-1  a  j.0:Organisation ;
+        rdfs:label  "Police" ;
+        j.0:isOrganisationInvolvedInEvent
+                j.0:Event-21 .
+
+j.0:Event-27  a                   j.0:Event ;
+        rdfs:label                "Kurt Ebner drinking a few beers" ;
+        j.0:hasCategory           j.0:Other-4 ;
+        j.0:hasEventDate          j.0:Date-1 ;
+        j.0:hasResource           j.0:Resource-7 ;
+        j.0:involvesActingPerson  j.0:Person-15 ;
+        j.0:involvesObject        j.0:Object-23 .
+
+j.0:PropertyTransfer-0
+        a           j.0:PropertyTransfer ;
+        rdfs:label  "give" .
+
+j.0:Person-14  a                j.0:Person ;
+        rdfs:label              "Role: Girlfriend" ;
+        j.0:hasPersonFirstName  "Role:" ;
+        j.0:hasPersonSurname    "Girlfriend" ;
+        j.0:isFriendOf          j.0:Person-9 .
+
+j.0:Telephone-0  a  j.0:Telephone ;
+        rdfs:label  "Phone" .
+
+j.0:Event-28  a                   j.0:Event ;
+        rdfs:label                "Kurt Ebner suddenly heard something coming out of the house" ;
+        j.0:hasCategory           j.0:AuralPerception-2 ;
+        j.0:hasEventDate          j.0:Date-1 ;
+        j.0:hasResource           j.0:Resource-7 ;
+        j.0:involvesActingPerson  j.0:Person-15 ;
+        j.0:involvesObject        j.0:House-0 ;
+        j.0:isRelatedTo           j.0:Event-27 .
+
+j.0:Finding-0  a    j.0:Finding ;
+        rdfs:label  "know" .
+
+j.0:Object-15  a    j.0:Object ;
+        rdfs:label  "Fact" .
+
+j.0:Event-29  a               j.0:Event ;
+        rdfs:label            "coming out of the house" ;
+        j.0:hasCategory       j.0:Movement-3 ;
+        j.0:hasEventDate      j.0:Date-1 ;
+        j.0:hasEventLocation  j.0:Place-3 ;
+        j.0:hasResource       j.0:Resource-7 ;
+        j.0:isRelatedTo       j.0:Event-28 .
+
+j.0:AuralPerception-1
+        a           j.0:AuralPerception ;
+        rdfs:label  "hear" .
+
+j.0:Object-16  a    j.0:Object ;
+        rdfs:label  "Shot" .
+
+j.0:Object-17  a    j.0:Object ;
+        rdfs:label  "3" .
+
+j.0:Event-30  a             j.0:Event ;
+        rdfs:label          "sounded like three gunshots" ;
+        j.0:hasCategory     j.0:AuralPerception-3 ;
+        j.0:hasEventDate    j.0:Date-1 ;
+        j.0:hasResource     j.0:Resource-7 ;
+        j.0:involvesObject  j.0:Object-24 , j.0:Object-25 ;
+        j.0:isRelatedTo     j.0:Event-29 .
+
+j.0:Other-3  a      j.0:Other ;
+        rdfs:label  "get back" .
+
+j.0:Resource-4  a            j.0:Resource ;
+        rdfs:label           "3.docx" ;
+        j.0:hasCreationDate  "2019-02-20T11:50:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        j.0:hasResourceId    "3.docx" .
+
+j.0:Person-15  a                j.0:Person ;
+        rdfs:label              "Kurt Ebner" ;
+        j.0:hasOwnershipOf      j.0:Vehicle-0 ;
+        j.0:hasPersonFirstName  "Kurt" ;
+        j.0:hasPersonSurname    "Ebner" ;
+        j.0:isWitness           j.0:Resource-6 .
+
+j.0:Object-18  a    j.0:Object ;
+        rdfs:label  "Early" .
+
+j.0:Object-19  a    j.0:Object ;
+        rdfs:label  "Work" .
+
+j.0:Event-31  a                    j.0:Event ;
+        rdfs:label                 "Kurt Ebner looked Kurt Ebner 's window" ;
+        j.0:hasCategory            j.0:VisualPerception-5 ;
+        j.0:hasEventDate           j.0:Date-1 ;
+        j.0:hasResource            j.0:Resource-7 ;
+        j.0:involvesActingPerson   j.0:Person-15 ;
+        j.0:involvesObject         j.0:Object-26 ;
+        j.0:involvesPassivePerson  j.0:Person-15 .
+
+j.0:VisualPerception-4
+        a           j.0:VisualPerception ;
+        rdfs:label  "watch" .
+
+j.0:Object-20  a    j.0:Object ;
+        rdfs:label  "Game" .
+
+j.0:Television-0  a  j.0:Television ;
+        rdfs:label  "TV" .
+
+j.0:Object-21  a    j.0:Object ;
+        rdfs:label  "Throne" .
+
+j.0:Object-22  a    j.0:Object ;
+        rdfs:label  "Episode" .
+
+j.0:Event-32  a                    j.0:Event ;
+        rdfs:label                 "a guy running from the house to his vehicle" ;
+        j.0:hasCategory            j.0:Movement-4 ;
+        j.0:hasEventDate           j.0:Date-1 ;
+        j.0:hasResource            j.0:Resource-7 ;
+        j.0:involvesObject         j.0:Vehicle-0 , j.0:House-1 ;
+        j.0:involvesPassivePerson  j.0:Person-16 ;
+        j.0:isRelatedTo            j.0:Event-31 .
+
+j.0:Other-4  a      j.0:Other ;
+        rdfs:label  "drink" .
+
+j.0:Object-23  a    j.0:Object ;
+        rdfs:label  "Beer" .
+
+j.0:Event-33  a                   j.0:Event ;
+        rdfs:label                "a guy driving at maximum speed" ;
+        j.0:hasCategory           j.0:Movement-5 ;
+        j.0:hasEventDate          j.0:Date-1 ;
+        j.0:hasResource           j.0:Resource-7 ;
+        j.0:involvesActingPerson  j.0:Person-16 ;
+        j.0:involvesObject        j.0:Object-27 ;
+        j.0:isRelatedTo           j.0:Event-32 .
+
+j.0:AuralPerception-2
+        a           j.0:AuralPerception ;
+        rdfs:label  "hear" .
+
+j.0:House-0  a      j.0:House ;
+        rdfs:label  "House" .
+
+j.0:Event-34  a     j.0:Event ;
+        rdfs:label  "Kurt Ebner n't describe the guy very well" .
+
+j.0:Movement-3  a   j.0:Movement ;
+        rdfs:label  "come" .
+
+j.0:Event-35  a                   j.0:Event ;
+        rdfs:label                "it was" ;
+        j.0:causalRelation        j.0:Event-34 ;
+        j.0:hasCategory           j.0:State-5 ;
+        j.0:hasEventDate          j.0:Date-1 ;
+        j.0:hasResource           j.0:Resource-7 ;
+        j.0:involvesActingPerson  j.0:Person-17 .
+
+j.0:AuralPerception-3
+        a           j.0:AuralPerception ;
+        rdfs:label  "sound" .
+
+j.0:Object-24  a    j.0:Object ;
+        rdfs:label  "3" .
+
+j.0:Object-25  a    j.0:Object ;
+        rdfs:label  "Gunshot" .
+
+j.0:Event-36  a                    j.0:Event ;
+        rdfs:label                 "Kurt Ebner guess he was about thirty years old" ;
+        j.0:hasCategory            j.0:State-6 ;
+        j.0:hasEventDate           j.0:Date-1 ;
+        j.0:hasEventTimeIntervall  j.0:TimeIntervall-1 ;
+        j.0:hasResource            j.0:Resource-7 ;
+        j.0:involvesActingPerson   j.0:Person-12 ;
+        j.0:involvesObject         j.0:Object-28 ;
+        j.0:involvesPassivePerson  j.0:Person-15 ;
+        j.0:isRelatedTo            j.0:Event-35 .
+
+j.0:VisualPerception-5
+        a           j.0:VisualPerception ;
+        rdfs:label  "look" .
+
+j.0:Object-26  a    j.0:Object ;
+        rdfs:label  "Window" .
+
+j.0:Event-37  a                   j.0:Event ;
+        rdfs:label                "he was wearing jeans and a black T-shirt" ;
+        j.0:during                j.0:Event-36 ;
+        j.0:hasCategory           j.0:State-7 ;
+        j.0:hasEventDate          j.0:Date-1 ;
+        j.0:hasResource           j.0:Resource-7 ;
+        j.0:involvesActingPerson  j.0:Person-12 ;
+        j.0:involvesObject        j.0:Clothing-4 , j.0:Clothing-5 .
+
+j.0:Movement-4  a   j.0:Movement ;
+        rdfs:label  "run" .
+
+j.0:Person-16  a                j.0:Person ;
+        rdfs:label              "Unknown Guy" ;
+        j.0:hasPersonFirstName  "Unknown" ;
+        j.0:hasPersonSurname    "Guy" .
+
+j.0:Vehicle-0  a    j.0:Vehicle ;
+        rdfs:label  "Vehicle" .
+
+j.0:House-1  a      j.0:House ;
+        rdfs:label  "House" .
+
+j.0:Event-38  a             j.0:Event ;
+        rdfs:label          "wearing jeans and a black T-shirt" ;
+        j.0:hasCategory     j.0:Other-5 ;
+        j.0:hasEventDate    j.0:Date-1 ;
+        j.0:hasResource     j.0:Resource-7 ;
+        j.0:involvesObject  j.0:Clothing-6 , j.0:Clothing-7 ;
+        j.0:isRelatedTo     j.0:Event-37 .
+
+j.0:Movement-5  a   j.0:Movement ;
+        rdfs:label  "drive" .
+
+j.0:Object-27  a    j.0:Object ;
+        rdfs:label  "Speed" .
+
+j.0:Event-39  a                    j.0:Event ;
+        rdfs:label                 "had a backpack on his shoulders" ;
+        j.0:hasCategory            j.0:State-8 ;
+        j.0:hasEventDate           j.0:Date-1 ;
+        j.0:hasResource            j.0:Resource-7 ;
+        j.0:involvesObject         j.0:Object-29 ;
+        j.0:involvesPassivePerson  j.0:Person-13 ;
+        j.0:isRelatedTo            j.0:Event-38 .
+
+j.0:Event-40  a                   j.0:Event ;
+        rdfs:label                "Kurt Ebner remember the first letters and numbers of the license plate of the vehicle" ;
+        j.0:hasCategory           j.0:Finding-1 ;
+        j.0:hasEventDate          j.0:Date-1 ;
+        j.0:hasEventLocation      j.0:Place-6 ;
+        j.0:hasResource           j.0:Resource-7 ;
+        j.0:involvesActingPerson  j.0:Person-15 ;
+        j.0:involvesObject        j.0:Object-30 , j.0:Vehicle-1 , j.0:Object-31 .
+
+j.0:State-5  a      j.0:State ;
+        rdfs:label  "be" .
+
+j.0:Person-17  a                j.0:Person ;
+        rdfs:label              "Unknown It" ;
+        j.0:hasPersonFirstName  "Unknown" ;
+        j.0:hasPersonSurname    "It" .
+
+j.0:Event-41  a                   j.0:Event ;
+        rdfs:label                "the guy drove with" ;
+        j.0:hasCategory           j.0:Movement-6 ;
+        j.0:hasEventDate          j.0:Date-1 ;
+        j.0:hasResource           j.0:Resource-7 ;
+        j.0:involvesActingPerson  j.0:Person-16 ;
+        j.0:isRelatedTo           j.0:Event-40 .
+
+j.0:State-6  a      j.0:State ;
+        rdfs:label  "be" .
+
+j.0:Object-28  a    j.0:Object ;
+        rdfs:label  "Guess" .
+
+j.0:TimeIntervall-1  a                  j.0:TimeIntervall ;
+        rdfs:label                      "P30Y" ;
+        j.0:hasTimeIntervallLEngthUnit  "year" ;
+        j.0:hasTimeIntervallLengthValue
+                "30.0"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+j.0:Event-42  a               j.0:Event ;
+        rdfs:label            "the car was under a street lamp along the road" ;
+        j.0:causalRelation    j.0:Event-41 ;
+        j.0:hasCategory       j.0:State-9 ;
+        j.0:hasEventDate      j.0:Date-1 ;
+        j.0:hasEventLocation  j.0:Place-7 ;
+        j.0:hasResource       j.0:Resource-7 ;
+        j.0:involvesObject    j.0:Car-0 , j.0:Object-32 .
+
+j.0:State-7  a      j.0:State ;
+        rdfs:label  "be" .
+
+j.0:Clothing-4  a   j.0:Clothing ;
+        rdfs:label  "Jeans" .
+
+j.0:Clothing-5  a     j.0:Clothing ;
+        rdfs:label    "T-shirt" ;
+        j.0:hasColor  j.0:Color-4 .
+
+j.0:Color-4  a             j.0:Color ;
+        rdfs:label         "Black" ;
+        j.0:hasColorValue  "black" .
+
+j.0:Event-43  a             j.0:Event ;
+        rdfs:label          "The first letters and numbers were" ;
+        j.0:hasCategory     j.0:State-10 ;
+        j.0:hasEventDate    j.0:Date-1 ;
+        j.0:hasResource     j.0:Resource-7 ;
+        j.0:involvesObject  j.0:Object-33 , j.0:Object-34 .
+
+j.0:Other-5  a      j.0:Other ;
+        rdfs:label  "wear" .
+
+j.0:Clothing-6  a     j.0:Clothing ;
+        rdfs:label    "T-shirt" ;
+        j.0:hasColor  j.0:Color-5 .
+
+j.0:Color-5  a             j.0:Color ;
+        rdfs:label         "Black" ;
+        j.0:hasColorValue  "black" .
+
+j.0:Clothing-7  a   j.0:Clothing ;
+        rdfs:label  "Jeans" .
+
+j.0:Event-44  a                   j.0:Event ;
+        rdfs:label                "M-PH32 Kurt Ebner also know" ;
+        j.0:hasCategory           j.0:Finding-2 ;
+        j.0:hasEventDate          j.0:Date-1 ;
+        j.0:hasResource           j.0:Resource-7 ;
+        j.0:involvesActingPerson  j.0:Person-15 ;
+        j.0:involvesObject        j.0:Object-35 ;
+        j.0:isRelatedTo           j.0:Event-43 .
+
+j.0:State-8  a      j.0:State ;
+        rdfs:label  "have" .
+
+j.0:Object-29  a    j.0:Object ;
+        rdfs:label  "Backpack" .
+
+j.0:Shoulder-0  a   j.0:Shoulder ;
+        rdfs:label  "Shoulder" .
+
+j.0:Event-45  a             j.0:Event ;
+        rdfs:label          "the car was a black BMW X6" ;
+        j.0:hasCategory     j.0:State-11 ;
+        j.0:hasEventDate    j.0:Date-1 ;
+        j.0:hasResource     j.0:Resource-7 ;
+        j.0:inside          j.0:Event-44 ;
+        j.0:involvesObject  j.0:Car-1 , j.0:Car-2 .
+
+j.0:Finding-1  a    j.0:Finding ;
+        rdfs:label  "remember" .
+
+j.0:Place-5  a      j.0:Place ;
+        rdfs:label  "Left" .
+
+j.0:Object-30  a    j.0:Object ;
+        rdfs:label  "Number" .
+
+j.0:Vehicle-1  a    j.0:Vehicle ;
+        rdfs:label  "Vehicle" .
+
+j.0:Object-31  a    j.0:Object ;
+        rdfs:label  "Letter" .
+
+j.0:Event-46  a                    j.0:Event ;
+        rdfs:label                 "That 's all Kurt Ebner can tell you" ;
+        j.0:hasCategory            j.0:State-12 ;
+        j.0:hasEventDate           j.0:Date-1 ;
+        j.0:hasResource            j.0:Resource-7 ;
+        j.0:involvesPassivePerson  j.0:Person-15 , j.0:Person-18 .
+
+j.0:Movement-6  a   j.0:Movement ;
+        rdfs:label  "drive" .
+
+j.0:Event-47  a                    j.0:Event ;
+        rdfs:label                 "all Kurt Ebner tell you" ;
+        j.0:hasCategory            j.0:Conversation-0 ;
+        j.0:hasEventDate           j.0:Date-1 ;
+        j.0:hasResource            j.0:Resource-7 ;
+        j.0:involvesActingPerson   j.0:Person-15 ;
+        j.0:involvesPassivePerson  j.0:Person-18 ;
+        j.0:isRelatedTo            j.0:Event-46 .
+
+j.0:State-9  a      j.0:State ;
+        rdfs:label  "be" .
+
+j.0:Car-0  a        j.0:Car ;
+        rdfs:label  "Car" .
+
+j.0:Place-6  a      j.0:Place ;
+        rdfs:label  "License_Plate" .
+
+j.0:Object-32  a    j.0:Object ;
+        rdfs:label  "Street_Lamp" .
+
+j.0:State-10  a     j.0:State ;
+        rdfs:label  "be" .
+
+j.0:Object-33  a    j.0:Object ;
+        rdfs:label  "Number" .
+
+j.0:Object-34  a    j.0:Object ;
+        rdfs:label  "Letter" .
+
+j.0:Finding-2  a    j.0:Finding ;
+        rdfs:label  "know" .
+
+j.0:Object-35  a    j.0:Object ;
+        rdfs:label  "M-PH32" .
+
+j.0:State-11  a     j.0:State ;
+        rdfs:label  "be" .
+
+j.0:Car-1  a        j.0:Car ;
+        rdfs:label  "Car" .
+
+j.0:Car-2  a          j.0:Car ;
+        rdfs:label    "BMW_X6" ;
+        j.0:hasColor  j.0:Color-6 .
+
+j.0:Color-6  a             j.0:Color ;
+        rdfs:label         "Black" ;
+        j.0:hasColorValue  "black" .
+
+j.0:State-12  a     j.0:State ;
+        rdfs:label  "be" .
+
+j.0:Person-18  a                j.0:Person ;
+        rdfs:label              "Unknown You" ;
+        j.0:hasPersonFirstName  "Unknown" ;
+        j.0:hasPersonSurname    "You" .
+
+j.0:Conversation-0  a  j.0:Conversation ;
+        rdfs:label  "tell" .
+
+j.0:PassengerCar-1  a         j.0:PassengerCar ;
+        rdfs:label            "BMW X6" ;
+        j.0:hasColor          j.0:Color-7 ;
+        j.0:hasLicenseNumber  "M-PH3211" ;
+        j.0:hasManufacturer   "BMW" ;
+        j.0:hasModel          "X6" ;
+        j.0:hasResource       j.0:Resource-8 .
+
+j.0:Resource-5  a            j.0:Resource ;
+        rdfs:label           "BY8571-000010-19/93.docx" ;
+        j.0:hasAuthor        j.0:Person-7 ;
+        j.0:hasCreationDate  "2019-02-20T11:50:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        j.0:hasResourceId    "BY8571-000010-19/93.docx" .
+
+j.0:Color-7  a             j.0:Color ;
+        j.0:hasColorValue  "black" .
+
+j.0:Person-20  a                  j.0:Person ;
+        rdfs:label                "Johannes MÃ¼ller-Sailer" ;
+        j.0:hasOwnershipOf        j.0:PassengerCar-2 ;
+        j.0:hasPersonFirstName    "Johannes" ;
+        j.0:hasPersonSurname      "MÃ¼ller-Sailer" ;
+        j.0:hasResidenceLocation  j.0:Place-9 ;
+        j.0:hasResource           j.0:Resource-8 .
+
+j.0:PassengerCar-2  a         j.0:PassengerCar ;
+        rdfs:label            "BMW X6" ;
+        j.0:hasColor          j.0:Color-8 ;
+        j.0:hasLicenseNumber  "M-PH3298" ;
+        j.0:hasManufacturer   "BMW" ;
+        j.0:hasModel          "X6" ;
+        j.0:hasResource       j.0:Resource-8 .
+
+j.0:Place-8  a           j.0:Place ;
+        rdfs:label       "Residential House in Tegernseer LandstraÃe 210" ;
+        j.0:hasGeoInfo   j.0:Address-2 ;
+        j.0:hasResource  j.0:Resource-8 .
+
+j.0:Place-7  a      j.0:Place ;
+        rdfs:label  "Road" .
+
+j.0:Address-2  a                   j.0:Address ;
+        rdfs:label                 "Tegernseer LandstraÃe 210, MÃNCHEN" ;
+        j.0:hasAddressCity         "MÃNCHEN" ;
+        j.0:hasAddressCountry      "Germany" ;
+        j.0:hasAddressHouseNumber  "210" ;
+        j.0:hasAddressStreet       "Tegernseer LandstraÃe" ;
+        j.0:hasAddressZIPCode      "81549" ;
+        j.0:hasResource            j.0:Resource-8 .
+
+j.0:Color-8  a             j.0:Color ;
+        j.0:hasColorValue  "black" .
+
+j.0:Address-3  a                   j.0:Address ;
+        rdfs:label                 "LeopoldstraÃe  8, MÃNCHEN" ;
+        j.0:hasAddressCity         "MÃNCHEN" ;
+        j.0:hasAddressCountry      "Germany" ;
+        j.0:hasAddressHouseNumber  "8" ;
+        j.0:hasAddressStreet       "LeopoldstraÃe " ;
+        j.0:hasAddressZIPCode      "80802" ;
+        j.0:hasResource            j.0:Resource-8 .
+
+j.0:Person-19  a                  j.0:Person ;
+        rdfs:label                "Radal Tundan" ;
+        j.0:hasOwnershipOf        j.0:PassengerCar-1 ;
+        j.0:hasPersonFirstName    "Radal" ;
+        j.0:hasPersonSurname      "Tundan" ;
+        j.0:hasResidenceLocation  j.0:Place-8 ;
+        j.0:hasResource           j.0:Resource-8 .
+
+j.0:Resource-6  a            j.0:Resource ;
+        rdfs:label           "4.docx" ;
+        j.0:hasCreationDate  "2018-07-07T21:45:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        j.0:hasResourceId    "4.docx" .
+
+j.0:Place-9  a           j.0:Place ;
+        rdfs:label       "Residential House in LeopoldstraÃe  8" ;
+        j.0:hasGeoInfo   j.0:Address-3 ;
+        j.0:hasResource  j.0:Resource-8 .
+
+j.0:Resource-7  a            j.0:Resource ;
+        rdfs:label           "BY8571-000010-19/94.docx" ;
+        j.0:hasAuthor        j.0:Person-7 ;
+        j.0:hasCreationDate  "2018-07-07T21:45:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        j.0:hasResourceId    "BY8571-000010-19/94.docx" .
+
+j.0:Resource-8  a          j.0:Resource ;
+        rdfs:label         "5.xls" ;
+        j.0:hasResourceId  "5.xls" .
+
+j.0:Event-1  a                j.0:Event ;
+        rdfs:label            "Homicide of Gillian Babcock" ;
+        j.0:hasCategory       j.0:Homicide-1 ;
+        j.0:hasEventDate      j.0:Date-0 ;
+        j.0:hasEventLocation  j.0:Place-1 .
+
+j.0:Event-2  a                     j.0:Event ;
+        rdfs:label                 "Today Mathilde Clodi was at home cooking dinner with Mathilde Clodi 's friend Martin Hartwig Martin Hartwig" ;
+        j.0:hasCategory            j.0:State-0 ;
+        j.0:hasEventDate           j.0:Date-1 ;
+        j.0:hasResource            j.0:Resource-3 ;
+        j.0:involvesActingPerson   j.0:Person-3 ;
+        j.0:involvesObject         j.0:Object-0 ;
+        j.0:involvesPassivePerson  j.0:Person-8 , j.0:Person-9 .
+
+j.0:Event-3  a                    j.0:Event ;
+        rdfs:label                "Around 7 p.m. they heard three loud gunshots somewhere in the house" ;
+        j.0:hasCategory           j.0:AuralPerception-0 ;
+        j.0:hasEventEndTime       j.0:DateTime-0 ;
+        j.0:hasEventLocation      j.0:Place-3 ;
+        j.0:hasEventStartTime     j.0:DateTime-0 ;
+        j.0:hasResource           j.0:Resource-3 ;
+        j.0:involvesActingPerson  j.0:Person-10 ;
+        j.0:involvesObject        j.0:Object-1 , j.0:Object-2 , j.0:Object-3 .
+
+j.0:Event-4  a                    j.0:Event ;
+        rdfs:label                "Mathilde Clodi opened the door" ;
+        j.0:hasCategory           j.0:Movement-0 ;
+        j.0:hasEventDate          j.0:Date-1 ;
+        j.0:hasResource           j.0:Resource-3 ;
+        j.0:involvesActingPerson  j.0:Person-3 ;
+        j.0:involvesObject        j.0:Door-0 .
+
+j.0:Event-5  a                     j.0:Event ;
+        rdfs:label                 "Mathilde Clodi saw a man leaving the apartment of Mr. Gillian Babcock" ;
+        j.0:after                  j.0:Event-4 ;
+        j.0:hasCategory            j.0:VisualPerception-0 ;
+        j.0:hasEventDate           j.0:Date-1 ;
+        j.0:hasResource            j.0:Resource-3 ;
+        j.0:involvesActingPerson   j.0:Person-3 ;
+        j.0:involvesObject         j.0:Object-4 , j.0:Apartment-0 ;
+        j.0:involvesPassivePerson  j.0:Person-1 , j.0:Person-11 .
+
+j.0:FusedPerson2  a             j.0:FusedPersons ;
+        j.0:hasPersonFirstName  "Role:/Role:" ;
+        j.0:hasPersonSurname    "Friend/Girlfriend" ;
+        j.0:hasServiceUserID    "9/10" .

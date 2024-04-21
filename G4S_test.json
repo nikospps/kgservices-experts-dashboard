@@ -1,0 +1,222 @@
+[
+    {
+        "Driver's personal device": {
+            "type": "driver",
+            "driverID": "XFGRJYHN1234MM",
+            "IMEI": 1234567910,
+            "latitude": "25.3535689",
+            "longitude": "24.44225689",
+            "dateTimeUTC": "2021-02-17T11:19:58",
+            "events": {
+                "panicButton": false,
+                "impactEvent": false
+            }
+        },
+        "Fleet Management device monitoring the delivery truck": {
+            "type": "truck",
+            "plate": "XXX-809",
+            "IMEI": "354018112257906",
+            "driverID": "XFGRJYHN1234MM",
+            "dateTimeUTC": "2021-02-17T11:19:58",
+            "odometer": "1156.44",
+            "latitude": "25.3535689",
+            "longitude": "24.44225689",
+            "speed": 0,
+            "speedMeasure": "kph",
+            "engineStatus": "off",
+            "ignition": "off",
+            "door": "opened",
+            "temperature": 25.1,
+            "battery": "100%",
+            "externalBattery": 12.2,
+            "events": {
+                "panicButton": false,
+                "gsmJammed": true,
+                "gpsAntennaRemoval": false,
+                "excesiveAccelaration": false,
+                "excesiveDecelaration ": false,
+                "tamperingEvent ": false,
+                "accident ": false
+            }
+        },
+        "Asset tracker for the pharmacy products": {
+            "type": "asset_tracker",
+            "IMEI": "354018112257906",
+            "DateTimeUTC": "2021-02-17T11:19:58",
+            "latitude": "25.3535689",
+            "longitude": "24.44225689",
+            "temperature": 25.1,
+            "battery": "100%",
+            "events": {
+                "openingEvent": false,
+                "tamperingEvent": false,
+                "impactEvent": false
+            }
+        }
+    },
+    {
+        "Driver's personal device": {
+            "type": "driver",
+            "driverID": "XFGRJYHN5678MM",
+            "IMEI": 1234567910,
+            "latitude": "37.97935862891567",
+            "longitude": "23.783352669822474",
+            "dateTimeUTC": "2021-10-17T11:19:58",
+            "events": {
+                "panicButton": false,
+                "impactEvent": false
+            }
+        },
+        "Fleet Management device monitoring the delivery truck": {
+            "type": "truck",
+            "plate": "XXX-809",
+            "IMEI": "354018123357907",
+            "driverID": "XFGRJYHN1234MM",
+            "dateTimeUTC": "2021-02-17T11:19:58",
+            "odometer": "1156.44",
+            "latitude": "37.98070976484463",
+            "longitude": "23.779292842117954",
+            "speed": 67,
+            "speedMeasure": "kph",
+            "engineStatus": "on",
+            "ignition": "on",
+            "door": "closed",
+            "temperature": 23.1,
+            "battery": "98%",
+            "externalBattery": 12.3,
+            "events": {
+                "panicButton": false,
+                "gsmJammed": false,
+                "gpsAntennaRemoval": true,
+                "excesiveAccelaration": false,
+                "excesiveDecelaration ": false,
+                "tamperingEvent ": true,
+                "accident ": false
+            }
+        },
+        "Asset tracker for the pharmacy products": {
+            "type": "asset_tracker",
+            "IMEI": "3540181234557906",
+            "DateTimeUTC": "2021-10-17T11:19:58",
+            "latitude": "37.98070976484463",
+            "longitude": "23.779292842117954",
+            "temperature": 22.9,
+            "battery": "100%",
+            "events": {
+                "openingEvent": false,
+                "tamperingEvent": false,
+                "impactEvent": false
+            }
+        }
+    },
+    {
+        "Driver's personal device": {
+            "type": "driver",
+            "driverID": "XFGRZSEN9012MM",
+            "IMEI": 1234567910,
+            "latitude": "37.975888228957146",
+            "longitude": "23.773212122400526",
+            "dateTimeUTC": "2021-10-20T14:24:15",
+            "events": {
+                "panicButton": false,
+                "impactEvent": false
+            }
+        },
+        "Fleet Management device monitoring the delivery truck": {
+            "type": "truck",
+            "plate": "XXX-1567",
+            "IMEI": "354018123823907",
+            "driverID": "XFGRJYHN4568MM",
+            "dateTimeUTC": "2021-02-21T14:24:33",
+            "odometer": "789.52",
+            "latitude": "37.975888228957133",
+            "longitude": "23.773212122400123",
+            "speed": 81,
+            "speedMeasure": "kph",
+            "engineStatus": "on",
+            "ignition": "on",
+            "door": "closed",
+            "temperature": 29.1,
+            "battery": "99%",
+            "externalBattery": 12.1,
+            "events": {
+                "panicButton": false,
+                "gsmJammed": false,
+                "gpsAntennaRemoval": false,
+                "excesiveAccelaration": true,
+                "excesiveDecelaration ": false,
+                "tamperingEvent ": false,
+                "accident ": false
+            }
+        },
+        "Asset tracker for the pharmacy products": {
+            "type": "asset_tracker",
+            "IMEI": "3540182343557906",
+            "DateTimeUTC": "2021-02-21T14:24:33",
+            "latitude": "37.975888228957133",
+            "longitude": "23.773212122400123",
+            "temperature": 28.9,
+            "battery": "100%",
+            "events": {
+                "openingEvent": false,
+                "tamperingEvent": false,
+                "impactEvent": false
+            }
+        }
+    },
+    {
+        "Driver's personal device": {
+            "type": "driver",
+            "driverID": "XFGRZSEN5247MM",
+            "IMEI": 1234567910,
+            "latitude": "37.95568298975292",
+            "longitude": "23.755183438858253",
+            "dateTimeUTC": "2021-10-21T16:34:15",
+            "events": {
+                "panicButton": false,
+                "impactEvent": false
+            }
+        },
+        "Fleet Management device monitoring the delivery truck": {
+            "type": "truck",
+            "plate": "YYY-2559",
+            "IMEI": "354018123823907",
+            "driverID": "XFGRJYHN4598MM",
+            "dateTimeUTC": "2021-10-21T16:34:15",
+            "odometer": "2897.52",
+            "latitude": "37.95568298975292",
+            "longitude": "23.755183438858253",
+            "speed": 62,
+            "speedMeasure": "kph",
+            "engineStatus": "on",
+            "ignition": "on",
+            "door": "closed",
+            "temperature": 25.1,
+            "battery": "99%",
+            "externalBattery": 12.0,
+            "events": {
+                "panicButton": false,
+                "gsmJammed": false,
+                "gpsAntennaRemoval": false,
+                "excesiveAccelaration": false,
+                "excesiveDecelaration ": false,
+                "tamperingEvent ": false,
+                "accident ": false
+            }
+        },
+        "Asset tracker for the pharmacy products": {
+            "type": "asset_tracker",
+            "IMEI": "3540182343557906",
+            "DateTimeUTC": "2021-02-21T14:24:33",
+            "latitude": "37.95568298975292",
+            "longitude": "23.755183438858253",
+            "temperature": 24.9,
+            "battery": "100%",
+            "events": {
+                "openingEvent": false,
+                "tamperingEvent": false,
+                "impactEvent": false
+            }
+        }
+    }
+]

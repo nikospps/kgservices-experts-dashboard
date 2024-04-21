@@ -1,0 +1,22 @@
+import requests
+
+#b = 'eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJZVVEyN183a3Jtck5qcEFfRE5USzRvai1tNmVYZnlzOE9MYjUyUnlsdU9RIn0.eyJleHAiOjE2ODAxMTI5MDcsImlhdCI6MTY4MDA5MTMwNywianRpIjoiMDQyZWIxYWItMjhjNi00YWJjLWE0NmUtMDBmNGVkN2UzOWFlIiwiaXNzIjoiaHR0cDovL2tleWNsb2FrOjgwODAvcmVhbG1zL0FMQU1FREEiLCJhdWQiOiJhY2NvdW50Iiwic3ViIjoiYmQwODE2ZmEtZTY1MS00MjcxLWI0NTItZmJkMDM1NDBmMjcxIiwidHlwIjoiQmVhcmVyIiwiYXpwIjoiSUFNIiwic2Vzc2lvbl9zdGF0ZSI6IjZmNzJhYzM4LWNkM2UtNDY3MC1iZmJiLTQ2ZWIyY2RkODIzMyIsImFjciI6IjEiLCJyZWFsbV9hY2Nlc3MiOnsicm9sZXMiOlsib2ZmbGluZV9hY2Nlc3MiLCJ1bWFfYXV0aG9yaXphdGlvbiIsImRlZmF1bHQtcm9sZXMtYWxhbWVkYSJdfSwicmVzb3VyY2VfYWNjZXNzIjp7IklBTSI6eyJyb2xlcyI6WyJzZXJ2aWNlIl19LCJhY2NvdW50Ijp7InJvbGVzIjpbIm1hbmFnZS1hY2NvdW50IiwibWFuYWdlLWFjY291bnQtbGlua3MiLCJ2aWV3LXByb2ZpbGUiXX19LCJzY29wZSI6ImVtYWlsIHByb2ZpbGUiLCJzaWQiOiI2ZjcyYWMzOC1jZDNlLTQ2NzAtYmZiYi00NmViMmNkZDgyMzMiLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwiZ3JvdXAtbmFtZXMiOlsic2VydmljZXMiXSwicm9sZXMiOlsic2VydmljZSJdLCJuYW1lIjoiSUNDUyBTZXJ2aWNlIiwicHJlZmVycmVkX3VzZXJuYW1lIjoiaWNjcy1zZXJ2aWNlQGNuLm50dWEuZ3IiLCJnaXZlbl9uYW1lIjoiSUNDUyIsImZhbWlseV9uYW1lIjoiU2VydmljZSIsImVtYWlsIjoiaWNjcy1zZXJ2aWNlQGNuLm50dWEuZ3IifQ.U--UbYNx_AqYDvAZrXD50ic7AcXosQRkx_aDXQU7cmLGEGvlYDfZcfmVY6ySwvnbLLqxHgJglOqlg3nWafiD4uo-lGSi4v069PxnazExUsEESUYyeRjeopPHQOnrHTrHMxnKJfav4FVxxVwbzTLRl1jd0yReM4WErQ1w_kTGkAlmQviHlTviB9W0t2iumTANoSqEe-Q0nJuqMEotsMWBrPK3xgZjQZh4oAszjSFQnI616SPdqLF7JMFO1GHrBOA03M-WrqqhdCHANkVU97_W0NNnuDVzlewT2BTvSob5BliDmp7Xamp6SLgq766jaiZfyol2qdIZC9Z7IJL3Jrk0RQ'
+
+def get_meaa(access_token):
+    url = "https://semkg.alamedaproject.eu:4567/meaa/get"
+    header = 'Bearer ' + access_token
+    payload={}
+    headers = {
+        'accept': 'application/json',
+        'Authorization': header,
+    }
+    response = requests.request("GET", url, headers=headers, data=payload, verify='/etc/ssl/certs/ca-certificates.crt')
+    #verify=False)
+    # print(response.text)
+    a=response.json()
+    return a
+
+#meaa = get_meaa(b)
+
+#for n in meaa:
+    print(n['user_id'])

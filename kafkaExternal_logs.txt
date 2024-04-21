@@ -1,0 +1,21 @@
+Traceback (most recent call last):
+  File "<ipython-input-2-d4bf852c0ddf>", line 3, in <module>
+    client = KafkaClient(hosts="87.98.133.57:65194")
+  File "/home/nikospps/.conda/envs/flask/lib/python3.7/site-packages/pykafka/client.py", line 142, in __init__
+    broker_version=broker_version)
+  File "/home/nikospps/.conda/envs/flask/lib/python3.7/site-packages/pykafka/cluster.py", line 215, in __init__
+    self.update()
+  File "/home/nikospps/.conda/envs/flask/lib/python3.7/site-packages/pykafka/cluster.py", line 510, in update
+    metadata = self._get_metadata()
+  File "/home/nikospps/.conda/envs/flask/lib/python3.7/site-packages/pykafka/cluster.py", line 305, in _get_metadata
+    'Unable to connect to a broker to fetch metadata. See logs.')
+pykafka.exceptions.NoBrokersAvailableError: Unable to connect to a broker to fetch metadata. See logs.
+
+Traceback (most recent call last):
+  File "<ipython-input-4-56b3189c1380>", line 4, in <module>
+    producer.send('iccs_topic', value=n[e])
+  File "/home/nikospps/.conda/envs/flask/lib/python3.7/site-packages/kafka/producer/kafka.py", line 564, in send
+    self._wait_on_metadata(topic, self.config['max_block_ms'] / 1000.0)
+  File "/home/nikospps/.conda/envs/flask/lib/python3.7/site-packages/kafka/producer/kafka.py", line 691, in _wait_on_metadata
+    "Failed to update metadata after %.1f secs." % (max_wait,))
+kafka.errors.KafkaTimeoutError: KafkaTimeoutError: Failed to update metadata after 60.0 secs.
